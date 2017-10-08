@@ -1,146 +1,173 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
 \documentclass[12pt]{article}
-% include the pckage of the color%
-\usepackage[usenames, dvipsnames]{color}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
-
-%define your own color %
-\definecolor{mygray}{gray}{0.9}
+\usepackage[colorinlistoftodos]{todonotes}
 
 \begin{document}
-	\listoffigures
 	
-	\title{Chapter 4 : Implementation}
-	\maketitle
+	\begin{titlepage}
+		
+		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+		
+		\center % Center everything on the page
+		
+		%----------------------------------------------------------------------------------------
+		%	HEADING SECTIONS
+		%----------------------------------------------------------------------------------------
+		
+		\textsc{\LARGE University Name}\\[1.5cm] % Name of your university/college
+		\textsc{\Large Major Heading}\\[0.5cm] % Major heading such as course name
+		\textsc{\large Minor Heading}\\[0.5cm] % Minor heading such as course title
+		
+		%----------------------------------------------------------------------------------------
+		%	TITLE SECTION
+		%----------------------------------------------------------------------------------------
+		
+		\HRule \\[0.4cm]
+		{ \huge \bfseries Title}\\[0.4cm] % Title of your document
+		\HRule \\[1.5cm]
+		
+		%----------------------------------------------------------------------------------------
+		%	AUTHOR SECTION
+		%----------------------------------------------------------------------------------------
+		
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushleft} \large
+				\emph{Author:}\\
+				John \textsc{Smith} % Your name
+			\end{flushleft}
+		\end{minipage}
+		~
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright} \large
+				\emph{Supervisor:} \\
+				Dr. James \textsc{Smith} % Supervisor's Name
+			\end{flushright}
+		\end{minipage}\\[2cm]
+		
+		% If you don't want a supervisor, uncomment the two lines below and remove the section above
+		%\Large \emph{Author:}\\
+		%John \textsc{Smith}\\[3cm] % Your name
+		
+		%----------------------------------------------------------------------------------------
+		%	DATE SECTION
+		%----------------------------------------------------------------------------------------
+		
+		{\large \today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+		
+		%----------------------------------------------------------------------------------------
+		%	LOGO SECTION
+		%----------------------------------------------------------------------------------------
+		
+	 % Include a department/university logo - this will require the graphicx package
+		
+		%----------------------------------------------------------------------------------------
+		
+		\vfill % Fill the rest of the page with whitespace
+		
+	\end{titlepage}
+	
+	
+	\begin{abstract}
+		Your abstract.
+	\end{abstract}
+	
 	\section{Introduction}
 	
-	In this chpater we will focus on the technologies. 
-	\section{Java Platform, Enterprise Edition (Java EE)}
-	\begin{figure}[h]
+	Your introduction goes here! Some examples of commonly used commands and features are listed below, to help you get started.
+	
+	If you have a question, please use the support box in the bottom right of the screen to get in touch. 
+	
+	\section{Some \LaTeX{} Examples}
+	\label{sec:examples}
+	
+	\subsection{Sections}
+	
+	Use section and subsection commands to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use ref and label commands for cross-references.
+	
+	\subsection{Comments}
+	
+	Comments can be added to the margins of the document using the \todo{Here's a comment in the margin!} todo command, as shown in the example on the right. You can also add inline comments too:
+	
+	\todo[inline, color=green!40]{This is an inline comment.}
+	
+	\subsection{Tables and Figures}
+	
+	Use the table and tabular commands for basic tables --- see Table~\ref{tab:widgets}, for example. You can upload a figure (JPEG, PNG or PDF) using the files menu. To include it in your document, use the includegraphics command as in the code for Figure~\ref{fig:frog} below.
+	
+	% Commands to include a figure:
+	\begin{figure}
 		\centering
-		\includegraphics[width=0.4\textwidth]{JAVAEE_logo.png}
-		\caption{Java Enterprise Edition logo}
 		
+		\caption{\label{fig:frog}This is a figure caption.}
 	\end{figure}
-	\vspace{66mm}
-	\section{Angular JS}
-	\begin{figure}[h]
+	
+	\begin{table}
 		\centering
-		\includegraphics[width=0.3\textwidth]{AngularJS_logo.png}
-		\caption{AngularJS logo}
-	\end{figure}
-	\subsection{Introduction}
-	AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.  And it all happens within the browser, making it an ideal partner with any server technology.
-	\\
-	\\
-	AngularJS is what HTML would have been, had it been designed for applications. HTML is a great declarative language for static documents. It does not contain much in the way of creating applications, and as a result building web applications is an exercise \textit{in what do I have to do to trick the browser into doing what I want?}
-	\\
-	\\
-	The impedance mismatch between dynamic applications and static documents is often solved with:
+		\begin{tabular}{l|r}
+			Item & Quantity \\\hline
+			Widgets & 42 \\
+			Gadgets & 13
+		\end{tabular}
+		\caption{\label{tab:widgets}An example table.}
+	\end{table}
+	
+	\subsection{Mathematics}
+	
+	\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
+	$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
+	= \frac{1}{n}\sum_{i}^{n} X_i$$
+	denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
+	
+	\subsection{Lists}
+	
+	You can make lists with automatic numbering \dots
+	
+	\begin{enumerate}
+		\item Like this,
+		\item and like this.
+	\end{enumerate}
+	\dots or bullet points \dots
 	\begin{itemize}
-		
-		\item \textbf{a library} - a collection of functions which are useful when writing web apps. Your code is in charge and it calls into the library when it sees fit. E.g., \colorbox{mygray}{jQuery}.
-		\item \textbf{frameworks} - a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something app specific. E.g., \colorbox{mygray}{durandal}, \colorbox{mygray}{ember}, etc.
+		\item Like this,
+		\item and like this.
 	\end{itemize}
-	AngularJS takes another approach. It attempts to minimize the impedance mismatch between document centric HTML and what an application needs by creating new HTML constructs. AngularJS teaches the browser new syntax through a construct we call directives. Examples include:
-	\begin{itemize}
-		\item Data binding, as in \colorbox{mygray}{\{\{\}\}}
-		\item DOM control structures for repeating, showing and hiding DOM fragments.
-		\item Support for forms and form validation.
-		\item Attaching new behavior to DOM elements, such as DOM event handling.
-		\item Grouping of HTML into reusable components.
-		
-	\end{itemize}	
 	
+	We hope you find write\LaTeX\ useful, and please let us know if you have any feedback using the help menu above.
 	
-	\subsection{Features}
-	this section include the features
-	\subsection{Motivation}
-	this section include the features
-	
-	\section{Bootstrap}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.20\textwidth]{Boostrap_logo.png}
-		\caption{Bootstrap logo}
-	\end{figure}
-	\subsection{Introduction}
-	\textbf{Bootstrap} is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript plugins. Unlike many web frameworks, it concerns itself with front-end development only.
-	\\
-	\\
-	Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.\\
-	\textbf{In June 2014 Bootstrap was the No.1 project on GitHub!}
-	\subsection{Features}
-	\textbf{Bootstrap 3} supports the latest versions of the \textbf{Google Chrome}, \textbf{Firefox}, \textbf{Internet Explorer}, \textbf{Opera}, and \textbf{Safari} (except on Windows). It additionally supports back to IE8 and the latest Firefox Extended Support Release (ESR).
-	\\
-	Since \textbf{2.0}, \textbf{Bootstrap} supports \textbf{responsive web design}. This means the layout of web pages adjusts dynamically, taking into account the characteristics of the device used (desktop, tablet, mobile phone).
-	\\
-	Starting with \textbf{version 3.0}, Bootstrap adopted a mobile-first design philosophy, emphasizing responsive design by default.
-	\\
-	The \textbf{version 4.0} alpha release added \textbf{Sass} and \textbf{flexbox} support
-	\subsection{Motivation}
-	All the researchs shows that Bootstrap The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
-	\\
-	According to github, Bootstrap is the second starred repository, with \textbf{115k stars}.
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Boostrap_statics_github.png}
-		\caption{Bootstrap second starred on github}
-	\end{figure}
-	
-	\vspace{66mm}
-	
-	According to a researchs, did it by myself in the net, all the high-tech blogs encourage developers to use bootstrap.
-	\\
-	\\
-	I used a tool offred by google named \textbf{google trends} to make a compraison between a subjects in term of most researched.
-	\\
-	After this compraison in google trends, Bootstrap also is the most googled css framework on the web , compared to the others css frameworks Eg. \textbf{Material UI} which was considered as the most popular css framework after Bootstrap.
-	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{Boostrap_statics_google_trends.png}
-		\caption{Bootstrap on google trends}
-	\end{figure}
-	\vspace{66mm}
-	\section{Spring mvc framework}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.4\textwidth]{Spring_logo.png}
-		\caption{Spring logo}
-	\end{figure}
-	\subsection{Introduction}
-	The Spring Web model-view-controller (MVC) framework is designed around a \colorbox{mygray}{DispatcherServlet} that dispatches requests to handlers, with configurable handler mappings, view resolution, locale, time zone and theme resolution as well as support for uploading files. The default handler is based on the \colorbox{mygray}{@Controller} and \colorbox{mygray}{@RequestMapping} annotations, offering a wide range of flexible handling methods. With the introduction of Spring 3.0, the \colorbox{mygray}{@Controller} mechanism also allows you to create RESTful Web sites and applications, through the \colorbox{mygray}{@PathVariable} annotation and other features.
-	\\
-	\\
-	Spring’s web MVC framework is, like many other web MVC frameworks, request-driven, designed around a central Servlet that dispatches requests to controllers and offers other functionality that facilitates the development of web applications. Spring’s \colorbox{mygray}{DispatcherServlet} however, does more than just that. It is completely integrated with the Spring IoC container and as such allows you to use every other feature that Spring has.
-	\\
-	\\
-	The request processing workflow of the Spring Web MVC \colorbox{mygray}{DispatcherServlet} is illustrated in the following diagram. The pattern-savvy reader will recognize that the \colorbox{mygray}{DispatcherServlet} is an expression of the ``Front Controlle'' design pattern (this is a pattern that Spring Web MVC shares with many other leading web frameworks).
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1.0\textwidth]{workflow_spring_mvc.png}
-		\caption{The request processing workflow in Spring Web MVC}
-	\end{figure}
-	
-	\section{Apache Maven}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.5\textwidth]{Maven_logo.png}
-		\caption{Apache Maven logo}
-	\end{figure}
-	\section{HTML5}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.3\textwidth]{HTML5_logo.png}
-		\caption{HTML5 logo}
-	\end{figure}
-	\section{CSS3}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.3\textwidth]{CSS3_logo.png}
-		\caption{CSS3 logo}
-	\end{figure}
 \end{document}
