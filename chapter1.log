@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  8 OCT 2017 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  10 OCT 2017 18:22
 entering extended mode
 **./chapter1.tex
 (chapter1.tex
@@ -297,22 +297,66 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 
 LaTeX Warning: No \author given.
 
-[2] (chapter1.aux) ) 
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) <Mass_logo.png, id=7, 100.375pt x 92.345pt>
+File: Mass_logo.png Graphic file (type png)
+ <use Mass_logo.png>
+Package pdftex.def Info: Mass_logo.png used on input line 28.
+(pdftex.def)             Requested size: 77.99881pt x 71.76389pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--31
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+ <massTer_logo.png, id=9, 376.40625pt x 309.40594pt>
+File: massTer_logo.png Graphic file (type png)
+ <use massTer_logo.png>
+Package pdftex.def Info: massTer_logo.png used on input line 36.
+(pdftex.def)             Requested size: 117.00119pt x 96.1745pt.
+
+[2 <./Mass_logo.png>]
+Overfull \hbox (2.90286pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 and train-ing ses-sions on ad-vanced pre-dic-tive mod-el-ing (l
+og lin-ear, nested
+ []
+
+[3 <./massTer_logo.png>]
+<customers_logo.png, id=20, 332.74312pt x 105.39375pt>
+File: customers_logo.png Graphic file (type png)
+
+<use customers_logo.png>
+Package pdftex.def Info: customers_logo.png used on input line 47.
+(pdftex.def)             Requested size: 312.00119pt x 98.8305pt.
+ [4 <./customers_logo.png>] [5] (chapter1.aux) ) 
 Here is how much of TeX's memory you used:
- 3082 strings out of 493323
- 45516 string characters out of 3128713
- 121717 words of memory out of 3000000
- 6574 multiletter control sequences out of 15000+200000
- 6207 words of font info for 23 fonts, out of 3000000 for 9000
+ 3394 strings out of 493323
+ 49374 string characters out of 3128713
+ 124717 words of memory out of 3000000
+ 6869 multiletter control sequences out of 15000+200000
+ 9933 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,25p,330b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/radhouan/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on chapter1.pdf (2 pages, 31352 bytes).
+ 39i,7n,25p,615b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/radhouan/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radho
+uan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter1.pdf (5 pages, 108518 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
