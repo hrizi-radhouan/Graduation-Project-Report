@@ -20,6 +20,8 @@
 	\section{Introduction}
 	
 	In this chapter we will focus on the technologies. 
+	\clearpage
+	\newpage
 	\section{Java Platform, Enterprise Edition (Java EE)}
 		\begin{figure}[h]
 		\centering
@@ -32,7 +34,7 @@
 \textbf{Java EE} is the Java platform edition for Enterprise Software, extending \textbf{Java SE} with APIs for enterprise features such as distributed computing and web services. Java EE applications are run on an application server, which handle transactions, security, scalability, concurrency and management of the components it is deploying.
 \\
 \\
-The platform was known as \textit{Java 2 Platform, Enterprise Edition or J2EE} from version 1.2 (December 12, 1999), until the name was changed to \textit{Java Platform, Enterprise Edition} or \textit{Java EE} in version 1.5. The current version is called \textit{Java EE 8}.
+
 \subsection{Features}
 The main advantages of using Java EE are :
 \begin{itemize}
@@ -66,8 +68,11 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 	\includegraphics[width=1.0\textwidth]{Java_rank.png}
 	\caption{java rank}
     \end{figure}
- As the above statics shows, JAVA is the most used language in the industry, today java it is not an option, it is requirement for almost all the IT Job Apply. \\Other Major key that push us to use java as language of programming in our project (MassTerInsight) [2] is that the core business of MassTer software [3] is developed using java, as results it is easy to integrate in our project without any midelware or such web services.    
-\vspace{66mm}
+ As the above statics show, JAVA is the most used language in the industry. Today java it is not an option, it is a requirement for almost all the IT Job Apply. \\Other Major key that push us to use java as language of programming in our project (MassTerInsight) [2] is that the core business of MassTer software [3] is developed using java. As a consequence, it is easy to integrate in our project without any midelware or such web services.
+ 
+\clearpage
+\newpage
+
 	\section{Angular JS}
 		\begin{figure}[h]
 		\centering
@@ -75,19 +80,19 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 		\caption{AngularJS logo}
 	\end{figure}
 		\subsection{Introduction}
-	AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.  And it all happens within the browser, making it an ideal partner with any server technology.
+	AngularJS is a structural framework for dynamic web applications.
 	\\
 	\\
-	AngularJS is what HTML would have been, had it been designed for applications. HTML is a great declarative language for static documents. It does not contain much in the way of creating applications, and as a result building web applications is an exercise \textit{in what do I have to do to trick the browser into doing what I want?}
+	It gives to the developers the way to interacte with their html components in ease way instead of using a long javascript code.
 	\\
 	\\
 	The impedance mismatch between dynamic applications and static documents is often solved with:
 	\begin{itemize}
 		
 		\item \textbf{a library} - a collection of functions which are useful when writing web apps. Your code is in charge and it calls into the library when it sees fit. E.g., \colorbox{mygray}{jQuery}.
-		\item \textbf{frameworks} - a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something app specific. E.g., \colorbox{mygray}{durandal}, \colorbox{mygray}{ember}, etc.
+		\item \textbf{frameworks} - a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something application specific. E.g., \colorbox{mygray}{durandal}, \colorbox{mygray}{ember}, etc.
 	\end{itemize}
-	AngularJS takes another approach. It attempts to minimize the impedance mismatch between document centric HTML and what an application needs by creating new HTML constructs. AngularJS teaches the browser new syntax through a construct we call directives. Examples include:
+	AngularJS takes another approach. It attempts to minimize the impedance mismatch between document centric HTML and what an application needs by creating new HTML constructs. AngularJS teaches the browser new syntax through \textbf{directives}. Examples include:
 	\begin{itemize}
 		\item Data binding, as in \colorbox{mygray}{\{\{\}\}}
 		\item DOM control structures for repeating, showing and hiding DOM fragments.
@@ -97,40 +102,48 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 	\end{itemize}
 	\subsection{Features}
 	\begin{itemize}
-		\item AngularJS is a powerful JavaScript based development framework to create RICH Internet Application(RIA).
-		\item  AngularJS provides developers options to write client side application (using JavaScript) in a clean MVC(Model View Controller) way.
-		\item  Application written in AngularJS is cross-browser compliant. AngularJS automatically handles JavaScript code suitable for each browser.
-		\item AngularJS is open source, completely free, and used by thousands of developers around the world. It is licensed under the Apache License version 2.0.
+		\item AngularJS is a powerful JavaScript based development framework to create Rich Internet Application(RIA).
+		\item AngularJS is a free open source framework.
+		\item Large of developers around the world used AngularJS
 	\end{itemize}
 		Overall, AngularJS is a framework to build large scale and high performance web application while keeping them as easy-to-maintain.
 		\\
 		\\
-		We present in this table the directives used in our project.
+		We present in this table the directives used in our project so far.
 		\\
 		\\
-		\begin{tabular}{|l|c|r|}
-			\hline
-			\textbf{Directive} & \textbf{description }\\
-			\hline
-			ng-app & .. \\
-			ng-model & ..  \\
-			ng-switch & .. \\
-			ng-switch-when & ..  \\	
-			\hline
-		\end{tabular} 
+		\begin{table}
+				\centering
+			\begin{tabular}{|c|p{10cm}|}	
+				\hline
+				\textbf{Directive} & \textbf{Description }\\
+				\hline
+				ng-app & tells AngularJS that this is the root element of AngularJS application, we can only have one ng-app directive in the application.
+				\\
+				ng-model & binds an HTML form element to a variable in the scope  \\
+				ng-switch, ng-switch-when & the directive ng-switch lets you hide or show HTML elements depending on an experssion. Child elements with the directive ng-switch-when will be showed up if it gets match, otherwise the element, and its children will be removed.
+				\\
+				ng-switch-default & define a default section if none of the oher sections get match\\ 
+					
+				\hline
+			\end{tabular} 
+		\end{table}
+	
 	\subsection{Motivation}
-	Before I started to choose any javascript frameworks, I made a research on who are the most used and best javascript framework in the world ?
+	Before starting to use any javascript framework, we have made a research about the most recommended javascript framework.
 	\\
-	Almost all the articales That I read shows that the most popular frameworks are \colorbox{mygray}{angularjs}, \colorbox{mygray}{ember JS}, \colorbox{mygray}{react JS} and \colorbox{mygray}{backbone JS}, AngularJS is the most used framework amongst these framworks and this is my first motivation.\\
-	Second, The community behind angularjs is the community google, recent updates, large used by the developers as resultats resolved the bugs, also impovements.\\
-	The industry in our country and all the world, the jobs requirements skills tend to require more and more the framework angularjs base on recent research on google Trends(see the figure N°) .
+	Almost all the articles that I read shows that the most popular frameworks are \colorbox{mygray}{AngularJS}, \colorbox{mygray}{Ember.js}, \colorbox{mygray}{ReactJS} and \colorbox{mygray}{Backbone.js}, AngularJS is the most used framework amongst these frameworks and this is my first motivation.\\
+    Based on recent search on Google Trends, the requirements skills  of the industry in all over the world tend  to use more and more the framework AngularJS
 	 	\begin{figure}[h]
 	 	\centering
 	 	\includegraphics[width=1.0\textwidth]{AngularJS_statics_google_trends.png}
 	 	\caption{AngularJS on google trends}
 	 \end{figure}
 	 
-	
+
+\clearpage
+\newpage
+
 	\section{Bootstrap}
 	\begin{figure}[h]
 		\centering
@@ -138,11 +151,11 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 		\caption{Bootstrap logo}
 	\end{figure}
 	\subsection{Introduction}
-	\textbf{Bootstrap} is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript plugins. Unlike many web frameworks, it concerns itself with front-end development only.
+	\textbf{Bootstrap} is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript plugins. Unlike many web frameworks, it considers front-end development.
 	\\
 	\\
 	Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.\\
-	\textbf{In June 2014 Bootstrap was the No.1 project on GitHub!}
+	In June 2014 Bootstrap was the No.1 project on GitHub!
 	\subsection{Features}
 	\textbf{Bootstrap 3} supports the latest versions of the \textbf{Google Chrome}, \textbf{Firefox}, \textbf{Internet Explorer}, \textbf{Opera}, and \textbf{Safari} (except on Windows). It additionally supports back to IE8 and the latest Firefox Extended Support Release (ESR).
 	\\
@@ -162,7 +175,6 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 	\end{figure}
 
 \vspace{66mm}
-
 According to a researchs in the net, all the high-tech blogs encourage developers to use bootstrap.
 \\
 \\
@@ -175,7 +187,11 @@ According to a researchs in the net, all the high-tech blogs encourage developer
 	\includegraphics[width=1\textwidth]{Boostrap_statics_google_trends.png}
 	\caption{Bootstrap on google trends}
 \end{figure}
-\vspace{66mm}
+
+\clearpage
+\newpage
+
+
 \section{Spring mvc framework}
 \begin{figure}[h]
 	\centering
@@ -235,8 +251,20 @@ As you can see the curve of spring mvc is very high, wich means that spring is t
 \\
 \\
 The community behind spring is very active, recent updates, less bugs, imrpovement and high performance.
+
+\clearpage
+\newpage
+
 \section{Pivotal tc Server}
+
+\clearpage
+\newpage
+
 \section{spring tools suits}
+
+\clearpage
+\newpage
+
 \section{Apache Maven}
 \begin{figure}[h]
 	\centering
@@ -257,6 +285,10 @@ Maven provides the following benefits :
 	\item Maven comes with a mechanism that your project's clients can use to download any JARs required for building your project from a central JAR repository much like Perl's CPAN.
 	\item This allows users of Maven to reuse JARs across projects and encourages communication between projects to ensure that backward compatibility issues are dealt with.
 \end{itemize}
+
+\clearpage
+\newpage
+
 \section{HTML5}
 \begin{figure}[h]
 	\centering

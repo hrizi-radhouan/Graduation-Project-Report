@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  8 OCT 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  19 OCT 2017 15:47
 entering extended mode
 **./chapter4.tex
 (chapter4.tex
@@ -295,233 +295,239 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 
 LaTeX Warning: No \author given.
 
-
-Overfull \hbox (8.38985pt too wide) in paragraph at lines 23--23
+[2]
+Overfull \hbox (8.38985pt too wide) in paragraph at lines 25--25
 []\OT1/cmr/bx/n/17.28 Java Plat-form, En-ter-prise Edi-tion (Java EE) 
  []
 
-<JAVAEE_logo.png, id=7, 649.42625pt x 277.035pt>
+<JAVAEE_logo.png, id=11, 649.42625pt x 277.035pt>
 File: JAVAEE_logo.png Graphic file (type png)
  <use JAVAEE_logo.png>
-Package pdftex.def Info: JAVAEE_logo.png used on input line 26.
+Package pdftex.def Info: JAVAEE_logo.png used on input line 28.
 (pdftex.def)             Requested size: 155.99762pt x 66.54471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
-[2 <./JAVAEE_logo.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
 
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--48
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
-<Java_statics.png, id=14, 685.8122pt x 351.56343pt>
-File: Java_statics.png Graphic file (type png)
- <use Java_statics.png>
-Package pdftex.def Info: Java_statics.png used on input line 61.
-(pdftex.def)             Requested size: 390.0pt x 199.92653pt.
+[3
 
-<Java_rank.png, id=16, 686.565pt x 297.36093pt>
+ <./JAVAEE_logo.png>] <Java_statics.png, id=17, 685.8122pt x 351.56343pt>
+File: Java_statics.png Graphic file (type png)
+
+<use Java_statics.png>
+Package pdftex.def Info: Java_statics.png used on input line 63.
+(pdftex.def)             Requested size: 390.0pt x 199.92653pt.
+ <Java_rank.png, id=19, 686.565pt x 297.36093pt>
 File: Java_rank.png Graphic file (type png)
- <use Java_rank.png>
-Package pdftex.def Info: Java_rank.png used on input line 66.
+
+<use Java_rank.png>
+Package pdftex.def Info: Java_rank.png used on input line 68.
 (pdftex.def)             Requested size: 390.0pt x 168.91217pt.
- [3]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./Java_statics.png>]
-<AngularJS_logo.png, id=25, 376.40625pt x 376.40625pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./Java_statics.png> <./Java_rank.png>]
+<AngularJS_logo.png, id=28, 376.40625pt x 376.40625pt>
 File: AngularJS_logo.png Graphic file (type png)
 
 <use AngularJS_logo.png>
-Package pdftex.def Info: AngularJS_logo.png used on input line 74.
+Package pdftex.def Info: AngularJS_logo.png used on input line 79.
 (pdftex.def)             Requested size: 117.00119pt x 117.00061pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--85
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--85
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
 
  []
 
-[5 <./Java_rank.png> <./AngularJS_logo.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 105--121
+[6
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--121
-
- []
-
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) <AngularJS_statics_google_trends.png, id=34, 870.25125pt x 460.72125pt>
-File: AngularJS_statics_google_trends.png Graphic file (type png)
-
-<use AngularJS_statics_google_trends.png>
-Package pdftex.def Info: AngularJS_statics_google_trends.png used on input line
- 129.
-(pdftex.def)             Requested size: 390.0pt x 206.47202pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Boostrap_logo.png, id=35, 220.825pt x 221.82875pt>
-File: Boostrap_logo.png Graphic file (type png)
- <use Boostrap_logo.png>
-Package pdftex.def Info: Boostrap_logo.png used on input line 137.
-(pdftex.def)             Requested size: 77.99881pt x 78.35202pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
-
- []
-
-[7] [8 <./AngularJS_statics_google_trends.png> <./Boostrap_logo.png>]
-<Boostrap_statics_github.png, id=46, 773.89125pt x 414.04688pt>
-File: Boostrap_statics_github.png Graphic file (type png)
-
-<use Boostrap_statics_github.png>
-Package pdftex.def Info: Boostrap_statics_github.png used on input line 160.
-(pdftex.def)             Requested size: 390.0pt x 208.65924pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--172
-
- []
-
-[9] <Boostrap_statics_google_trends.png, id=50, 1152.55594pt x 511.15968pt>
-File: Boostrap_statics_google_trends.png Graphic file (type png)
-
-<use Boostrap_statics_google_trends.png>
-Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
-175.
-(pdftex.def)             Requested size: 390.0pt x 172.96523pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Spring_logo.png, id=51, 803.0pt x 260.975pt>
-File: Spring_logo.png Graphic file (type png)
- <use Spring_logo.png>
-Package pdftex.def Info: Spring_logo.png used on input line 182.
-(pdftex.def)             Requested size: 155.99762pt x 50.69678pt.
- [10 <./Boostrap_statics_github.png>]
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) <workflow_spring_mvc.png, id=56, 812.03375pt x 512.91624pt>
-File: workflow_spring_mvc.png Graphic file (type png)
-
-<use workflow_spring_mvc.png>
-Package pdftex.def Info: workflow_spring_mvc.png used on input line 195.
-(pdftex.def)             Requested size: 429.00238pt x 270.97557pt.
-
-Overfull \hbox (39.00238pt too wide) in paragraph at lines 195--196
+ <./AngularJS_logo.png>]
+Overfull \hbox (54.98169pt too wide) in paragraph at lines 117--130
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--199
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--199
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
-[11 <./Boostrap_statics_google_trends.png> <./Spring_logo.png>] [12 <./workflow
-_spring_mvc.png>]
-Overfull \hbox (3.63898pt too wide) in paragraph at lines 207--208
+<AngularJS_statics_google_trends.png, id=33, 870.25125pt x 460.72125pt>
+File: AngularJS_statics_google_trends.png Graphic file (type png)
+
+<use AngularJS_statics_google_trends.png>
+Package pdftex.def Info: AngularJS_statics_google_trends.png used on input line
+ 139.
+(pdftex.def)             Requested size: 390.0pt x 206.47202pt.
+ [7] [8 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=42, 220
+.825pt x 221.82875pt>
+File: Boostrap_logo.png Graphic file (type png)
+
+<use Boostrap_logo.png>
+Package pdftex.def Info: Boostrap_logo.png used on input line 150.
+(pdftex.def)             Requested size: 77.99881pt x 78.35202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
+
+ []
+
+<Boostrap_statics_github.png, id=43, 773.89125pt x 414.04688pt>
+File: Boostrap_statics_github.png Graphic file (type png)
+
+<use Boostrap_statics_github.png>
+Package pdftex.def Info: Boostrap_statics_github.png used on input line 173.
+(pdftex.def)             Requested size: 390.0pt x 208.65924pt.
+ [9
+
+ <./Boostrap_logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
+
+ []
+
+[10 <./Boostrap_statics_github.png>]
+<Boostrap_statics_google_trends.png, id=52, 1152.55594pt x 511.15968pt>
+File: Boostrap_statics_google_trends.png Graphic file (type png)
+
+<use Boostrap_statics_google_trends.png>
+Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
+187.
+(pdftex.def)             Requested size: 390.0pt x 172.96523pt.
+ [11 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=57, 803.0pt x
+ 260.975pt>
+File: Spring_logo.png Graphic file (type png)
+ <use Spring_logo.png>
+Package pdftex.def Info: Spring_logo.png used on input line 198.
+(pdftex.def)             Requested size: 155.99762pt x 50.69678pt.
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) <workflow_spring_mvc.png, id=58, 812.03375pt x 512.91624pt>
+File: workflow_spring_mvc.png Graphic file (type png)
+
+<use workflow_spring_mvc.png>
+Package pdftex.def Info: workflow_spring_mvc.png used on input line 211.
+(pdftex.def)             Requested size: 429.00238pt x 270.97557pt.
+
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--215
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12
+
+ <./Spring_logo.png>] [13 <./workflow_spring_mvc.png>]
+Overfull \hbox (3.63898pt too wide) in paragraph at lines 223--224
 []\OT1/cmr/m/n/12 Supports An-no-ta-tion based pro-gram-ming along with XML, wh
 ich makes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--223
+Underfull \hbox (badness 10000) in paragraph at lines 225--239
 
  []
 
-<SpringMVC_statics_google_trends.png, id=66, 870.25125pt x 522.45187pt>
+<SpringMVC_statics_google_trends.png, id=68, 870.25125pt x 522.45187pt>
 File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
 Package pdftex.def Info: SpringMVC_statics_google_trends.png used on input line
- 230.
+ 246.
 (pdftex.def)             Requested size: 390.0pt x 234.13655pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--238
+Underfull \hbox (badness 10000) in paragraph at lines 243--254
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] <Maven_logo.png, id=71, 273.02pt x 69.058pt>
+[14] [15 <./SpringMVC_statics_google_trends.png>] [16
+
+] [17
+
+]
+<Maven_logo.png, id=82, 273.02pt x 69.058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
-Package pdftex.def Info: Maven_logo.png used on input line 243.
+Package pdftex.def Info: Maven_logo.png used on input line 271.
 (pdftex.def)             Requested size: 195.0pt x 49.3234pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-[14 <./SpringMVC_statics_google_trends.png>]
-<HTML5_logo.png, id=76, 256.96pt x 256.96pt>
+[18
+
+ <./Maven_logo.png>] [19] <HTML5_logo.png, id=91, 256.96pt x 256.96pt>
 File: HTML5_logo.png Graphic file (type png)
- <use HTML5_logo.png>
-Package pdftex.def Info: HTML5_logo.png used on input line 263.
+
+<use HTML5_logo.png>
+Package pdftex.def Info: HTML5_logo.png used on input line 295.
 (pdftex.def)             Requested size: 117.00119pt x 117.00323pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./Maven_logo.png>]
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-34.def"
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [16 <./HTML5_logo.png>] [17] (chapter4.aux) ) 
+) [20
+
+ <./HTML5_logo.png>] [21] (chapter4.aux) ) 
 Here is how much of TeX's memory you used:
- 4587 strings out of 493323
- 62466 string characters out of 3128713
+ 4095 strings out of 493323
+ 57360 string characters out of 3128713
  126638 words of memory out of 3000000
- 8049 multiletter control sequences out of 15000+200000
- 10280 words of font info for 37 fonts, out of 3000000 for 9000
+ 7561 multiletter control sequences out of 15000+200000
+ 9933 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,25p,702b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/radhouan/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhou
-an/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/radhouan/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapter4.pdf (17 pages, 406665 bytes).
+ 39i,11n,25p,702b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/radhouan/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
+ers/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb>
+Output written on chapter4.pdf (21 pages, 386141 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

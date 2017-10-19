@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  11 OCT 2017 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  12 OCT 2017 19:52
 entering extended mode
 **./chapter2.tex
 (chapter2.tex
@@ -297,22 +297,22 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 
 LaTeX Warning: No \author given.
 
-[2] (chapter2.aux) ) 
+[2] [3] (chapter2.aux) ) 
 Here is how much of TeX's memory you used:
- 3083 strings out of 493323
- 45533 string characters out of 3128713
- 122717 words of memory out of 3000000
- 6575 multiletter control sequences out of 15000+200000
- 6514 words of font info for 24 fonts, out of 3000000 for 9000
+ 3084 strings out of 493323
+ 45548 string characters out of 3128713
+ 123717 words of memory out of 3000000
+ 6576 multiletter control sequences out of 15000+200000
+ 6821 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,25p,330b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/radhouan/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on chapter2.pdf (2 pages, 38213 bytes).
+<C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/radhouan/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on chapter2.pdf (3 pages, 46302 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
