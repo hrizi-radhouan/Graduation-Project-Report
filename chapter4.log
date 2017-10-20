@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  19 OCT 2017 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  20 OCT 2017 12:42
 entering extended mode
 **./chapter4.tex
 (chapter4.tex
@@ -404,12 +404,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--159
 File: Boostrap_statics_github.png Graphic file (type png)
 
 <use Boostrap_statics_github.png>
-Package pdftex.def Info: Boostrap_statics_github.png used on input line 173.
+Package pdftex.def Info: Boostrap_statics_github.png used on input line 171.
 (pdftex.def)             Requested size: 390.0pt x 208.65924pt.
  [9
 
  <./Boostrap_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 176--182
 
  []
 
@@ -419,51 +419,55 @@ File: Boostrap_statics_google_trends.png Graphic file (type png)
 
 <use Boostrap_statics_google_trends.png>
 Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
-187.
+185.
 (pdftex.def)             Requested size: 390.0pt x 172.96523pt.
  [11 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=57, 803.0pt x
  260.975pt>
 File: Spring_logo.png Graphic file (type png)
  <use Spring_logo.png>
-Package pdftex.def Info: Spring_logo.png used on input line 198.
+Package pdftex.def Info: Spring_logo.png used on input line 196.
 (pdftex.def)             Requested size: 155.99762pt x 50.69678pt.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) <workflow_spring_mvc.png, id=58, 812.03375pt x 512.91624pt>
+)
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
+
+ []
+
+[12
+
+ <./Spring_logo.png>]
+<workflow_spring_mvc.png, id=62, 812.03375pt x 512.91624pt>
 File: workflow_spring_mvc.png Graphic file (type png)
 
 <use workflow_spring_mvc.png>
-Package pdftex.def Info: workflow_spring_mvc.png used on input line 211.
+Package pdftex.def Info: workflow_spring_mvc.png used on input line 208.
 (pdftex.def)             Requested size: 429.00238pt x 270.97557pt.
 
-Overfull \hbox (39.00238pt too wide) in paragraph at lines 211--212
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--215
-
+Overfull \hbox (6.64043pt too wide) in paragraph at lines 205--211
+[]\OT1/cmr/m/n/12 The re-quest pro-cess-ing work-flow of the Spring Web MVC Dis
+-patch-erServlet
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--215
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12
-
- <./Spring_logo.png>] [13 <./workflow_spring_mvc.png>]
-Overfull \hbox (3.63898pt too wide) in paragraph at lines 223--224
+[13 <./workflow_spring_mvc.png>]
+Overfull \hbox (3.63898pt too wide) in paragraph at lines 220--221
 []\OT1/cmr/m/n/12 Supports An-no-ta-tion based pro-gram-ming along with XML, wh
 ich makes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--239
+Overfull \hbox (15.25433pt too wide) in paragraph at lines 227--238
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--239
 
  []
 
@@ -472,10 +476,10 @@ File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
 Package pdftex.def Info: SpringMVC_statics_google_trends.png used on input line
- 246.
+ 245.
 (pdftex.def)             Requested size: 390.0pt x 234.13655pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--254
+Underfull \hbox (badness 10000) in paragraph at lines 242--253
 
  []
 
@@ -490,10 +494,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Maven_logo.png, id=82, 273.02pt x 69.058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
-Package pdftex.def Info: Maven_logo.png used on input line 271.
+Package pdftex.def Info: Maven_logo.png used on input line 270.
 (pdftex.def)             Requested size: 195.0pt x 49.3234pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
@@ -503,7 +507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 File: HTML5_logo.png Graphic file (type png)
 
 <use HTML5_logo.png>
-Package pdftex.def Info: HTML5_logo.png used on input line 295.
+Package pdftex.def Info: HTML5_logo.png used on input line 294.
 (pdftex.def)             Requested size: 117.00119pt x 117.00323pt.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-34.def"
@@ -525,7 +529,7 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
 ers/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr17.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb>
-Output written on chapter4.pdf (21 pages, 386141 bytes).
+Output written on chapter4.pdf (21 pages, 386432 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
