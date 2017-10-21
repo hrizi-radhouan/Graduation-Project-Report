@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  20 OCT 2017 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  21 OCT 2017 15:14
 entering extended mode
 **./chapter4.tex
 (chapter4.tex
@@ -471,67 +471,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--239
 
  []
 
-<SpringMVC_statics_google_trends.png, id=68, 870.25125pt x 522.45187pt>
+[14] <SpringMVC_statics_google_trends.png, id=71, 870.25125pt x 522.45187pt>
 File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
 Package pdftex.def Info: SpringMVC_statics_google_trends.png used on input line
- 245.
+ 247.
 (pdftex.def)             Requested size: 390.0pt x 234.13655pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--253
+Underfull \hbox (badness 10000) in paragraph at lines 243--256
 
  []
 
+[15 <./SpringMVC_statics_google_trends.png>]
+<icon_tcserver.png, id=76, 128.48pt x 128.48pt>
+File: icon_tcserver.png Graphic file (type png)
+ <use icon_tcserver.png>
+Package pdftex.def Info: icon_tcserver.png used on input line 265.
+(pdftex.def)             Requested size: 39.00238pt x 39.00304pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
 
-[14] [15 <./SpringMVC_statics_google_trends.png>] [16
+ []
 
-] [17
+[16
 
-]
-<Maven_logo.png, id=82, 273.02pt x 69.058pt>
+ <./icon_tcserver.png>]
+<spring-tool-suite-project-logo.png, id=81, 214.8025pt x 237.88875pt>
+File: spring-tool-suite-project-logo.png Graphic file (type png)
+
+<use spring-tool-suite-project-logo.png>
+Package pdftex.def Info: spring-tool-suite-project-logo.png used on input line 
+290.
+(pdftex.def)             Requested size: 58.49762pt x 64.78255pt.
+ [17
+
+ <./spring-tool-suite-project-logo.png>] <Maven_logo.png, id=86, 273.02pt x 69.
+058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
-Package pdftex.def Info: Maven_logo.png used on input line 270.
-(pdftex.def)             Requested size: 195.0pt x 49.3234pt.
+Package pdftex.def Info: Maven_logo.png used on input line 306.
+(pdftex.def)             Requested size: 117.00119pt x 29.59424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
 [18
 
- <./Maven_logo.png>] [19] <HTML5_logo.png, id=91, 256.96pt x 256.96pt>
+ <./Maven_logo.png>] <HTML5_logo.png, id=91, 256.96pt x 256.96pt>
 File: HTML5_logo.png Graphic file (type png)
 
 <use HTML5_logo.png>
-Package pdftex.def Info: HTML5_logo.png used on input line 294.
-(pdftex.def)             Requested size: 117.00119pt x 117.00323pt.
+Package pdftex.def Info: HTML5_logo.png used on input line 326.
+(pdftex.def)             Requested size: 77.99881pt x 77.99823pt.
+ [19
 
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-34.def"
-File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [20
-
- <./HTML5_logo.png>] [21] (chapter4.aux) ) 
+ <./HTML5_logo.png>] (chapter4.aux) ) 
 Here is how much of TeX's memory you used:
- 4095 strings out of 493323
- 57360 string characters out of 3128713
- 126638 words of memory out of 3000000
- 7561 multiletter control sequences out of 15000+200000
+ 3464 strings out of 493323
+ 50790 string characters out of 3128713
+ 126668 words of memory out of 3000000
+ 6931 multiletter control sequences out of 15000+200000
  9933 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,25p,702b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/radhouan/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
-ers/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr17.pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on chapter4.pdf (21 pages, 386432 bytes).
+ 39i,11n,25p,702b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/radhouan/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/r
+adhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on chapter4.pdf (19 pages, 392089 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
