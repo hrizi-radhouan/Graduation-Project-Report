@@ -1,5 +1,13 @@
 
 \documentclass[12pt]{article}
+
+% leave out section numbers in subsection numbering %
+\usepackage[T1]{fontenc}
+\renewcommand*\thesubsection{\arabic{subsection}}
+
+% include Roman numerals for sections %
+\renewcommand{\thesection}{\Roman{section}}
+%Roman numerals for subsections like this \renewcommand{\thesubsection}{\Roman{subsection}}%
 % include the pckage of the color%
 \usepackage[usenames, dvipsnames]{color}
 \usepackage[english]{babel}

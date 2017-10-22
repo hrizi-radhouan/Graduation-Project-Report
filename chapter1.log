@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  21 OCT 2017 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  22 OCT 2017 12:00
 entering extended mode
 **./chapter1.tex
 (chapter1.tex
@@ -24,6 +24,14 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
 sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -202,18 +210,18 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )) (chapter1.aux)
 \openout1 = `chapter1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
@@ -302,65 +310,78 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) <Mass_logo.png, id=7, 100.375pt x 92.345pt>
 File: Mass_logo.png Graphic file (type png)
  <use Mass_logo.png>
-Package pdftex.def Info: Mass_logo.png used on input line 28.
+Package pdftex.def Info: Mass_logo.png used on input line 36.
 (pdftex.def)             Requested size: 58.49762pt x 53.81938pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--39
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
  <massTer_logo.png, id=9, 376.40625pt x 309.40594pt>
 File: massTer_logo.png Graphic file (type png)
  <use massTer_logo.png>
-Package pdftex.def Info: massTer_logo.png used on input line 36.
+Package pdftex.def Info: massTer_logo.png used on input line 44.
 (pdftex.def)             Requested size: 77.99881pt x 64.11319pt.
 
 [2 <./Mass_logo.png>]
-Overfull \hbox (2.90286pt too wide) in paragraph at lines 40--41
-\OT1/cmr/m/n/12 and train-ing ses-sions on ad-vanced pre-dic-tive mod-el-ing (l
-og lin-ear, nested
+Overfull \hbox (2.81781pt too wide) in paragraph at lines 48--49
+\T1/cmr/m/n/12 and train-ing ses-sions on ad-vanced pre-dic-tive mod-el-ing (lo
+g lin-ear, nested
  []
 
-<customers_logo.png, id=15, 332.74312pt x 105.39375pt>
+<customers_logo.png, id=18, 332.74312pt x 105.39375pt>
 File: customers_logo.png Graphic file (type png)
 
 <use customers_logo.png>
-Package pdftex.def Info: customers_logo.png used on input line 47.
+Package pdftex.def Info: customers_logo.png used on input line 55.
 (pdftex.def)             Requested size: 312.00119pt x 98.8305pt.
- [3 <./massTer_logo.png>] [4 <./customers_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+ [3 <./massTer_logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
 
-(chapter1.bbl) [5] (chapter1.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+
+ []
+
+[4 <./customers_logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+
+ []
+
+(chapter1.bbl [5]) [6] (chapter1.aux) ) 
 Here is how much of TeX's memory you used:
- 3398 strings out of 493323
- 49408 string characters out of 3128713
- 124721 words of memory out of 3000000
- 6870 multiletter control sequences out of 15000+200000
- 9933 words of font info for 36 fonts, out of 3000000 for 9000
+ 3611 strings out of 493323
+ 51096 string characters out of 3128713
+ 124875 words of memory out of 3000000
+ 7073 multiletter control sequences out of 15000+200000
+ 13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,25p,615b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/radhouan/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/radhouan/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rad
-houan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb>
-Output written on chapter1.pdf (5 pages, 109344 bytes).
+ 39i,7n,25p,615b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\radhouan\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\rad
+houan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> 
+<C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm2074.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecrm1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter1.pdf (6 pages, 133230 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
