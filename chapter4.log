@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  22 OCT 2017 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  23 OCT 2017 15:37
 entering extended mode
 **./chapter4.tex
 (chapter4.tex
@@ -23,6 +23,16 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumit
+em.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks14
+\labelindent=\skip43
+\enit@outerparindent=\dimen103
+\enit@toks=\toks15
+\enit@inbox=\box26
+\enitdp@description=\count87
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
 y"
@@ -54,7 +64,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\dvipsn
 am.def"
@@ -80,8 +90,8 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.d
 ef"
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen103
+\babel@savecnt=\count89
+\U@D=\dimen104
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -90,8 +100,8 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
 ty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -102,15 +112,15 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count89
-\uc@combtoks=\toks16
-\uc@combtoksb=\toks17
-\uc@temptokena=\toks18
+\uc@secondtry=\count90
+\uc@combtoks=\toks18
+\uc@combtoksb=\toks19
+\uc@temptokena=\toks20
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
 .sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
 
@@ -121,53 +131,53 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
 sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen104
+\@emptytoks=\toks21
+\ex@=\dimen105
 ))
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
 sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen105
+\pmbraise@=\dimen106
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
 sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen106
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
-\tag@help=\toks20
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
-\andhelp@=\toks21
-\eqnshift@=\dimen107
-\alignsep@=\dimen108
-\tagshift@=\dimen109
-\tagwidth@=\dimen110
-\totwidth@=\dimen111
-\lineht@=\dimen112
-\@envbody=\toks22
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks23
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks22
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks23
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks24
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -178,7 +188,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
 .sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
+\KV@toks@=\toks26
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
 cs.sty"
@@ -194,47 +204,47 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
 "
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen115
-\extrarowheight=\dimen116
-\NC@list=\toks25
-\extratabsurround=\skip46
-\backup@length=\skip47
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks27
+\extratabsurround=\skip47
+\backup@length=\skip48
 ) (chapter4.aux)
 \openout1 = `chapter4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen117
-\scratchbox=\box28
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen118
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count103
+\scratchdimen=\dimen118
+\scratchbox=\box29
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen119
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks29
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
 excmds.sty"
@@ -306,26 +316,26 @@ LaTeX Warning: No \author given.
 [2] <JAVAEE_logo.png, id=12, 649.42625pt x 277.035pt>
 File: JAVAEE_logo.png Graphic file (type png)
  <use JAVAEE_logo.png>
-Package pdftex.def Info: JAVAEE_logo.png used on input line 36.
+Package pdftex.def Info: JAVAEE_logo.png used on input line 39.
 (pdftex.def)             Requested size: 155.99762pt x 66.54471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
 
  []
 
@@ -335,13 +345,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
 File: Java_statics.png Graphic file (type png)
 
 <use Java_statics.png>
-Package pdftex.def Info: Java_statics.png used on input line 71.
+Package pdftex.def Info: Java_statics.png used on input line 74.
 (pdftex.def)             Requested size: 390.0pt x 199.92653pt.
  <Java_rank.png, id=22, 686.565pt x 297.36093pt>
 File: Java_rank.png Graphic file (type png)
 
 <use Java_rank.png>
-Package pdftex.def Info: Java_rank.png used on input line 76.
+Package pdftex.def Info: Java_rank.png used on input line 79.
 (pdftex.def)             Requested size: 390.0pt x 168.91217pt.
 
 
@@ -355,32 +365,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: AngularJS_logo.png Graphic file (type png)
 
 <use AngularJS_logo.png>
-Package pdftex.def Info: AngularJS_logo.png used on input line 87.
+Package pdftex.def Info: AngularJS_logo.png used on input line 90.
 (pdftex.def)             Requested size: 117.00119pt x 117.00061pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--102
 
  []
 
 [6
 
  <./AngularJS_logo.png>]
-Overfull \hbox (54.94998pt too wide) in paragraph at lines 125--138
+Overfull \hbox (54.94998pt too wide) in paragraph at lines 128--141
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--139
+Underfull \hbox (badness 10000) in paragraph at lines 120--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--139
+Underfull \hbox (badness 10000) in paragraph at lines 120--142
 
  []
 
@@ -389,17 +399,17 @@ File: AngularJS_statics_google_trends.png Graphic file (type png)
 
 <use AngularJS_statics_google_trends.png>
 Package pdftex.def Info: AngularJS_statics_google_trends.png used on input line
- 147.
+ 150.
 (pdftex.def)             Requested size: 390.0pt x 206.47202pt.
  [7] [8 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=45, 220
 .825pt x 221.82875pt>
 File: Boostrap_logo.png Graphic file (type png)
 
 <use Boostrap_logo.png>
-Package pdftex.def Info: Boostrap_logo.png used on input line 158.
+Package pdftex.def Info: Boostrap_logo.png used on input line 161.
 (pdftex.def)             Requested size: 77.99881pt x 78.35202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--167
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
 
  []
 
@@ -407,12 +417,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--167
 File: Boostrap_statics_github.png Graphic file (type png)
 
 <use Boostrap_statics_github.png>
-Package pdftex.def Info: Boostrap_statics_github.png used on input line 179.
+Package pdftex.def Info: Boostrap_statics_github.png used on input line 182.
 (pdftex.def)             Requested size: 390.0pt x 208.65924pt.
  [9
 
  <./Boostrap_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 184--190
+Underfull \hbox (badness 10000) in paragraph at lines 187--193
 
  []
 
@@ -422,19 +432,19 @@ File: Boostrap_statics_google_trends.png Graphic file (type png)
 
 <use Boostrap_statics_google_trends.png>
 Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
-193.
+196.
 (pdftex.def)             Requested size: 390.0pt x 172.96523pt.
  [11 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=60, 803.0pt x
  260.975pt>
 File: Spring_logo.png Graphic file (type png)
  <use Spring_logo.png>
-Package pdftex.def Info: Spring_logo.png used on input line 204.
+Package pdftex.def Info: Spring_logo.png used on input line 207.
 (pdftex.def)             Requested size: 155.99762pt x 50.69678pt.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
 
@@ -445,32 +455,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--212
 File: workflow_spring_mvc.png Graphic file (type png)
 
 <use workflow_spring_mvc.png>
-Package pdftex.def Info: workflow_spring_mvc.png used on input line 216.
+Package pdftex.def Info: workflow_spring_mvc.png used on input line 219.
 (pdftex.def)             Requested size: 429.00238pt x 270.97557pt.
 
-Overfull \hbox (39.00238pt too wide) in paragraph at lines 216--217
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
 
-Overfull \hbox (6.55186pt too wide) in paragraph at lines 213--219
+Overfull \hbox (6.55186pt too wide) in paragraph at lines 216--222
 []\T1/cmr/m/n/12 The re-quest pro-cess-ing work-flow of the Spring Web MVC Dis-
 patch-erServlet
  []
 
 [13 <./workflow_spring_mvc.png>]
-Overfull \hbox (3.55379pt too wide) in paragraph at lines 228--229
+Overfull \hbox (3.55379pt too wide) in paragraph at lines 231--232
 []\T1/cmr/m/n/12 Supports An-no-ta-tion based pro-gram-ming along with XML, whi
 ch makes
  []
 
 
-Overfull \hbox (15.23195pt too wide) in paragraph at lines 235--246
+Overfull \hbox (15.23195pt too wide) in paragraph at lines 238--249
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--247
+Underfull \hbox (badness 10000) in paragraph at lines 233--250
 
  []
 
@@ -479,10 +489,10 @@ File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
 Package pdftex.def Info: SpringMVC_statics_google_trends.png used on input line
- 255.
+ 258.
 (pdftex.def)             Requested size: 390.0pt x 234.13655pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--264
+Underfull \hbox (badness 10000) in paragraph at lines 254--267
 
  []
 
@@ -490,10 +500,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--264
 <icon_tcserver.png, id=79, 128.48pt x 128.48pt>
 File: icon_tcserver.png Graphic file (type png)
  <use icon_tcserver.png>
-Package pdftex.def Info: icon_tcserver.png used on input line 273.
+Package pdftex.def Info: icon_tcserver.png used on input line 276.
 (pdftex.def)             Requested size: 39.00238pt x 39.00304pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--282
+Underfull \hbox (badness 10000) in paragraph at lines 281--286
 
  []
 
@@ -505,7 +515,7 @@ File: spring-tool-suite-project-logo.png Graphic file (type png)
 
 <use spring-tool-suite-project-logo.png>
 Package pdftex.def Info: spring-tool-suite-project-logo.png used on input line 
-298.
+301.
 (pdftex.def)             Requested size: 58.49762pt x 64.78255pt.
  [17
 
@@ -513,10 +523,10 @@ Package pdftex.def Info: spring-tool-suite-project-logo.png used on input line
 058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
-Package pdftex.def Info: Maven_logo.png used on input line 314.
+Package pdftex.def Info: Maven_logo.png used on input line 317.
 (pdftex.def)             Requested size: 117.00119pt x 29.59424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--321
+Underfull \hbox (badness 10000) in paragraph at lines 320--325
 
  []
 
@@ -526,19 +536,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--321
 File: HTML5_logo.png Graphic file (type png)
 
 <use HTML5_logo.png>
-Package pdftex.def Info: HTML5_logo.png used on input line 334.
+Package pdftex.def Info: HTML5_logo.png used on input line 337.
 (pdftex.def)             Requested size: 77.99881pt x 77.99823pt.
  [19
 
  <./HTML5_logo.png>] (chapter4.aux) ) 
 Here is how much of TeX's memory you used:
- 3675 strings out of 493323
- 52444 string characters out of 3128713
- 126815 words of memory out of 3000000
- 7132 multiletter control sequences out of 15000+200000
+ 3952 strings out of 493323
+ 57173 string characters out of 3128713
+ 132956 words of memory out of 3000000
+ 7405 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,25p,702b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,25p,702b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\radhouan\AppData\Local\MiKTeX\2
 .9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\L
 ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radho
@@ -548,9 +558,9 @@ rm2074.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecrm1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\lj
 four\jknappen\ec\dpi600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter4.pdf (19 pages, 416400 bytes).
+Output written on chapter4.pdf (19 pages, 416814 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
+ 335 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
