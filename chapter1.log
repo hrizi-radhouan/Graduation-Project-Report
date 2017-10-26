@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  25 OCT 2017 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  26 OCT 2017 10:56
 entering extended mode
 **./chapter1.tex
 (chapter1.tex
@@ -366,32 +366,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
-[4 <./customers_logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
 
  []
 
-(chapter1.bbl [5]) [6] (chapter1.aux) ) 
+[4 <./customers_logo.png>] [5]
+Overfull \hbox (0.47409pt too wide) in paragraph at lines 86--90
+\T1/cmr/m/n/12 We cho-sen the \T1/cmr/bx/n/12 It-er-a-tive Model \T1/cmr/m/n/12
+ as Soft-ware De-vel-op-ment Life cy-cle (SDLC). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
+
+ []
+
+<sdlc_iterative.png, id=30, 481.8pt x 291.0875pt>
+File: sdlc_iterative.png Graphic file (type png)
+ <use sdlc_iterative.png>
+Package pdftex.def Info: sdlc_iterative.png used on input line 93.
+(pdftex.def)             Requested size: 390.0pt x 235.633pt.
+
+[6 <./sdlc_iterative.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--104
+
+ []
+
+<TDD_Global_Lifecycle.png, id=35, 1426.32875pt x 843.15pt>
+File: TDD_Global_Lifecycle.png Graphic file (type png)
+
+<use TDD_Global_Lifecycle.png>
+Package pdftex.def Info: TDD_Global_Lifecycle.png used on input line 107.
+(pdftex.def)             Requested size: 390.0pt x 230.53539pt.
+ (chapter1.bbl [7 <./TDD_Global_Lifecycle.png>])
+[8] (chapter1.aux) ) 
 Here is how much of TeX's memory you used:
- 3888 strings out of 493323
- 55825 string characters out of 3128713
- 131016 words of memory out of 3000000
- 7346 multiletter control sequences out of 15000+200000
+ 3898 strings out of 493323
+ 56073 string characters out of 3128713
+ 132016 words of memory out of 3000000
+ 7354 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,25p,615b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\radhouan\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\rad
-houan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> 
-<C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecrm2074.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter1.pdf (6 pages, 133636 bytes).
+ 39i,7n,25p,731b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\radhouan\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Us
+ers\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
+00.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter1.pdf (8 pages, 259423 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
