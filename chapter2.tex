@@ -272,7 +272,7 @@
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
- 		\textbf{Pre-Conditions } & load MassTer Insight project contains at least one report saved\\ 
+ 		\textbf{Pre-Conditions } & The loaded MassTer Insight project contains at least one report saved\\ 
  		\hline                     
  		\textbf{Nominal Scenario } &
  		\begin{enumerate}
@@ -332,6 +332,27 @@
 	 	
 	 \end{figure}
   Description of the scenario ``update settings'' in the table below.
+  
+    \begin{table}
+  	\centering
+  	\begin{tabular}{|c|p{10cm}|}
+  		\hline 	
+  		\textbf{Pre-conditions } &The loaded MassTer Insight project contains at least one report saved \\ 
+  		\hline                     
+  		\textbf{Nominal Scenario } & \begin{enumerate}
+  			\item The user check new channels or keep it.
+  			\item The user type new budget tolerance or keep it.
+  			\item The user type new resolution or keep it. 
+  			\item The user click on the button update as last step.
+  			\item any modification after update don't affect any thing.
+  			\item the process of update takes a lot of time.
+  			\item for the first three steps the order no matter.   
+  		\end{enumerate} \\ 
+  		\hline 
+  		\textbf{Post-conditions} & The Application display a pop up notification to inform the user that the update was done successfully. \\
+  		\hline 
+  	\end{tabular}
+  \end{table}
  \clearpage
  \newpage
 	 \subsubsection{run scenario}
@@ -341,8 +362,25 @@
 	 	\caption{run scenario Use Case Diagram}
 	 	
 	 \end{figure}
+ 
 	 Description of the scenario ``run scenario'' in the table below.
 	
+	\begin{table}
+		\centering
+		\begin{tabular}{|c|p{10cm}|}
+			\hline 	
+			\textbf{Pre-conditions } & The update was done with success \\ 
+			\hline                     
+			\textbf{Nominal Scenario } & \begin{enumerate}
+				\item The user check max Budget or min Target.
+				\item The user type new value for radio checked.
+				\item The user click on the button run. 
+			\end{enumerate} \\ 
+			\hline 
+			\textbf{Post-conditions} & The Application display a new optimisation with new channels and Optimisation Report  . \\
+			\hline 
+		\end{tabular}
+	\end{table}
 	\clearpage
 	\newpage
 	
