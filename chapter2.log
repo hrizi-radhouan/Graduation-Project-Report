@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  26 OCT 2017 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  28 OCT 2017 10:39
 entering extended mode
 **./chapter2.tex
 (chapter2.tex
@@ -353,7 +353,12 @@ Package pdftex.def Info: connectToMassTerServer.png used on input line 127.
  [9
 
  <./connectToMassTerServer.png>]
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 138--147
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 139--154
  [][] 
  []
 
@@ -361,65 +366,104 @@ Overfull \hbox (27.3551pt too wide) in paragraph at lines 138--147
 File: consumewebServicesoap.png Graphic file (type png)
 
 <use consumewebServicesoap.png>
-Package pdftex.def Info: consumewebServicesoap.png used on input line 153.
+Package pdftex.def Info: consumewebServicesoap.png used on input line 162.
 (pdftex.def)             Requested size: 390.0pt x 327.0662pt.
- [11
 
- <./consumewebServicesoap.png>]
-<provideWebServiceSoap.png, id=50, 780.66656pt x 623.32875pt>
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 169--178
+ [][] 
+ []
+
+[11
+
+ <./consumewebServicesoap.png>] [12]
+<provideWebServiceSoap.png, id=53, 780.66656pt x 623.32875pt>
 File: provideWebServiceSoap.png Graphic file (type png)
 
 <use provideWebServiceSoap.png>
-Package pdftex.def Info: provideWebServiceSoap.png used on input line 164.
+Package pdftex.def Info: provideWebServiceSoap.png used on input line 185.
 (pdftex.def)             Requested size: 390.0pt x 311.3973pt.
- [12
 
- <./provideWebServiceSoap.png>]
-<loadProject.png, id=55, 1277.52281pt x 754.31813pt>
-File: loadProject.png Graphic file (type png)
- <use loadProject.png>
-Package pdftex.def Info: loadProject.png used on input line 174.
-(pdftex.def)             Requested size: 390.0pt x 230.27963pt.
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 192--201
+ [][] 
+ []
 
 [13
 
- <./loadProject.png>] <manageReport.png, id=61, 1184.92688pt x 521.69907pt>
+ <./provideWebServiceSoap.png>]
+<loadProject.png, id=59, 1277.52281pt x 754.31813pt>
+File: loadProject.png Graphic file (type png)
+ <use loadProject.png>
+Package pdftex.def Info: loadProject.png used on input line 207.
+(pdftex.def)             Requested size: 390.0pt x 230.27963pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 216--229
+ [][] 
+ []
+
+[14
+
+ <./loadProject.png>] [15]
+<manageReport.png, id=67, 1338.50063pt x 764.8575pt>
 File: manageReport.png Graphic file (type png)
+ <use manageReport.png>
+Package pdftex.def Info: manageReport.png used on input line 237.
+(pdftex.def)             Requested size: 390.0pt x 222.85336pt.
 
-<use manageReport.png>
-Package pdftex.def Info: manageReport.png used on input line 184.
-(pdftex.def)             Requested size: 390.0pt x 171.70747pt.
- [14
-
- <./manageReport.png>]
-<updateSettings.png, id=66, 919.18407pt x 698.61pt>
-File: updateSettings.png Graphic file (type png)
- <use updateSettings.png>
-Package pdftex.def Info: updateSettings.png used on input line 194.
-(pdftex.def)             Requested size: 390.0pt x 296.42029pt.
-
-[15
-
- <./updateSettings.png>]
-<runScenario.png, id=71, 767.86874pt x 600.74437pt>
-File: runScenario.png Graphic file (type png)
- <use runScenario.png>
-Package pdftex.def Info: runScenario.png used on input line 204.
-(pdftex.def)             Requested size: 390.0pt x 305.11975pt.
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 245--261
+ [][] 
+ []
 
 [16
 
- <./runScenario.png>] [17
+ <./manageReport.png>] [17]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 273--287
+ [][] 
+ []
+
+[18
+
+]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 296--305
+ [][] 
+ []
+
+[19
+
+]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 314--323
+ [][] 
+ []
+
+[20
+
+] <updateSettings.png, id=85, 919.18407pt x 698.61pt>
+File: updateSettings.png Graphic file (type png)
+
+<use updateSettings.png>
+Package pdftex.def Info: updateSettings.png used on input line 330.
+(pdftex.def)             Requested size: 390.0pt x 296.42029pt.
+ [21
+
+ <./updateSettings.png>]
+<runScenario.png, id=90, 767.86874pt x 600.74437pt>
+File: runScenario.png Graphic file (type png)
+ <use runScenario.png>
+Package pdftex.def Info: runScenario.png used on input line 340.
+(pdftex.def)             Requested size: 390.0pt x 305.11975pt.
+
+[22
+
+ <./runScenario.png>] [23
 
 ] (chapter2.aux) ) 
 Here is how much of TeX's memory you used:
- 3650 strings out of 493323
- 53466 string characters out of 3128713
+ 3654 strings out of 493323
+ 53533 string characters out of 3128713
  132012 words of memory out of 3000000
- 7109 multiletter control sequences out of 15000+200000
+ 7113 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,25p,330b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,25p,330b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
 jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fon
 ts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\M
@@ -429,9 +473,9 @@ s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
 .pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter2.pdf (17 pages, 476356 bytes).
+Output written on chapter2.pdf (23 pages, 522093 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
+ 324 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

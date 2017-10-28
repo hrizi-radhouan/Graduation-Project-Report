@@ -133,39 +133,72 @@
  
  Description of the scenario ``connect to MassTer Server'' in the table below. 
  \\
+ 
  \begin{table}
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
- 		\hline
- 		                        
- 		\textbf{Nominal Scenario } & \\
- 		\hline
- 		....... & ... \\
- 		
- 		\hline
+ 		\hline 	
+ 		\textbf{Pre-conditions } & MassTer Server is running  \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \begin{enumerate}
+ 			\item The user click on the item MassTer Server in Main Menu.
+ 			\item The Application display a drop down. 
+ 			\item The user type MassTer Server IP address.
+ 			\item The user type MassTer Server port number.
+ 			\item The  user click on button connect. 
+ 		\end{enumerate} \\ 
+ 		\hline 
+ 		\textbf{Post-conditions} & The Application gets connected to MassTer Server. \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
+
+
+ \clearpage
+ \newpage
+	 \subsubsection{consume web Service soap}
+	 	 	\begin{figure}[h]
+	 	\centering
+	 	\includegraphics[width=1.0\textwidth]{consumewebServicesoap.png}
+	 	\caption{consume web Service soap Use Case Diagram}
+	 	
+	 \end{figure}
+ Description of the scenario ``consume web Service soap'' in the table below.
+  \begin{table}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-conditions } & MassTer Server is running  \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \\ 
+ 		\hline 
+ 		\textbf{Post-conditions} & ... \\
+ 		\hline 
  	\end{tabular}
  \end{table}
  \clearpage
  \newpage
-	 \subsubsection{consume webService soap}
-	 	 	\begin{figure}[h]
-	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{consumewebServicesoap.png}
-	 	\caption{consume webService soap Use Case Diagram}
-	 	
-	 \end{figure}
- Description of the scenario ``consume webService soap'' in the table below.
- \clearpage
- \newpage
 
-	 \subsubsection{provide webService soap} 
+	 \subsubsection{provide web Service soap} 
 	 	\begin{figure}[h]
 	 	\centering
 	 	\includegraphics[width=1.0\textwidth]{provideWebServiceSoap.png}
-	 	\caption{provide webService soap Use Case Diagram}
+	 	\caption{provide web Service soap Use Case Diagram}
 	 	
 	 \end{figure}
-  Description of the scenario ``consume webService soap'' in the table below.
+  Description of the scenario ``consume web Service soap'' in the table below.
+   \begin{table}
+  	\centering
+  	\begin{tabular}{|c|p{10cm}|}
+  		\hline 	
+  		\textbf{Pre-conditions } & MassTer Server is running  \\ 
+  		\hline                     
+  		\textbf{Nominal Scenario } & \\ 
+  		\hline 
+  		\textbf{Post-conditions} & ... \\
+  		\hline 
+  	\end{tabular}
+  \end{table}
  \clearpage
  \newpage
 	 \subsubsection{load project}
@@ -175,19 +208,122 @@
 	\caption{load project Use Case Diagram}
 	
 	\end{figure}
+
  Description of the scenario ``load project'' in the table below.
+ 
+  \begin{table}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-conditions } & MassTer Server is running \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \begin{enumerate}
+ 			\item The user click on the item Load project in Main Menu.
+ 			\item The user type MassTer Insight project name.
+ 			\item The user click on the button load. 
+ 		\end{enumerate} \\ 
+ 		\hline 
+ 		\textbf{Post-conditions} & The Application display optimization page. \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
+ 
 \clearpage
 \newpage
-	 \subsubsection{manage report}
+
+	 \subsubsection{display reports}
 	 	\begin{figure}[h]
 	 	\centering
 	 	\includegraphics[width=1.0\textwidth]{manageReport.png}
-	 	\caption{manage report Use Case Diagram}
+	 	\caption{display reports Use Case Diagram}
 	 	
 	 \end{figure}
-  Description of the scenario ``manage report'' in the table below.
+  Description of the scenario ``display reports'' in the table below.
+  
+   \begin{table}
+  	\centering
+  	\begin{tabular}{|c|p{10cm}|}
+  		\hline 	
+  		\textbf{Pre-Conditions } & load MassTer Insight project has been done successfully  \\ 
+  		\hline                     
+  		\textbf{Nominal Scenario } &
+  		\begin{enumerate}
+  			\item The application display by default the first optimization report.
+  			\item The user gets first report through drop down.
+  			\item The application display list channel related to the first optimisation report throught checkboxes list.
+  			\item The application display optimisation constraints \& optimisation results. 
+ 
+  	   	\end{enumerate} \\ 
+  		\hline 
+  		\textbf{Post-Conditions} & the user got optimisation Report. \\
+  		\hline 
+  	\end{tabular}
+  \end{table}
+
+
  \clearpage
  \newpage
+ 
+ 	 \subsubsection{select report}
+
+ Description of the scenario ``select report'' in the table below.
+ 
+ \begin{table}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-Conditions } & load MassTer Insight project contains at least one report saved\\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } &
+ 		\begin{enumerate}
+ 			\item The application display list reports through drop down.
+ 			\item The user select a report trough drop down.
+ 			\item The user click on the button load.   
+ 		\end{enumerate} \\ 
+ 		\hline 
+ 		\textbf{Post-Conditions} & The application display optimization report related to the selected report \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
+ \clearpage
+ \newpage
+  	 \subsubsection{save report}
+ 
+ Description of the scenario ``select report'' in the table below.
+ 
+ \begin{table}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-Conditions } & \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \\ 
+ 		\hline 
+ 		\textbf{Post-Conditions} &  \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
+ \clearpage
+ \newpage
+   	 \subsubsection{remove report}
+ 
+ Description of the scenario ``select report'' in the table below.
+ 
+ \begin{table}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-Conditions } & \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \\ 
+ 		\hline 
+ 		\textbf{Post-Conditions} &  \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
+ \clearpage
+ \newpage
+ 
 	 \subsubsection{update settings}
 	 	\begin{figure}[h]
 	 	\centering
@@ -211,5 +347,8 @@
 	\newpage
 	
 	\section{Conclusion}
+	This chapter has allowed us to identify the actors that may interact with the developed system, to define the functional and non-functional requirements of the project and modeling the use case diagrams.
+	\\
+	In what follows, we present the general and detailed conception phase of the System.  
 	
 \end{document}
