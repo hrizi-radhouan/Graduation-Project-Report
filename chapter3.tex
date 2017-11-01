@@ -36,6 +36,8 @@
 	\\
 	\\
 	\textbf{Why UML ?}
+	\\
+	\\
 	We chose UML for these reasons : 
 	\begin{itemize}
 	\item To obtain a very high level modeling independent of the language and environments
@@ -44,19 +46,60 @@
 	
 	\section{Global Conception}
 	In this section, we highlight the architecture of our application, we starting  with physical architecture and the logical architecture.
+	
+	\clearpage
+	\newpage
 	\subsection{Physical Architecture}
 	It is primordial to designing any computer system to choose the model architecture that will be adequate to ensure proper functioning, performance, the reuse and reliable interconnection of this system with others. We opt for this purpose for the physical architecture described in the figure below.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=1\textwidth]{DeploymentDiagramPhysicalArchitecture.png}
 		\caption{Deployment Diagram Physical Architecture}
-	\end{figure}    
+	\end{figure}  
+
+	\clearpage
+    \newpage  
+	
 	\subsection{Logical Architecture}
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{logicalArchitecture.png}
+		\caption{Logical Architecture}
+	\end{figure}  
+	
+
+    \clearpage
+	\newpage
 	\subsection{Design Pattern}
+		We opt to use the MVC design pattern for the benefits if offers :
+	\begin{itemize}
+		\item \textbf{Reliability : }The presentation and business layers are completely separate, so that the business can change without necessarily affecting the presentation, or vice versa.
+		\item \textbf{Adaptalibily : }Any visual representation can be easily integrated.
+		\item \textbf{Poductivity : }The duration of development is significantly reduced, in allowing parallel work teams.
+		\item \textbf{Extensible : } With MVC the code is extensible.
+	\end{itemize}
+
+	\clearpage
+    \newpage
+
 	\section{Detailed Conception}
+    \clearpage
+	\newpage
 	\subsection{Package Diagram}
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{packageDiagram.png}
+		\caption{package diagram}
+	\end{figure}  
+	
+	\clearpage
+	\newpage
 	\subsection{Class Diagram}
+	\clearpage
+	\newpage
 	\subsection{Sequence Diagram}
+	\clearpage
+	\newpage
 	\section{Conclusion}
 	
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  29 OCT 2017 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  1 NOV 2017 09:05
 entering extended mode
 **./chapter3.tex
 (chapter3.tex
@@ -316,46 +316,80 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--41
+Underfull \hbox (badness 10000) in paragraph at lines 32--43
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--43
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-
-<DeploymentDiagramPhysicalArchitecture.png, id=7, 1171.37625pt x 994.46532pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+ [2]
+<DeploymentDiagramPhysicalArchitecture.png, id=14, 1171.37625pt x 994.46532pt>
 File: DeploymentDiagramPhysicalArchitecture.png Graphic file (type png)
 
 <use DeploymentDiagramPhysicalArchitecture.png>
 Package pdftex.def Info: DeploymentDiagramPhysicalArchitecture.png used on inpu
-t line 51.
+t line 56.
 (pdftex.def)             Requested size: 390.0pt x 331.10321pt.
- [2] [3 <./DeploymentDiagramPhysicalArchitecture.png>] [4] (chapter3.aux) ) 
+ [3
+
+ <./DeploymentDiagramPhysicalArchitecture.png>] <logicalArchitecture.png, id=21
+, 1180.41pt x 724.20563pt>
+File: logicalArchitecture.png Graphic file (type png)
+
+<use logicalArchitecture.png>
+Package pdftex.def Info: logicalArchitecture.png used on input line 66.
+(pdftex.def)             Requested size: 390.0pt x 239.26485pt.
+ [4
+
+ <./logicalArchitecture.png>] [5
+
+] [6
+
+]
+<packageDiagram.png, id=32, 1509.38907pt x 536.0025pt>
+File: packageDiagram.png Graphic file (type png)
+
+<use packageDiagram.png>
+Package pdftex.def Info: packageDiagram.png used on input line 91.
+(pdftex.def)             Requested size: 390.0pt x 138.49042pt.
+ [7
+
+ <./packageDiagram.png>] [8
+
+] [9
+
+] [10
+
+] (chapter3.aux) ) 
 Here is how much of TeX's memory you used:
- 3615 strings out of 493323
- 52718 string characters out of 3128713
- 131012 words of memory out of 3000000
- 7081 multiletter control sequences out of 15000+200000
+ 3625 strings out of 493323
+ 52961 string characters out of 3128713
+ 130012 words of memory out of 3000000
+ 7089 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,330b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:
-\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
-x1440.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\radhouan\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\radhoua
-n\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/U
-sers/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on chapter3.pdf (4 pages, 106064 bytes).
+ <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\radhouan\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\User
+s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
+.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter3.pdf (10 pages, 182798 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
