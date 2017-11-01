@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  1 NOV 2017 09:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  1 NOV 2017 09:08
 entering extended mode
 **./chapter3.tex
 (chapter3.tex
@@ -363,18 +363,25 @@ Package pdftex.def Info: packageDiagram.png used on input line 91.
 (pdftex.def)             Requested size: 390.0pt x 138.49042pt.
  [7
 
- <./packageDiagram.png>] [8
+ <./packageDiagram.png>]
+<classDiagram.png, id=38, 1530.46782pt x 801.74532pt>
+File: classDiagram.png Graphic file (type png)
+ <use classDiagram.png>
+Package pdftex.def Info: classDiagram.png used on input line 100.
+(pdftex.def)             Requested size: 390.0pt x 204.30167pt.
 
-] [9
+[8
+
+ <./classDiagram.png>] [9
 
 ] [10
 
 ] (chapter3.aux) ) 
 Here is how much of TeX's memory you used:
- 3625 strings out of 493323
- 52961 string characters out of 3128713
+ 3630 strings out of 493323
+ 53060 string characters out of 3128713
  130012 words of memory out of 3000000
- 7089 multiletter control sequences out of 15000+200000
+ 7093 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,330b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -387,9 +394,9 @@ s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
 .pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter3.pdf (10 pages, 182798 bytes).
+Output written on chapter3.pdf (10 pages, 297279 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
