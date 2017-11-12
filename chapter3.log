@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  5 NOV 2017 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  12 NOV 2017 16:17
 entering extended mode
 **./chapter3.tex
 (chapter3.tex
@@ -373,24 +373,40 @@ Package pdftex.def Info: classDiagram.png used on input line 100.
 [8
 
  <./classDiagram.png>]
-<SequenceDiagramconnectToMassTerServer.png, id=43, 822.82407pt x 536.75531pt>
+<SequenceDiagramconnectToMassTerServer.png, id=43, 1690.06406pt x 886.81313pt>
 File: SequenceDiagramconnectToMassTerServer.png Graphic file (type png)
 
 <use SequenceDiagramconnectToMassTerServer.png>
 Package pdftex.def Info: SequenceDiagramconnectToMassTerServer.png used on inpu
 t line 111.
-(pdftex.def)             Requested size: 390.0pt x 254.41266pt.
+(pdftex.def)             Requested size: 390.0pt x 204.63931pt.
  [9
 
  <./SequenceDiagramconnectToMassTerServer.png>] [10
 
 ] [11
 
-] [12
+]
+<SequenceDiagramLoadProject.png, id=54, 2479.01157pt x 1434.86063pt>
+File: SequenceDiagramLoadProject.png Graphic file (type png)
 
-] [13
+<use SequenceDiagramLoadProject.png>
+Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 128.
 
-] [14
+(pdftex.def)             Requested size: 390.0pt x 225.72902pt.
+ [12
+
+ <./SequenceDiagramLoadProject.png>]
+<SequenceDiagramLoadReport.png, id=59, 2846.38406pt x 2087.54906pt>
+File: SequenceDiagramLoadReport.png Graphic file (type png)
+
+<use SequenceDiagramLoadReport.png>
+Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 136.
+(pdftex.def)             Requested size: 390.0pt x 286.01161pt.
+ [13
+
+ <./SequenceDiagramLoadReport.png>]
+[14
 
 ] [15
 
@@ -398,14 +414,12 @@ t line 111.
 
 ] [17
 
-] [18
-
 ] (chapter3.aux) ) 
 Here is how much of TeX's memory you used:
- 3635 strings out of 493323
- 53284 string characters out of 3128713
+ 3645 strings out of 493323
+ 53617 string characters out of 3128713
  130012 words of memory out of 3000000
- 7097 multiletter control sequences out of 15000+200000
+ 7105 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,330b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -418,9 +432,9 @@ s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
 .pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter3.pdf (18 pages, 328821 bytes).
+Output written on chapter3.pdf (17 pages, 682975 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
