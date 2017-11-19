@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  13 NOV 2017 08:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  19 NOV 2017 23:33
 entering extended mode
 **./chapter3.tex
 (chapter3.tex
@@ -359,7 +359,7 @@ Package pdftex.def Info: logicalArchitecture.png used on input line 66.
 File: packageDiagram.png Graphic file (type png)
 
 <use packageDiagram.png>
-Package pdftex.def Info: packageDiagram.png used on input line 91.
+Package pdftex.def Info: packageDiagram.png used on input line 90.
 (pdftex.def)             Requested size: 390.0pt x 138.49042pt.
  [7
 
@@ -367,7 +367,7 @@ Package pdftex.def Info: packageDiagram.png used on input line 91.
 <classDiagram.png, id=38, 1530.46782pt x 801.74532pt>
 File: classDiagram.png Graphic file (type png)
  <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 100.
+Package pdftex.def Info: classDiagram.png used on input line 99.
 (pdftex.def)             Requested size: 390.0pt x 204.30167pt.
 
 [8
@@ -378,7 +378,7 @@ File: SequenceDiagramconnectToMassTerServer.png Graphic file (type png)
 
 <use SequenceDiagramconnectToMassTerServer.png>
 Package pdftex.def Info: SequenceDiagramconnectToMassTerServer.png used on inpu
-t line 111.
+t line 110.
 (pdftex.def)             Requested size: 390.0pt x 204.63931pt.
  [9
 
@@ -391,7 +391,7 @@ t line 111.
 File: SequenceDiagramLoadProject.png Graphic file (type png)
 
 <use SequenceDiagramLoadProject.png>
-Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 128.
+Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 127.
 
 (pdftex.def)             Requested size: 390.0pt x 225.72902pt.
  [12
@@ -401,7 +401,7 @@ Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 128.
 File: SequenceDiagramLoadReport.png Graphic file (type png)
 
 <use SequenceDiagramLoadReport.png>
-Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 136.
+Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 135.
 (pdftex.def)             Requested size: 390.0pt x 286.01161pt.
  [13
 
@@ -410,25 +410,68 @@ Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 136.
 File: SequenceDiagramSaveReport.png Graphic file (type png)
 
 <use SequenceDiagramSaveReport.png>
-Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 144.
+Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 143.
 (pdftex.def)             Requested size: 390.0pt x 299.64487pt.
  [14
 
  <./SequenceDiagramSaveReport.png>]
-[15
+<SequenceDiagramRemoveReport.png, id=70, 3283.01532pt x 2087.54906pt>
+File: SequenceDiagramRemoveReport.png Graphic file (type png)
 
-] [16
+<use SequenceDiagramRemoveReport.png>
+Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 151
+.
+(pdftex.def)             Requested size: 390.0pt x 247.97865pt.
+ [15
 
-] [17
+ <./SequenceDiagramRemoveReport.png>]
+<SequenceDiagramUpdateSettings.png, id=75, 2362.32562pt x 2092.81876pt>
+File: SequenceDiagramUpdateSettings.png Graphic file (type png)
 
-] [18
+<use SequenceDiagramUpdateSettings.png>
+Package pdftex.def Info: SequenceDiagramUpdateSettings.png used on input line 1
+60.
+(pdftex.def)             Requested size: 390.0pt x 345.4918pt.
+ [16
+
+ <./SequenceDiagramUpdateSettings.png>] <SequenceDiagramRunScenario.png, id=80,
+ 2395.44937pt x 2087.54906pt>
+File: SequenceDiagramRunScenario.png Graphic file (type png)
+
+<use SequenceDiagramRunScenario.png>
+Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 168.
+
+(pdftex.def)             Requested size: 390.0pt x 339.84384pt.
+ [17
+
+ <./SequenceDiagramRunScenario.png>]
+<SequenceDiagramSaveProject.png, id=85, 1903.11pt x 992.20688pt>
+File: SequenceDiagramSaveProject.png Graphic file (type png)
+
+<use SequenceDiagramSaveProject.png>
+Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 176.
+
+(pdftex.def)             Requested size: 390.0pt x 203.32803pt.
+ [18
+
+ <./SequenceDiagramSaveProject.png>]
+<SequenceDiagramSaveAsProject.png, id=90, 1903.11pt x 992.20688pt>
+File: SequenceDiagramSaveAsProject.png Graphic file (type png)
+
+<use SequenceDiagramSaveAsProject.png>
+Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 18
+5.
+(pdftex.def)             Requested size: 390.0pt x 203.32803pt.
+ [19
+
+ <./SequenceDiagramSaveAsProject.png>] [20
 
 ] (chapter3.aux) ) 
 Here is how much of TeX's memory you used:
- 3650 strings out of 493323
- 53781 string characters out of 3128713
+ 3675 strings out of 493323
+ 54656 string characters out of 3128713
  130012 words of memory out of 3000000
- 7109 multiletter control sequences out of 15000+200000
+ 7129 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,330b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -441,9 +484,9 @@ s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
 .pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter3.pdf (18 pages, 821287 bytes).
+Output written on chapter3.pdf (20 pages, 1451791 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
