@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  26 OCT 2017 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  21 NOV 2017 00:07
 entering extended mode
 **./chapter1.tex
 (chapter1.tex
@@ -400,27 +400,172 @@ File: TDD_Global_Lifecycle.png Graphic file (type png)
 Package pdftex.def Info: TDD_Global_Lifecycle.png used on input line 107.
 (pdftex.def)             Requested size: 390.0pt x 230.53539pt.
  (chapter1.bbl [7 <./TDD_Global_Lifecycle.png>])
-[8] (chapter1.aux) ) 
+[8] (chapter2.tex [9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+
+ []
+
+[10
+
+] [11] [12
+
+] [13
+
+]
+<GlobalUseCaseDiagram.png, id=60, 1516.16437pt x 1379.1525pt>
+File: GlobalUseCaseDiagram.png Graphic file (type png)
+
+<use GlobalUseCaseDiagram.png>
+Package pdftex.def Info: GlobalUseCaseDiagram.png used on input line 88.
+(pdftex.def)             Requested size: 390.0pt x 354.74117pt.
+ [14
+
+ <./GlobalUseCaseDiagram.png>] [15
+
+]
+<connectToMassTerServer.png, id=68, 1156.32pt x 708.39656pt>
+File: connectToMassTerServer.png Graphic file (type png)
+
+<use connectToMassTerServer.png>
+Package pdftex.def Info: connectToMassTerServer.png used on input line 103.
+(pdftex.def)             Requested size: 390.0pt x 238.91678pt.
+ [16
+
+ <./connectToMassTerServer.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 115--130
+ [][] 
+ []
+
+[17] <consumewebServicesoap.png, id=76, 662.475pt x 555.57562pt>
+File: consumewebServicesoap.png Graphic file (type png)
+
+<use consumewebServicesoap.png>
+Package pdftex.def Info: consumewebServicesoap.png used on input line 138.
+(pdftex.def)             Requested size: 390.0pt x 327.0662pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 145--154
+ [][] 
+ []
+
+[18
+
+ <./consumewebServicesoap.png>] [19]
+<provideWebServiceSoap.png, id=85, 780.66656pt x 623.32875pt>
+File: provideWebServiceSoap.png Graphic file (type png)
+
+<use provideWebServiceSoap.png>
+Package pdftex.def Info: provideWebServiceSoap.png used on input line 161.
+(pdftex.def)             Requested size: 390.0pt x 311.3973pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 168--177
+ [][] 
+ []
+
+[20
+
+ <./provideWebServiceSoap.png>]
+<loadProject.png, id=90, 1277.52281pt x 754.31813pt>
+File: loadProject.png Graphic file (type png)
+ <use loadProject.png>
+Package pdftex.def Info: loadProject.png used on input line 183.
+(pdftex.def)             Requested size: 390.0pt x 230.27963pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 192--205
+ [][] 
+ []
+
+[21
+
+ <./loadProject.png>] [22]
+<manageReport.png, id=98, 1338.50063pt x 764.8575pt>
+File: manageReport.png Graphic file (type png)
+ <use manageReport.png>
+Package pdftex.def Info: manageReport.png used on input line 213.
+(pdftex.def)             Requested size: 390.0pt x 222.85336pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 221--237
+ [][] 
+ []
+
+[23
+
+ <./manageReport.png>] [24]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 249--263
+ [][] 
+ []
+
+[25
+
+]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 272--281
+ [][] 
+ []
+
+[26
+
+]
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 290--299
+ [][] 
+ []
+
+[27
+
+] <updateSettings.png, id=116, 919.18407pt x 698.61pt>
+File: updateSettings.png Graphic file (type png)
+
+<use updateSettings.png>
+Package pdftex.def Info: updateSettings.png used on input line 306.
+(pdftex.def)             Requested size: 390.0pt x 296.42029pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 314--331
+ [][] 
+ []
+
+[28
+
+ <./updateSettings.png>] [29]
+<runScenario.png, id=124, 767.86874pt x 600.74437pt>
+File: runScenario.png Graphic file (type png)
+ <use runScenario.png>
+Package pdftex.def Info: runScenario.png used on input line 337.
+(pdftex.def)             Requested size: 390.0pt x 305.11975pt.
+
+Overfull \hbox (27.3551pt too wide) in paragraph at lines 346--359
+ [][] 
+ []
+
+[30
+
+ <./runScenario.png>] [31]) [32
+
+] (chapter1.aux) ) 
 Here is how much of TeX's memory you used:
- 3898 strings out of 493323
- 56073 string characters out of 3128713
+ 3945 strings out of 493323
+ 57144 string characters out of 3128713
  132016 words of memory out of 3000000
- 7354 multiletter control sequences out of 15000+200000
+ 7390 multiletter control sequences out of 15000+200000
  13814 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,25p,731b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local
-\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\radhouan\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Us
-ers\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
-00.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on chapter1.pdf (8 pages, 259423 bytes).
+ 39i,11n,25p,731b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\radhouan\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\User
+s\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
+.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1728.pk><C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chapter1.pdf (32 pages, 711850 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
+ 393 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

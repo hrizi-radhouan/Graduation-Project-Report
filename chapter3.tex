@@ -1,30 +1,6 @@
 
-\documentclass[12pt]{article}
+	\chapter{Conception}
 
-% margin left and right with \setlength{\itemindent}{-.5in} %
-\usepackage{enumitem}
-
-% leave out section numbers in subsection numbering %
-\usepackage[T1]{fontenc}
-\renewcommand*\thesubsection{\arabic{subsection}}
-
-% include Roman numerals for sections %
-\renewcommand{\thesection}{\Roman{section}}
-%Roman numerals for subsections like this \renewcommand{\thesubsection}{\Roman{subsection}}%
-% include the pckage of the color%
-\usepackage[usenames, dvipsnames]{color}
-\usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{subfiles}
-
-%define your own color %
-\definecolor{mygray}{gray}{0.9}
-\begin{document}
-	\listoffigures
-	\title{Chapter 3 : Conception}
-	\maketitle
 	
 	\section{Introduction}
 
@@ -110,13 +86,6 @@
 		\includegraphics[width=1\textwidth]{SequenceDiagramconnectToMassTerServer.png}
 		\caption{Sequence Diagram connect To MassTerServer}
 	\end{figure}   
-	
-	\clearpage
-	\newpage
-	\subsubsection{Sequence Diagram use case ``consume web Service soap''}
-	\clearpage
-	\newpage
-	\subsubsection{Sequence Diagram use case ``provide web Service soap''}
 	\clearpage
 	\newpage
 	\subsubsection{Sequence Diagram use case ``load project''}
@@ -191,5 +160,3 @@
 	Throughout this chapter, we have dissected the application to achieve gradually.
 	We started by presenting the general architecture of the application, the we explained the global conception, unveiled through the packages diagrams, to go then to the detailed conception using class diagram, the sequences diagrams.  
 	
-	
-\end{document}
