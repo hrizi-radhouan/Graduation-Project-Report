@@ -32,33 +32,35 @@
 	\begin{itemize}
 		\setlength{\itemindent}{+.5in}
      	\item \textbf{Load MassTer Insight Project : } 
-    \end{itemize}	
+    \end{itemize}
+
+	SAVE PROJECT
+	\begin{itemize}
+		\setlength{\itemindent}{+.5in}
+		\item \textbf{Save MassTer Insight Project : } 
+	\end{itemize}
+
+	SAVE AS PROJECT
+	\begin{itemize}
+		\setlength{\itemindent}{+.5in}
+		\item \textbf{Save as MassTer Insight Project : } 
+	\end{itemize}
+
+
+	
  
  	MANAGE REPORT
  		\begin{itemize}
  			\setlength{\itemindent}{+.5in}
- 			\item \textbf{Available Reports : } 
+ 			\item \textbf{Load a Report : } 
  			\item \textbf{Save a Report : }
  			\item \textbf{Remove a Report : }
- 			\item \textbf{Load a Report : } 
- 			\item \textbf{Available Channel : } 
- 			\item \textbf{Seasonality Index Per Month : }
- 			\item \textbf{Ignore Preset Laydown : }
- 			\item \textbf{Budget Tolerance : }
- 			\item \textbf{Revenue Tolerance : }
- 			\item \textbf{Max Iteration  : }
- 			\item \textbf{Max Iteration  : }
- 			\item \textbf{Budget Range : }
- 			\item \textbf{Total Budget : }
- 			\item \textbf{Min Target : }
- 			\item \textbf{Select Channel : }
- 			\item \textbf{Max budget/Min Target/Set Budget per Channel : }
  	\end{itemize}
  
-  	UPDATE
+  	UPDATE SETTINGS
     \begin{itemize}
     	\setlength{\itemindent}{+.5in}
-    	\item \textbf{Update a Report : }
+    	\item \textbf{Update Settings Report : }
    \end{itemize}
 
   	RUN
@@ -73,7 +75,8 @@
 	\subsection{Non-Functional Requirements}
 	\begin{itemize}
 		\item \textbf{Ergonomics : }The application offers a user-friendly and easy-to-use interface without refer to particular knowledge.
-		\item \textbf{Security : }
+		\item \textbf{Security : ????}
+		\item \textbf{Scalability : ????}
 		\item \textbf{Modularity : }a code that is easy to maintain and simple to understand in order to ensure the scalability of application. 
 	\end{itemize}
 	\clearpage
@@ -81,11 +84,9 @@
 	
 	\section{Use Case Diagrams}
 	\subsection{Global Use Case Diagram}
-	\clearpage
-	\newpage
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=1.0\textwidth]{GlobalUseCaseDiagram.png}
+		\includegraphics[width=16.5cm,height=16cm]{GlobalUseCaseDiagram.png}
 		\caption{Global Use Case Diagram}
 		
 	\end{figure}
@@ -93,28 +94,25 @@
 \clearpage
 \newpage
 
-
 	\subsection{Detailed Use Case Diagrams}
-	\clearpage
-	\newpage
-	 \subsubsection{connect to MassTer Server}
+	 \subsubsection{Connect to MassTer Server Use Case}
 	 	\begin{figure}[h]
 	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{connectToMassTerServer.png}
-	 	\caption{connect to MassTer Server Use Case Diagram}
+	 	\includegraphics[width=16.5cm,height=10cm]{connectToMassTerServer.png}
+	 	\caption{Connect to MassTer Server Use Case Diagram}
 	 	
 	 \end{figure}
 
   \newpage
  
- Description of the scenario ``connect to MassTer Server'' in the table below. 
- \\
- 
  \begin{table}
+ 	\caption{Description of the scenario \textbf{Connect to MassTer Server Use Case}.}
+ 	\label{DSTabCTMS}
  	\centering
+ 	
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
- 		\textbf{Pre-conditions } & MassTer Server is running  \\ 
+ 		\textbf{Pre-Conditions } & MassTer Server is running  \\ 
  		\hline                     
  		\textbf{Nominal Scenario } & \begin{enumerate}
  			\item The user click on the item MassTer Server in Main Menu.
@@ -124,70 +122,23 @@
  			\item The  user click on button connect. 
  		\end{enumerate} \\ 
  		\hline 
- 		\textbf{Post-conditions} & The Application gets connected to MassTer Server. \\
- 		\hline 
- 	\end{tabular}
- \end{table}
-
-
- \clearpage
- \newpage
-	 \subsubsection{consume web Service soap}
-	 	 	\begin{figure}[h]
-	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{consumewebServicesoap.png}
-	 	\caption{consume web Service soap Use Case Diagram}
-	 	
-	 \end{figure}
- Description of the scenario ``consume web Service soap'' in the table below.
-  \begin{table}
- 	\centering
- 	\begin{tabular}{|c|p{10cm}|}
- 		\hline 	
- 		\textbf{Pre-conditions } & MassTer Server is running  \\ 
- 		\hline                     
- 		\textbf{Nominal Scenario } & \\ 
- 		\hline 
- 		\textbf{Post-conditions} & ... \\
+ 		\textbf{Post-Conditions} & Connect to MassTer Server is successfully. \\
  		\hline 
  	\end{tabular}
  \end{table}
  \clearpage
  \newpage
-
-	 \subsubsection{provide web Service soap} 
-	 	\begin{figure}[h]
-	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{provideWebServiceSoap.png}
-	 	\caption{provide web Service soap Use Case Diagram}
-	 	
-	 \end{figure}
-  Description of the scenario ``consume web Service soap'' in the table below.
-   \begin{table}
-  	\centering
-  	\begin{tabular}{|c|p{10cm}|}
-  		\hline 	
-  		\textbf{Pre-conditions } & MassTer Server is running  \\ 
-  		\hline                     
-  		\textbf{Nominal Scenario } & \\ 
-  		\hline 
-  		\textbf{Post-conditions} & ... \\
-  		\hline 
-  	\end{tabular}
-  \end{table}
- \clearpage
- \newpage
-	 \subsubsection{load project}
+	 \subsubsection{Load Project Use Case}
 	 	\begin{figure}[h]
 	\centering
-	\includegraphics[width=1.0\textwidth]{loadProject.png}
-	\caption{load project Use Case Diagram}
+	\includegraphics[width=16.5cm,height=9cm]{loadProject.png}
+	\caption{Load Project Use Case Diagram}
 	
 	\end{figure}
-
- Description of the scenario ``load project'' in the table below.
  
   \begin{table}
+  	\caption{Description of the scenario \textbf{Load Project Use Case}.}
+  	\label{DSTabLP}
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
@@ -203,145 +154,150 @@
  		\hline 
  	\end{tabular}
  \end{table}
- 
+
+  \begin{table}
+	\caption{Description of the scenario \textbf{Save Project Use Case}.}
+	\label{DSTabSP}
+	\centering
+	\begin{tabular}{|c|p{10cm}|}
+		\hline 	
+		\textbf{Pre-conditions } & \begin{enumerate}
+			\item MassTer Server is running.
+			\item Load Project is done successfully.
+		\end{enumerate}  \\ 
+		\hline                     
+		\textbf{Nominal Scenario } & \begin{enumerate}
+			\item The user click on the item save project in Main Menu.
+			\item The user select save item in the drop down.
+		\end{enumerate} \\ 
+		\hline 
+		\textbf{Post-conditions} & the project is saved successfully. \\
+		\hline 
+	\end{tabular}
+\end{table}
+   \begin{table}
+ \caption{Description of the scenario \textbf{Save As Project Use Case}.}
+ 	\label{DSTabSAP}
+ 	\centering
+ 	\begin{tabular}{|c|p{10cm}|}
+ 		\hline 	
+ 		\textbf{Pre-conditions } & \begin{enumerate}
+ 			\item MassTer Server is running.
+ 			\item Load project is done successfully.
+ 		\end{enumerate} \\ 
+ 		\hline                     
+ 		\textbf{Nominal Scenario } & \begin{enumerate}
+ 			\item The user click on the item save as in Main Menu.
+ 			\item The user select save as item in the drop down.
+ 		\end{enumerate} \\ 
+ 		\hline 
+ 		\textbf{Post-conditions} & The project is saved with a new name successfully. \\
+ 		\hline 
+ 	\end{tabular}
+ \end{table}
 \clearpage
 \newpage
 
-	 \subsubsection{display reports}
+ 
+ \subsubsection{Manage Report Use Case}
 	 	\begin{figure}[h]
-	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{manageReport.png}
-	 	\caption{display reports Use Case Diagram}
-	 	
-	 \end{figure}
-  Description of the scenario ``display reports'' in the table below.
-  
-   \begin{table}
-  	\centering
-  	\begin{tabular}{|c|p{10cm}|}
-  		\hline 	
-  		\textbf{Pre-Conditions } & load MassTer Insight project has been done successfully  \\ 
-  		\hline                     
-  		\textbf{Nominal Scenario } &
-  		\begin{enumerate}
-  			\item The application display by default the first optimization report.
-  			\item The user gets first report through drop down.
-  			\item The application display list channel related to the first optimisation report throught checkboxes list.
-  			\item The application display optimisation constraints \& optimisation results. 
- 
-  	   	\end{enumerate} \\ 
-  		\hline 
-  		\textbf{Post-Conditions} & the user got optimisation Report. \\
-  		\hline 
-  	\end{tabular}
-  \end{table}
+	\centering
+	\includegraphics[width=16.5cm,height=9cm]{manageReport.png}
+	\caption{Load Project Use Case Diagram}
+	
+\end{figure}
 
-
- \clearpage
- \newpage
- 
- 	 \subsubsection{select report}
-
- Description of the scenario ``select report'' in the table below.
- 
  \begin{table}
+ 	\caption{Description of the scenario \textbf{load report Use Case}.}
+ 	\label{DSTabLR}
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
- 		\textbf{Pre-Conditions } & The loaded MassTer Insight project contains at least one report saved\\ 
+ 		\textbf{Pre-Conditions } & MassTer Server is running \\ 
  		\hline                     
- 		\textbf{Nominal Scenario } &
- 		\begin{enumerate}
- 			\item The application display list reports through drop down.
- 			\item The user select a report trough drop down.
- 			\item The user click on the button load.   
+ 		\textbf{Nominal Scenario } &  \begin{enumerate}
+ 			\item The user select a report from the drop down.
+ 			\item The user click on the button load.
  		\end{enumerate} \\ 
  		\hline 
- 		\textbf{Post-Conditions} & The application display optimization report related to the selected report \\
+ 		\textbf{Post-Conditions} & The application display a new optimisation report related to the selected report \\
  		\hline 
  	\end{tabular}
  \end{table}
- \clearpage
- \newpage
-  	 \subsubsection{save report}
- 
- Description of the scenario ``select report'' in the table below.
  
  \begin{table}
+ 	\caption{Description of the scenario \textbf{Save Report Use Case} .}
+ 	\label{DSTabSR}
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
- 		\textbf{Pre-Conditions } & \\ 
- 		\hline                     
- 		\textbf{Nominal Scenario } & \\ 
- 		\hline 
- 		\textbf{Post-Conditions} &  \\
- 		\hline 
+ 	\textbf{Pre-Conditions } & MassTer Server is running\\ 
+ 	\hline                     
+ 	\textbf{Nominal Scenario } & \begin{enumerate}
+ 		\item The user click on the button save.
+ 			\item The user type a name for the new report in the pop up.
+ 		\item The user click on the button save in the pop up.
+ 	\end{enumerate} \\ 
+ 	\hline 
+ 	\textbf{Post-Conditions} & \begin{itemize}
+ 			\item The drop down refresh the list of reports.
+ 	    	\item Add the new report to the list of reports.
+ 	\end{itemize}\\
+ 	\hline  
  	\end{tabular}
  \end{table}
- \clearpage
- \newpage
-   	 \subsubsection{remove report}
- 
- Description of the scenario ``select report'' in the table below.
  
  \begin{table}
+ 	\caption{Description of the scenario \textbf{Remove Report Use Case}.}
+ 	\label{DSTabRR}
  	\centering
  	\begin{tabular}{|c|p{10cm}|}
  		\hline 	
- 		\textbf{Pre-Conditions } & \\ 
+ 		\textbf{Pre-Conditions } & MassTer Server is running\\ 
  		\hline                     
- 		\textbf{Nominal Scenario } & \\ 
+ 		\textbf{Nominal Scenario } & \begin{enumerate}
+ 			\item The user select a report from the drop down.
+ 			\item The user click on the button remove.
+ 		\end{enumerate} \\ 
  		\hline 
- 		\textbf{Post-Conditions} &  \\
+ 		\textbf{Post-Conditions} & \begin{itemize}
+ 			\item The selected report was deleted.
+ 			\item The drop down refresh the list of reports.
+ 			\item Removes the deleted report from the list.
+ 		\end{itemize}\\
  		\hline 
  	\end{tabular}
  \end{table}
- \clearpage
- \newpage
- 
-	 \subsubsection{update settings}
-	 	\begin{figure}[h]
-	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{updateSettings.png}
-	 	\caption{update settings Use Case Diagram}
-	 	
-	 \end{figure}
-  Description of the scenario ``update settings'' in the table below.
   
     \begin{table}
+    	\caption{Description of the scenario \textbf{update settings Use Case}.}
+    	\label{DSTabUS}
   	\centering
   	\begin{tabular}{|c|p{10cm}|}
+  	
   		\hline 	
   		\textbf{Pre-conditions } &The loaded MassTer Insight project contains at least one report saved \\ 
   		\hline                     
   		\textbf{Nominal Scenario } & \begin{enumerate}
-  			\item The user check new channels or keep it.
-  			\item The user type new budget tolerance or keep it.
-  			\item The user type new resolution or keep it. 
-  			\item The user click on the button update as last step.
-  			\item any modification after update don't affect any thing.
-  			\item the process of update takes a lot of time.
-  			\item for the first three steps the order no matter.   
+  			\item The user select new channels .
+  			\item The user click on the button update.  
   		\end{enumerate} \\ 
   		\hline 
   		\textbf{Post-conditions} & The Application display a pop up notification to inform the user that the update was done successfully. \\
   		\hline 
   	\end{tabular}
   \end{table}
- \clearpage
- \newpage
-	 \subsubsection{run scenario}
+
 	 	\begin{figure}[h]
 	 	\centering
-	 	\includegraphics[width=1.0\textwidth]{runScenario.png}
+	 	\includegraphics[width=16.5cm,height=11cm]{runScenario.png}
 	 	\caption{run scenario Use Case Diagram}
 	 	
 	 \end{figure}
- 
-	 Description of the scenario ``run scenario'' in the table below.
 	
 	\begin{table}
+			\caption{Description of the scenario \textbf{Run Scenario Use Case}.}
+		\label{DSTabRS}
 		\centering
 		\begin{tabular}{|c|p{10cm}|}
 			\hline 	
@@ -350,10 +306,13 @@
 			\textbf{Nominal Scenario } & \begin{enumerate}
 				\item The user check max Budget or min Target.
 				\item The user type new value for radio checked.
+				\item The user type the budget Range.
+				\item The user type the resolution.
+				\item the user modifier the constraints table.
 				\item The user click on the button run. 
 			\end{enumerate} \\ 
 			\hline 
-			\textbf{Post-conditions} & The Application display a new optimisation with new channels and Optimisation Report  . \\
+			\textbf{Post-conditions} & The Application display a new optimisation report with new Optimisation Results. \\
 			\hline 
 		\end{tabular}
 	\end{table}

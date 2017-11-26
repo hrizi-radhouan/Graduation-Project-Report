@@ -19,11 +19,20 @@
 \usepackage{graphicx}
 \usepackage{subfiles}
 
+\newcommand*{\captionsource}[2]{%
+	\caption[{#1}]{%
+		#1%
+		\\\hspace{\linewidth}%
+		\textbf{source:} #2%
+	}%
+}
+
 %define your own color %
 \definecolor{mygray}{gray}{0.9}
 \begin{document}
 	\tableofcontents{}
 	\listoffigures
+	\listoftables
 		% include chapter 1 %
       \clearpage
       \newpage
@@ -43,5 +52,15 @@
 	\clearpage
 	\newpage
 	\input{chapter4.tex}
+	
+       % include chapter 5 %
+	\clearpage
+	\newpage
+	\input{chapter5.tex}
+	
+	% bibliography  %
+	\bibliographystyle{plain}
+	\bibliography{webo} 
+	
 	
 \end{document}
