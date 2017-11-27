@@ -1,6 +1,23 @@
 
 	\chapter{Conception}
-
+\makeatletter
+\ifdefined\XeTeXversion
+\def\@cliptoboxdim#1{%
+	\setbox #1=\hbox{%
+		\Gin@defaultbp\WIDTH{\wd #1}%
+		\Gin@defaultbp \DEPTH {\dp #1}%
+		\@tempdima \ht #1%
+		\advance\@tempdima\dp#1%
+		\Gin@defaultbp \TOTALHEIGHT {\@tempdima }%
+		\special{pdf:literal q}% 
+		\special{pdf:literal 0 -\DEPTH \space \WIDTH \space \TOTALHEIGHT \space re W n }%
+		\rlap{\copy #1}%
+		\special {pdf:literal Q}%
+		\hskip\wd#1%
+	}%
+}
+\fi
+\makeatother
 	
 	\section{Introduction}
 
@@ -138,22 +155,20 @@
 		\caption{Sequence Diagram Run Scenario}
 	\end{figure}
 	\clearpage
-\newpage 
-	\subsubsection{Sequence Diagram use case ``save project''}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{SequenceDiagramSaveProject.png}
-		\caption{Sequence Diagram Save Project}
-	\end{figure}
+    \newpage 
+	\subsubsection{Sequence Diagram use case ``save project''}	
+	
+	\twopagepicture{t}{l}{SequenceDiagramSaveProject.png}{Sequence Diagram Save Project}
+	
+    \pagebreak
 
 	\clearpage
 	\newpage
-		\subsubsection{Sequence Diagram use case ``save as project''}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{SequenceDiagramSaveAsProject.png}
-		\caption{Sequence Diagram Save As Project}
-	\end{figure}
+	\subsubsection{Sequence Diagram use case Save As Project Use Case}
+
+    \twopagepicture{t}{l}{SequenceDiagramSaveAsProject.png}{Sequence Diagram \textbf{Save As Project Use Case}}
+
+    \pagebreak
 	\clearpage
 	\newpage
 	\section{Conclusion}

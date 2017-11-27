@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  26 NOV 2017 01:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  27 NOV 2017 02:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -24,15 +24,182 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjus
+tbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval
+.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyv
+al.tex"
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
+ils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+)
+\XKV@depth=\count89
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjca
+lc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimc
+lip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\coll
+ectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box26
+)
+\tc@llx=\dimen105
+\tc@lly=\dimen106
+\tc@urx=\dimen107
+\tc@ury=\dimen108
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pd
+ftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen109
+\adjbox@Height=\dimen110
+\adjbox@Depth=\dimen111
+\adjbox@Totalheight=\dimen112
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
+page.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count90
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidt
+h.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box27
+\sift@deathcycles=\count91
+\@vwid@loff=\dimen113
+\@vwid@roff=\dimen114
+))
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\afterpage
+.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks17
+\AP@partial=\box28
+\AP@footins=\box29
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placei
+ns.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count92
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\changepage\chan
+gepage.sty"
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count93
+\cp@tempcnt=\count94
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen122
+\Gm@wd@mp=\dimen123
+\Gm@odd@mp=\dimen124
+\Gm@even@mp=\dimen125
+\Gm@layoutwidth=\dimen126
+\Gm@layoutheight=\dimen127
+\Gm@layouthoffset=\dimen128
+\Gm@layoutvoffset=\dimen129
+\Gm@dimlist=\toks18
+
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg"))
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumit
 em.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\enitkv@toks@=\toks14
 \labelindent=\skip43
-\enit@outerparindent=\dimen103
-\enit@toks=\toks15
-\enit@inbox=\box26
-\enitdp@description=\count88
+\enit@outerparindent=\dimen130
+\enit@toks=\toks19
+\enit@inbox=\box30
+\enitdp@description=\count98
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
 y"
@@ -52,20 +219,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
-ftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
-arerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
-mds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count89
-)
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\dvipsn
 am.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
@@ -90,8 +243,8 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.d
 ef"
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count90
-\U@D=\dimen104
+\babel@savecnt=\count99
+\U@D=\dimen131
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -100,8 +253,8 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
 ty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -112,10 +265,10 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count91
-\uc@combtoks=\toks18
-\uc@combtoksb=\toks19
-\uc@temptokena=\toks20
+\uc@secondtry=\count100
+\uc@combtoks=\toks22
+\uc@combtoksb=\toks23
+\uc@temptokena=\toks24
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
 .sty"
@@ -131,81 +284,55 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
 sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen105
+\@emptytoks=\toks25
+\ex@=\dimen132
 ))
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
 sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen106
+\pmbraise@=\dimen133
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
 sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen107
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen134
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks22
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks23
-\eqnshift@=\dimen108
-\alignsep@=\dimen109
-\tagshift@=\dimen110
-\tagwidth@=\dimen111
-\totwidth@=\dimen112
-\lineht@=\dimen113
-\@envbody=\toks24
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks26
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks27
+\eqnshift@=\dimen135
+\alignsep@=\dimen136
+\tagshift@=\dimen137
+\tagwidth@=\dimen138
+\totwidth@=\dimen139
+\lineht@=\dimen140
+\@envbody=\toks28
 \multlinegap=\skip45
 \multlinetaggap=\skip46
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
-cx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
-.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks26
-)
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
-cs.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
-ty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
-aphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfil
 es.sty"
@@ -214,39 +341,39 @@ Package: subfiles 2012/05/23 Federico Garcia
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.
 sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
+\every@verbatim=\toks30
+\verbatim@line=\toks31
 \verbatim@in@stream=\read1
 )) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen116
-\scratchbox=\box29
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen117
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count113
+\scratchdimen=\dimen141
+\scratchbox=\box33
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen142
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks33
 )
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
 excmds.sty"
@@ -257,10 +384,6 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 atex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
-f.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -302,6 +425,43 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
 "
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -312,27 +472,27 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2] [3] (main.lof [4
+ [2] (main.lof [3
 
 ])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [5] (main.lot)
+ [4] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [6
+ [5
 
 ] (chapter1.tex
 Chapter 1.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) <Mass_logo.png, id=23, 100.375pt x 92.345pt>
+) <Mass_logo.png, id=20, 100.375pt x 92.345pt>
 File: Mass_logo.png Graphic file (type png)
  <use Mass_logo.png>
 Package pdftex.def Info: Mass_logo.png used on input line 18.
-(pdftex.def)             Requested size: 58.49762pt x 53.81938pt.
+(pdftex.def)             Requested size: 64.49806pt x 59.34154pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--21
 
@@ -349,87 +509,66 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- <massTer_logo.png, id=25, 376.40625pt x 309.40594pt>
+ <massTer_logo.png, id=22, 376.40625pt x 309.40594pt>
 File: massTer_logo.png Graphic file (type png)
  <use massTer_logo.png>
 Package pdftex.def Info: massTer_logo.png used on input line 26.
-(pdftex.def)             Requested size: 77.99881pt x 64.11319pt.
+(pdftex.def)             Requested size: 85.9996pt x 70.68974pt.
 
-[7
+[6
 
 
- <./Mass_logo.png>]
-Overfull \hbox (2.81781pt too wide) in paragraph at lines 30--31
-\T1/cmr/m/n/12 and train-ing ses-sions on ad-vanced pre-dic-tive mod-el-ing (lo
-g lin-ear, nested
- []
-
-<customers_logo.png, id=33, 901.11656pt x 599.23875pt>
+ <./Mass_logo.png>] <customers_logo.png, id=29, 870.25125pt x 566.86781pt>
 File: customers_logo.png Graphic file (type png)
 
 <use customers_logo.png>
 Package pdftex.def Info: customers_logo.png used on input line 37.
-(pdftex.def)             Requested size: 398.335pt x 227.62166pt.
+(pdftex.def)             Requested size: 398.34187pt x 227.61671pt.
 
-Overfull \hbox (8.335pt too wide) in paragraph at lines 37--39
- [][] 
- []
 
-[8 <./massTer_logo.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
 
-
+[7 <./massTer_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--53
 
  []
 
-[9 <./customers_logo.png>]
+[8 <./customers_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-[10]
-Overfull \hbox (0.47409pt too wide) in paragraph at lines 66--70
-\T1/cmr/m/n/12 We cho-sen the \T1/cmr/bx/n/12 It-er-a-tive Model \T1/cmr/m/n/12
- as Soft-ware De-vel-op-ment Life cy-cle (SDLC). 
- []
-
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
-<sdlc_iterative.png, id=46, 481.8pt x 291.0875pt>
+<sdlc_iterative.png, id=43, 481.8pt x 291.0875pt>
 File: sdlc_iterative.png Graphic file (type png)
  <use sdlc_iterative.png>
 Package pdftex.def Info: sdlc_iterative.png used on input line 73.
 (pdftex.def)             Requested size: 398.35004pt x 227.62474pt.
 
-Overfull \hbox (8.35004pt too wide) in paragraph at lines 73--75
- [][] 
- []
-
-[11 <./sdlc_iterative.png>]
+[10 <./sdlc_iterative.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 82--86
 
  []
 
-<TDD_Global_Lifecycle.png, id=51, 1924.94156pt x 1138.2525pt>
+<TDD_Global_Lifecycle.png, id=48, 1924.94156pt x 1138.2525pt>
 File: TDD_Global_Lifecycle.png Graphic file (type png)
 
 <use TDD_Global_Lifecycle.png>
 Package pdftex.def Info: TDD_Global_Lifecycle.png used on input line 89.
 (pdftex.def)             Requested size: 426.77815pt x 256.0784pt.
-
-Overfull \hbox (36.77815pt too wide) in paragraph at lines 89--91
- [][] 
- []
-
-[12 <./TDD_Global_Lifecycle.png>]) [13] (chapter2.tex
+ [11 <./TDD_Global_Lifecycle.png>]) [12]
+(chapter2.tex
 Chapter 2.
-[14
+[13
 
 
 ]
@@ -437,284 +576,250 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-[15
+[14
 
-] [16
+] [15
 
-] <GlobalUseCaseDiagram.png, id=69, 1550.79375pt x 1401.73688pt>
+] <GlobalUseCaseDiagram.png, id=66, 1550.79375pt x 1401.73688pt>
 File: GlobalUseCaseDiagram.png Graphic file (type png)
 
 <use GlobalUseCaseDiagram.png>
 Package pdftex.def Info: GlobalUseCaseDiagram.png used on input line 89.
 (pdftex.def)             Requested size: 469.45377pt x 455.23827pt.
 
-Overfull \hbox (79.45377pt too wide) in paragraph at lines 89--90
+Overfull \hbox (39.44914pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
+[16
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17
-
-] [18 <./GlobalUseCaseDiagram.png>]
-<connectToMassTerServer.png, id=77, 1410.0178pt x 811.53188pt>
+ <./GlobalUseCaseDiagram.png>]
+<connectToMassTerServer.png, id=71, 1410.0178pt x 811.53188pt>
 File: connectToMassTerServer.png Graphic file (type png)
 
 <use connectToMassTerServer.png>
 Package pdftex.def Info: connectToMassTerServer.png used on input line 101.
 (pdftex.def)             Requested size: 469.45973pt x 284.53572pt.
 
-Overfull \hbox (79.45973pt too wide) in paragraph at lines 101--102
+Overfull \hbox (39.45511pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[19
+[17
 
- <./connectToMassTerServer.png>]
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 113--128
- [][] 
- []
-
-[20] <loadProject.png, id=86, 1577.895pt x 868.74562pt>
+ <./connectToMassTerServer.png>] [18]
+<loadProject.png, id=79, 1577.895pt x 868.74562pt>
 File: loadProject.png Graphic file (type png)
  <use loadProject.png>
 Package pdftex.def Info: loadProject.png used on input line 134.
 (pdftex.def)             Requested size: 469.47173pt x 256.07889pt.
 
-Overfull \hbox (79.47173pt too wide) in paragraph at lines 134--135
+Overfull \hbox (39.4671pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
+[19
 
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 143--156
- [][] 
- []
-
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 162--177
- [][] 
- []
-
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 182--197
- [][] 
- []
-
-[21
-
- <./loadProject.png>] [22] [23]
-<manageReport.png, id=97, 1470.99562pt x 777.65532pt>
+ <./loadProject.png>] [20] [21]
+<manageReport.png, id=91, 1470.99562pt x 777.65532pt>
 File: manageReport.png Graphic file (type png)
  <use manageReport.png>
 Package pdftex.def Info: manageReport.png used on input line 205.
 (pdftex.def)             Requested size: 469.47127pt x 256.0812pt.
 
-Overfull \hbox (79.47127pt too wide) in paragraph at lines 205--206
+Overfull \hbox (39.46664pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 214--226
- [][] 
- []
-
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 232--248
- [][] 
- []
-
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 254--270
- [][] 
- []
-
-
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 276--289
- [][] 
- []
-
-<runScenario.png, id=98, 1226.33156pt x 807.015pt>
+<runScenario.png, id=92, 1226.33156pt x 807.015pt>
 File: runScenario.png Graphic file (type png)
  <use runScenario.png>
 Package pdftex.def Info: runScenario.png used on input line 293.
 (pdftex.def)             Requested size: 469.47261pt x 312.97368pt.
 
-Overfull \hbox (79.47261pt too wide) in paragraph at lines 293--294
+Overfull \hbox (39.46799pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[22
 
-Overfull \hbox (27.3551pt too wide) in paragraph at lines 302--318
- [][] 
- []
-
-[24
-
- <./manageReport.png>] [25] [26] [27 <./runScenario.png>] [28]) [29
+ <./manageReport.png>] [23] [24] [25 <./runScenario.png>] [26]) [27
 
 ]
 (chapter3.tex
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--19
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--19
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
-[30
+[28
 
 
 ]
-<DeploymentDiagramPhysicalArchitecture.png, id=123, 1480.02937pt x 1120.9378pt>
+<DeploymentDiagramPhysicalArchitecture.png, id=117, 1480.02937pt x 1120.9378pt>
 File: DeploymentDiagramPhysicalArchitecture.png Graphic file (type png)
 <use DeploymentDiagramPhysicalArchitecture.png>
 Package pdftex.def Info: DeploymentDiagramPhysicalArchitecture.png used on inpu
-t line 32.
+t line 49.
 (pdftex.def)             Requested size: 469.46373pt x 341.43227pt.
 
-Overfull \hbox (79.46373pt too wide) in paragraph at lines 32--33
+Overfull \hbox (39.4591pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[31
+[29
 
  <./DeploymentDiagramPhysicalArchitecture.png>]
-<logicalArchitecture.png, id=129, 1180.41pt x 724.20563pt>
+<logicalArchitecture.png, id=122, 1180.41pt x 724.20563pt>
 File: logicalArchitecture.png Graphic file (type png)
 
 <use logicalArchitecture.png>
-Package pdftex.def Info: logicalArchitecture.png used on input line 42.
-(pdftex.def)             Requested size: 390.0pt x 239.26485pt.
- [32
+Package pdftex.def Info: logicalArchitecture.png used on input line 59.
+(pdftex.def)             Requested size: 430.00462pt x 263.80795pt.
+ [30
 
- <./logicalArchitecture.png>] [33
+ <./logicalArchitecture.png>] [31
 
-] [34
+] [32
 
 ]
-<packageDiagram.png, id=140, 1509.38907pt x 536.0025pt>
+<packageDiagram.png, id=134, 1509.38907pt x 536.0025pt>
 File: packageDiagram.png Graphic file (type png)
 
 <use packageDiagram.png>
-Package pdftex.def Info: packageDiagram.png used on input line 66.
-(pdftex.def)             Requested size: 390.0pt x 138.49042pt.
- [35
+Package pdftex.def Info: packageDiagram.png used on input line 83.
+(pdftex.def)             Requested size: 430.00462pt x 152.69687pt.
+ [33
 
  <./packageDiagram.png>]
-<classDiagram.png, id=145, 1530.46782pt x 801.74532pt>
+<classDiagram.png, id=139, 1530.46782pt x 801.74532pt>
 File: classDiagram.png Graphic file (type png)
  <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 75.
-(pdftex.def)             Requested size: 390.0pt x 204.30167pt.
+Package pdftex.def Info: classDiagram.png used on input line 92.
+(pdftex.def)             Requested size: 430.00462pt x 225.25787pt.
 
-[36
+[34
 
  <./classDiagram.png>]
-<SequenceDiagramconnectToMassTerServer.png, id=150, 1690.06406pt x 886.81313pt>
+<SequenceDiagramconnectToMassTerServer.png, id=144, 1690.06406pt x 886.81313pt>
 File: SequenceDiagramconnectToMassTerServer.png Graphic file (type png)
 <use SequenceDiagramconnectToMassTerServer.png>
 Package pdftex.def Info: SequenceDiagramconnectToMassTerServer.png used on inpu
-t line 86.
-(pdftex.def)             Requested size: 390.0pt x 204.63931pt.
- [37
+t line 103.
+(pdftex.def)             Requested size: 430.00462pt x 225.6269pt.
+ [35
 
  <./SequenceDiagramconnectToMassTerServer.png>]
-<SequenceDiagramLoadProject.png, id=156, 2479.01157pt x 1434.86063pt>
+<SequenceDiagramLoadProject.png, id=149, 2479.01157pt x 1434.86063pt>
 File: SequenceDiagramLoadProject.png Graphic file (type png)
 
 <use SequenceDiagramLoadProject.png>
-Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 96.
-(pdftex.def)             Requested size: 390.0pt x 225.72902pt.
- [38
+Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 113.
+
+(pdftex.def)             Requested size: 430.00462pt x 248.87117pt.
+ [36
 
  <./SequenceDiagramLoadProject.png>]
-<SequenceDiagramLoadReport.png, id=161, 2846.38406pt x 2087.54906pt>
+<SequenceDiagramLoadReport.png, id=154, 2846.38406pt x 2087.54906pt>
 File: SequenceDiagramLoadReport.png Graphic file (type png)
 
 <use SequenceDiagramLoadReport.png>
-Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 104.
-(pdftex.def)             Requested size: 390.0pt x 286.01161pt.
- [39
+Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 121.
+(pdftex.def)             Requested size: 430.00462pt x 315.34859pt.
+ [37
 
  <./SequenceDiagramLoadReport.png>]
-<SequenceDiagramSaveReport.png, id=166, 2716.90031pt x 2087.54906pt>
+<SequenceDiagramSaveReport.png, id=160, 2716.90031pt x 2087.54906pt>
 File: SequenceDiagramSaveReport.png Graphic file (type png)
 
 <use SequenceDiagramSaveReport.png>
-Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 112.
-(pdftex.def)             Requested size: 390.0pt x 299.64487pt.
- [40
+Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 129.
+(pdftex.def)             Requested size: 430.00462pt x 330.38339pt.
+ [38
 
  <./SequenceDiagramSaveReport.png>]
-<SequenceDiagramRemoveReport.png, id=171, 3283.01532pt x 2087.54906pt>
+<SequenceDiagramRemoveReport.png, id=165, 3283.01532pt x 2087.54906pt>
 File: SequenceDiagramRemoveReport.png Graphic file (type png)
 
 <use SequenceDiagramRemoveReport.png>
-Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 120
+Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 137
 .
-(pdftex.def)             Requested size: 390.0pt x 247.97865pt.
- [41
+(pdftex.def)             Requested size: 430.00462pt x 273.39767pt.
+ [39
 
  <./SequenceDiagramRemoveReport.png>]
-<SequenceDiagramUpdateSettings.png, id=176, 2362.32562pt x 2092.81876pt>
+<SequenceDiagramUpdateSettings.png, id=170, 2362.32562pt x 2092.81876pt>
 File: SequenceDiagramUpdateSettings.png Graphic file (type png)
 
 <use SequenceDiagramUpdateSettings.png>
 Package pdftex.def Info: SequenceDiagramUpdateSettings.png used on input line 1
-29.
-(pdftex.def)             Requested size: 390.0pt x 345.4918pt.
- [42
+46.
+(pdftex.def)             Requested size: 430.00462pt x 380.93832pt.
+ [40
 
- <./SequenceDiagramUpdateSettings.png>] <SequenceDiagramRunScenario.png, id=181
+ <./SequenceDiagramUpdateSettings.png>] <SequenceDiagramRunScenario.png, id=175
 , 2395.44937pt x 2087.54906pt>
 File: SequenceDiagramRunScenario.png Graphic file (type png)
 
 <use SequenceDiagramRunScenario.png>
-Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 137.
+Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 154.
 
-(pdftex.def)             Requested size: 390.0pt x 339.84384pt.
- [43
+(pdftex.def)             Requested size: 430.00462pt x 374.72331pt.
+ [41
 
  <./SequenceDiagramRunScenario.png>]
-<SequenceDiagramSaveProject.png, id=187, 1903.11pt x 992.20688pt>
+[42
+
+] <SequenceDiagramSaveProject.png, id=183, 1903.11pt x 992.20688pt>
 File: SequenceDiagramSaveProject.png Graphic file (type png)
 
 <use SequenceDiagramSaveProject.png>
-Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 145.
+Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 164.
 
-(pdftex.def)             Requested size: 390.0pt x 203.32803pt.
- [44
+(pdftex.def)             Requested size: 860.00925pt x 448.38145pt.
+File: SequenceDiagramSaveProject.png Graphic file (type png)
+ <use SequenceDiagramSaveProject.png>
+Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 164.
 
- <./SequenceDiagramSaveProject.png>]
-<SequenceDiagramSaveAsProject.png, id=192, 1903.11pt x 992.20688pt>
+(pdftex.def)             Requested size: 860.00925pt x 448.38145pt.
+
+[43 <./SequenceDiagramSaveProject.png>] [44] [45
+
+]
+<SequenceDiagramSaveAsProject.png, id=195, 3264.195pt x 1847.40187pt>
 File: SequenceDiagramSaveAsProject.png Graphic file (type png)
 
 <use SequenceDiagramSaveAsProject.png>
-Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 15
-4.
-(pdftex.def)             Requested size: 390.0pt x 203.32803pt.
- [45
+Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 17
+2.
+(pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
+File: SequenceDiagramSaveAsProject.png Graphic file (type png)
+ <use SequenceDiagramSaveAsProject.png>
+Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 17
+2.
+(pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
 
- <./SequenceDiagramSaveAsProject.png>]) [46
+[46 <./SequenceDiagramSaveAsProject.png>] [47]) [48
 
 ] (chapter4.tex
 Chapter 4.
-[47
+[49
 
 
-] <JAVAEE_logo.png, id=203, 649.42625pt x 277.035pt>
+] <JAVAEE_logo.png, id=210, 649.42625pt x 277.035pt>
 File: JAVAEE_logo.png Graphic file (type png)
  <use JAVAEE_logo.png>
 Package pdftex.def Info: JAVAEE_logo.png used on input line 13.
-(pdftex.def)             Requested size: 155.99762pt x 66.54471pt.
+(pdftex.def)             Requested size: 171.99922pt x 73.37164pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
@@ -730,20 +835,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-[48
+[50
 
- <./JAVAEE_logo.png>] <Java_statics.png, id=208, 685.8122pt x 351.56343pt>
+ <./JAVAEE_logo.png>] <Java_statics.png, id=215, 685.8122pt x 351.56343pt>
 File: Java_statics.png Graphic file (type png)
 
 <use Java_statics.png>
 Package pdftex.def Info: Java_statics.png used on input line 48.
-(pdftex.def)             Requested size: 390.0pt x 199.92653pt.
- <Java_rank.png, id=209, 686.565pt x 297.36093pt>
+(pdftex.def)             Requested size: 430.00462pt x 220.4347pt.
+ <Java_rank.png, id=216, 686.565pt x 297.36093pt>
 File: Java_rank.png Graphic file (type png)
 
 <use Java_rank.png>
 Package pdftex.def Info: Java_rank.png used on input line 53.
-(pdftex.def)             Requested size: 390.0pt x 168.91217pt.
+(pdftex.def)             Requested size: 430.00462pt x 186.24033pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -751,13 +856,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49] [50 <./Java_statics.png> <./Java_rank.png>]
-<AngularJS_logo.png, id=219, 376.40625pt x 376.40625pt>
+[51] [52 <./Java_statics.png> <./Java_rank.png>]
+<AngularJS_logo.png, id=225, 376.40625pt x 376.40625pt>
 File: AngularJS_logo.png Graphic file (type png)
 
 <use AngularJS_logo.png>
 Package pdftex.def Info: AngularJS_logo.png used on input line 64.
-(pdftex.def)             Requested size: 117.00119pt x 117.00061pt.
+(pdftex.def)             Requested size: 129.00269pt x 129.0045pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--76
 
@@ -768,10 +873,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--76
 
  []
 
-[51
+[53
 
  <./AngularJS_logo.png>]
-Overfull \hbox (53.75pt too wide) in paragraph at lines 102--115
+Overfull \hbox (13.74538pt too wide) in paragraph at lines 102--115
  [][] 
  []
 
@@ -785,86 +890,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--116
 
  []
 
-<AngularJS_statics_google_trends.png, id=224, 870.25125pt x 460.72125pt>
+<AngularJS_statics_google_trends.png, id=230, 870.25125pt x 460.72125pt>
 File: AngularJS_statics_google_trends.png Graphic file (type png)
 
 <use AngularJS_statics_google_trends.png>
 Package pdftex.def Info: AngularJS_statics_google_trends.png used on input line
  124.
-(pdftex.def)             Requested size: 390.0pt x 206.47202pt.
- [52] [53 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=232, 
+(pdftex.def)             Requested size: 430.00462pt x 227.65349pt.
+ [54] [55 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=239, 
 220.825pt x 221.82875pt>
 File: Boostrap_logo.png Graphic file (type png)
 
 <use Boostrap_logo.png>
 Package pdftex.def Info: Boostrap_logo.png used on input line 135.
-(pdftex.def)             Requested size: 77.99881pt x 78.35202pt.
+(pdftex.def)             Requested size: 85.9996pt x 86.39099pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
-<Boostrap_statics_github.png, id=233, 773.89125pt x 414.04688pt>
+<Boostrap_statics_github.png, id=240, 773.89125pt x 414.04688pt>
 File: Boostrap_statics_github.png Graphic file (type png)
 
 <use Boostrap_statics_github.png>
 Package pdftex.def Info: Boostrap_statics_github.png used on input line 156.
-(pdftex.def)             Requested size: 390.0pt x 208.65924pt.
- [54
+(pdftex.def)             Requested size: 430.00462pt x 230.06407pt.
+
+Overfull \hbox (8.11197pt too wide) in paragraph at lines 151--159
+\T1/cmr/m/n/12 All the re-search shows that Boot-strap is The most pop-u-lar HT
+ML, CSS, and JavaScript
+ []
+
+[56
 
  <./Boostrap_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 161--167
 
  []
 
-[55 <./Boostrap_statics_github.png>]
-<Boostrap_statics_google_trends.png, id=243, 1152.55594pt x 511.15968pt>
+[57 <./Boostrap_statics_github.png>]
+<Boostrap_statics_google_trends.png, id=249, 1152.55594pt x 511.15968pt>
 File: Boostrap_statics_google_trends.png Graphic file (type png)
 
 <use Boostrap_statics_google_trends.png>
 Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
 170.
-(pdftex.def)             Requested size: 390.0pt x 172.96523pt.
- [56 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=248, 803.0pt 
+(pdftex.def)             Requested size: 430.00462pt x 190.70944pt.
+ [58 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=254, 803.0pt 
 x 260.975pt>
 File: Spring_logo.png Graphic file (type png)
  <use Spring_logo.png>
 Package pdftex.def Info: Spring_logo.png used on input line 181.
-(pdftex.def)             Requested size: 155.99762pt x 50.69678pt.
+(pdftex.def)             Requested size: 171.99922pt x 55.89748pt.
+
+Overfull \hbox (63.84442pt too wide) in paragraph at lines 185--189
+\T1/cmr/m/n/12 The Spring Web model-view-controller (MVC) frame-work is de-sign
+ed around a [][][][][][]
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--189
 
  []
 
-[57
+[59
 
  <./Spring_logo.png>]
-<workflow_spring_mvc.png, id=253, 812.03375pt x 512.91624pt>
+<workflow_spring_mvc.png, id=259, 812.03375pt x 512.91624pt>
 File: workflow_spring_mvc.png Graphic file (type png)
 
 <use workflow_spring_mvc.png>
 Package pdftex.def Info: workflow_spring_mvc.png used on input line 193.
-(pdftex.def)             Requested size: 429.00238pt x 270.97557pt.
+(pdftex.def)             Requested size: 473.0077pt x 298.76733pt.
 
-Overfull \hbox (39.00238pt too wide) in paragraph at lines 193--194
+Overfull \hbox (43.00308pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-
-Overfull \hbox (6.55186pt too wide) in paragraph at lines 190--196
-[]\T1/cmr/m/n/12 The re-quest pro-cess-ing work-flow of the Spring Web MVC Dis-
-patch-erServlet
- []
-
-[58 <./workflow_spring_mvc.png>]
-Overfull \hbox (3.55379pt too wide) in paragraph at lines 205--206
-[]\T1/cmr/m/n/12 Supports An-no-ta-tion based pro-gram-ming along with XML, whi
-ch makes
- []
-
-
-Overfull \hbox (14.03197pt too wide) in paragraph at lines 212--223
- [][] 
+[60 <./workflow_spring_mvc.png>]
+Overfull \hbox (8.04813pt too wide) in paragraph at lines 204--205
+[]\T1/cmr/m/n/12 View side you can in-te-grate with any UI frame-work like JSF,
+ Ve-loc-ity, Freemarker
  []
 
 
@@ -872,78 +978,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--224
 
  []
 
-[59] <SpringMVC_statics_google_trends.png, id=261, 870.25125pt x 522.45187pt>
+[61] <SpringMVC_statics_google_trends.png, id=268, 870.25125pt x 522.45187pt>
 File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
 Package pdftex.def Info: SpringMVC_statics_google_trends.png used on input line
  232.
-(pdftex.def)             Requested size: 390.0pt x 234.13655pt.
+(pdftex.def)             Requested size: 430.00462pt x 258.15608pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 228--241
 
  []
 
-[60 <./SpringMVC_statics_google_trends.png>]
-<icon_tcserver.png, id=266, 128.48pt x 128.48pt>
+[62 <./SpringMVC_statics_google_trends.png>]
+<icon_tcserver.png, id=273, 128.48pt x 128.48pt>
 File: icon_tcserver.png Graphic file (type png)
  <use icon_tcserver.png>
 Package pdftex.def Info: icon_tcserver.png used on input line 250.
-(pdftex.def)             Requested size: 39.00238pt x 39.00304pt.
+(pdftex.def)             Requested size: 43.00308pt x 43.00233pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 255--260
 
  []
 
-[61
+
+Overfull \hbox (1.60927pt too wide) in paragraph at lines 263--264
+[]\T1/cmr/m/n/12 Pivotal tc Server re-quires sig-nif-i-cantly fewer re-sources 
+than con-ven-tional servers. 
+ []
+
+[63
 
  <./icon_tcserver.png>]
-<spring-tool-suite-project-logo.png, id=272, 214.8025pt x 237.88875pt>
+<spring-tool-suite-project-logo.png, id=278, 214.8025pt x 237.88875pt>
 File: spring-tool-suite-project-logo.png Graphic file (type png)
 
 <use spring-tool-suite-project-logo.png>
 Package pdftex.def Info: spring-tool-suite-project-logo.png used on input line 
 275.
-(pdftex.def)             Requested size: 58.49762pt x 64.78255pt.
- [62
+(pdftex.def)             Requested size: 64.49806pt x 71.42888pt.
+ [64
 
- <./spring-tool-suite-project-logo.png>] <Maven_logo.png, id=277, 273.02pt x 69
+ <./spring-tool-suite-project-logo.png>] <Maven_logo.png, id=283, 273.02pt x 69
 .058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
 Package pdftex.def Info: Maven_logo.png used on input line 291.
-(pdftex.def)             Requested size: 117.00119pt x 29.59424pt.
+(pdftex.def)             Requested size: 129.00269pt x 32.63007pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--299
 
  []
 
-[63
+[65
 
- <./Maven_logo.png>] <HTML5_logo.png, id=282, 256.96pt x 256.96pt>
+ <./Maven_logo.png>] <HTML5_logo.png, id=288, 256.96pt x 256.96pt>
 File: HTML5_logo.png Graphic file (type png)
 
 <use HTML5_logo.png>
 Package pdftex.def Info: HTML5_logo.png used on input line 311.
-(pdftex.def)             Requested size: 77.99881pt x 77.99823pt.
-) [64
+(pdftex.def)             Requested size: 85.9996pt x 86.00076pt.
+
+Overfull \hbox (26.35468pt too wide) in paragraph at lines 314--315
+[]\T1/cmr/m/n/12 HTML5 is the last ver-sion of HTML, it comes with new se-man-t
+ics tags (header,aside,...)
+ []
+
+) [66
 
  <./HTML5_logo.png>] (chapter5.tex
 Chapter 5.
-) (main.bbl [65
+) (main.bbl [67
 
 
-]) [66
+]) [68
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4116 strings out of 493323
- 61266 string characters out of 3128713
- 137539 words of memory out of 3000000
- 7517 multiletter control sequences out of 15000+200000
+ 6472 strings out of 493323
+ 102052 string characters out of 3128713
+ 184307 words of memory out of 3000000
+ 9809 multiletter control sequences out of 15000+200000
  13224 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,25p,754b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,92p,754b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
 ppen\ec\dpi600\ecbx1440.pk> <C:\Users\radhouan\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\radhouan\AppData\Local\MiKTe
@@ -952,9 +1070,9 @@ a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\ra
 dhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
 <C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (66 pages, 3132559 bytes).
+Output written on main.pdf (68 pages, 3215899 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
+ 596 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

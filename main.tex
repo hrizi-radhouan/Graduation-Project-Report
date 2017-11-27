@@ -1,6 +1,54 @@
 
 \documentclass[12pt]{report}
 
+%--------------- libs requires to display one image over two pages ------------------%
+
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{afterpage}
+\usepackage{placeins}
+
+
+% For the `memoir` class remove the following two packages.
+% This class already provide the functionality of both
+\usepackage{caption}
+\usepackage[strict]{changepage}
+%%%
+
+\setcounter{totalnumber}{1}
+\setcounter{topnumber}{1}
+\setcounter{bottomnumber}{1}
+\renewcommand{\topfraction}{.99}
+\renewcommand{\bottomfraction}{.99}
+\renewcommand{\textfraction}{.01}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[strict]{changepage}
+\usepackage{afterpage,adjustbox}
+\usepackage{caption}
+
+\makeatletter
+\newcommand{\twopagepicture}[4]{%
+	{\afterpage{%
+			\begin{figure}[#1]
+				\caption{#4}%
+				\makebox[\textwidth][l]{%
+					\let\mywidth\linewidth
+					\adjustbox{trim=0 0 {.5\width} 0,clip}{\includegraphics[width=2\mywidth]{#3}}}%
+				\caption*{.}%
+			\end{figure}%
+			\begin{figure}[#1]
+				\caption*{\phantom{#4}}%
+				\makebox[\textwidth][l]{%
+					\let\mywidth\linewidth
+					\adjustbox{trim={.5\width} 0 0 0,clip}{\includegraphics[width=2\mywidth]{#3}}}%
+			\end{figure}%
+	}}%
+}
+\makeatother
+%-------------------------------------------------%
+
 % margin left and right with \setlength{\itemindent}{-.5in} %
 \usepackage{enumitem}
 

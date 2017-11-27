@@ -1,0 +1,70 @@
+\documentclass[twoside]{book}
+
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{afterpage}
+\usepackage{placeins}
+\usepackage{xcolor}
+
+% For the `memoir` class remove the following two packages.
+% This class already provide the functionality of both
+\usepackage{caption}
+\usepackage[strict]{changepage}
+%%%
+
+\setcounter{totalnumber}{1}
+\setcounter{topnumber}{1}
+\setcounter{bottomnumber}{1}
+\renewcommand{\topfraction}{.99}
+\renewcommand{\bottomfraction}{.99}
+\renewcommand{\textfraction}{.01}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[strict]{changepage}
+\usepackage{afterpage,adjustbox}
+\usepackage{caption}
+
+\makeatletter
+\newcommand{\twopagepicture}[4]{%
+	{\afterpage{%
+			\begin{figure}[#1]
+				\caption{#4}%
+				\makebox[\textwidth][l]{%
+					\let\mywidth\linewidth
+					\adjustbox{trim=0 0 {.5\width} 0,clip}{\includegraphics[width=2\mywidth]{#3}}}%
+				\caption*{.}%
+			\end{figure}%
+			\begin{figure}[#1]
+				\caption*{\phantom{#4}}%
+				\makebox[\textwidth][l]{%
+					\let\mywidth\linewidth
+					\adjustbox{trim={.5\width} 0 0 0,clip}{\includegraphics[width=2\mywidth]{#3}}}%
+			\end{figure}%
+	}}%
+}
+\makeatother
+
+\begin{document}
+	\makeatletter
+	\ifdefined\XeTeXversion
+	\def\@cliptoboxdim#1{%
+		\setbox #1=\hbox{%
+			\Gin@defaultbp\WIDTH{\wd #1}%
+			\Gin@defaultbp \DEPTH {\dp #1}%
+			\@tempdima \ht #1%
+			\advance\@tempdima\dp#1%
+			\Gin@defaultbp \TOTALHEIGHT {\@tempdima }%
+			\special{pdf:literal q}% 
+			\special{pdf:literal 0 -\DEPTH \space \WIDTH \space \TOTALHEIGHT \space re W n }%
+			\rlap{\copy #1}%
+			\special {pdf:literal Q}%
+			\hskip\wd#1%
+		}%
+	}
+	\fi
+	\makeatother
+	\twopagepicture{t}{l}{SequenceDiagramSaveProject.png}{Top caption}
+	
+	
+\end{document}
