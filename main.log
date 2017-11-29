@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  29 NOV 2017 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  30 NOV 2017 00:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -192,6 +192,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
 ry.cfg"))
+("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape
+.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumit
 em.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
@@ -347,18 +351,18 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
@@ -468,27 +472,27 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ) (main.toc [1
 
 
-{C:/Users/radhouan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+{C:/Users/radhouan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2] (main.lof [3
+ [3] (main.lof [4
 
 ])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [4] (main.lot)
+ [5] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [5
+ [6
 
 ] (chapter1.tex
 Chapter 1.
 ("C:\Users\radhouan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) <Mass_logo.png, id=20, 100.375pt x 92.345pt>
+) <Mass_logo.png, id=23, 100.375pt x 92.345pt>
 File: Mass_logo.png Graphic file (type png)
  <use Mass_logo.png>
 Package pdftex.def Info: Mass_logo.png used on input line 18.
@@ -509,16 +513,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- <massTer_logo.png, id=22, 376.40625pt x 309.40594pt>
+ <massTer_logo.png, id=25, 376.40625pt x 309.40594pt>
 File: massTer_logo.png Graphic file (type png)
  <use massTer_logo.png>
 Package pdftex.def Info: massTer_logo.png used on input line 26.
 (pdftex.def)             Requested size: 85.9996pt x 70.68974pt.
 
-[6
+[7
 
 
- <./Mass_logo.png>] <customers_logo.png, id=29, 870.25125pt x 566.86781pt>
+ <./Mass_logo.png>] <customers_logo.png, id=33, 870.25125pt x 566.86781pt>
 File: customers_logo.png Graphic file (type png)
 
 <use customers_logo.png>
@@ -533,42 +537,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
 
-[7 <./massTer_logo.png>]
+[8 <./massTer_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--53
 
  []
 
-[8 <./customers_logo.png>]
+[9 <./customers_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
-<sdlc_iterative.png, id=43, 481.8pt x 291.0875pt>
+<sdlc_iterative.png, id=46, 481.8pt x 291.0875pt>
 File: sdlc_iterative.png Graphic file (type png)
  <use sdlc_iterative.png>
 Package pdftex.def Info: sdlc_iterative.png used on input line 73.
 (pdftex.def)             Requested size: 398.35004pt x 227.62474pt.
 
-[10 <./sdlc_iterative.png>]
+[11 <./sdlc_iterative.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 82--86
 
  []
 
-<TDD_Global_Lifecycle.png, id=48, 1924.94156pt x 1138.2525pt>
+<TDD_Global_Lifecycle.png, id=51, 1924.94156pt x 1138.2525pt>
 File: TDD_Global_Lifecycle.png Graphic file (type png)
 
 <use TDD_Global_Lifecycle.png>
 Package pdftex.def Info: TDD_Global_Lifecycle.png used on input line 89.
 (pdftex.def)             Requested size: 426.77815pt x 256.0784pt.
- [11 <./TDD_Global_Lifecycle.png>]) [12]
+ [12 <./TDD_Global_Lifecycle.png>]) [13]
 (chapter2.tex
 Chapter 2.
-[13
+[14
 
 
 ]
@@ -576,11 +580,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-[14
+[15
 
-] [15
+] [16
 
-] <GlobalUseCaseDiagram.png, id=66, 1550.79375pt x 1401.73688pt>
+] <GlobalUseCaseDiagram.png, id=69, 1550.79375pt x 1401.73688pt>
 File: GlobalUseCaseDiagram.png Graphic file (type png)
 
 <use GlobalUseCaseDiagram.png>
@@ -591,10 +595,10 @@ Overfull \hbox (39.44914pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-[16
+[17
 
  <./GlobalUseCaseDiagram.png>]
-<connectToMassTerServer.png, id=71, 1410.0178pt x 811.53188pt>
+<connectToMassTerServer.png, id=74, 1410.0178pt x 811.53188pt>
 File: connectToMassTerServer.png Graphic file (type png)
 
 <use connectToMassTerServer.png>
@@ -605,10 +609,10 @@ Overfull \hbox (39.45511pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[17
+[18
 
- <./connectToMassTerServer.png>] [18]
-<loadProject.png, id=79, 1577.895pt x 868.74562pt>
+ <./connectToMassTerServer.png>] [19]
+<loadProject.png, id=83, 1577.895pt x 868.74562pt>
 File: loadProject.png Graphic file (type png)
  <use loadProject.png>
 Package pdftex.def Info: loadProject.png used on input line 134.
@@ -618,10 +622,10 @@ Overfull \hbox (39.4671pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[19
+[20
 
- <./loadProject.png>] [20] [21]
-<manageReport.png, id=91, 1470.99562pt x 777.65532pt>
+ <./loadProject.png>] [21] [22]
+<manageReport.png, id=94, 1470.99562pt x 777.65532pt>
 File: manageReport.png Graphic file (type png)
  <use manageReport.png>
 Package pdftex.def Info: manageReport.png used on input line 205.
@@ -631,7 +635,7 @@ Overfull \hbox (39.46664pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-<runScenario.png, id=92, 1226.33156pt x 807.015pt>
+<runScenario.png, id=95, 1226.33156pt x 807.015pt>
 File: runScenario.png Graphic file (type png)
  <use runScenario.png>
 Package pdftex.def Info: runScenario.png used on input line 293.
@@ -644,9 +648,9 @@ Overfull \hbox (39.46799pt too wide) in paragraph at lines 293--294
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22
+[23
 
- <./manageReport.png>] [23] [24] [25 <./runScenario.png>] [26]) [27
+ <./manageReport.png>] [24] [25] [26 <./runScenario.png>] [27]) [28
 
 ]
 (chapter3.tex
@@ -661,11 +665,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
-[28
+[29
 
 
 ]
-<DeploymentDiagramPhysicalArchitecture.png, id=117, 1480.02937pt x 1120.9378pt>
+<DeploymentDiagramPhysicalArchitecture.png, id=120, 1480.02937pt x 1120.9378pt>
 File: DeploymentDiagramPhysicalArchitecture.png Graphic file (type png)
 <use DeploymentDiagramPhysicalArchitecture.png>
 Package pdftex.def Info: DeploymentDiagramPhysicalArchitecture.png used on inpu
@@ -676,195 +680,191 @@ Overfull \hbox (39.4591pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[29
+[30
 
- <./DeploymentDiagramPhysicalArchitecture.png>]
-<logicalArchitecture.png, id=122, 1180.41pt x 724.20563pt>
+ <./DeploymentDiagramPhysicalArchitecture.png>] [31
+
+]
+<logicalArchitecture.png, id=129, 1579.40062pt x 651.18282pt>
 File: logicalArchitecture.png Graphic file (type png)
 
 <use logicalArchitecture.png>
-Package pdftex.def Info: logicalArchitecture.png used on input line 59.
-(pdftex.def)             Requested size: 430.00462pt x 263.80795pt.
- [30
+Package pdftex.def Info: logicalArchitecture.png used on input line 61.
+(pdftex.def)             Requested size: 860.00925pt x 354.57462pt.
+File: logicalArchitecture.png Graphic file (type png)
+ <use logicalArchitecture.png>
+Package pdftex.def Info: logicalArchitecture.png used on input line 61.
+(pdftex.def)             Requested size: 860.00925pt x 354.57462pt.
+ [32
 
- <./logicalArchitecture.png>] [31
-
-] [32
+ <./logicalArchitecture.png>] [33] [34
 
 ]
-<packageDiagram.png, id=134, 1193.96063pt x 1223.32031pt>
+<packageDiagram.png, id=140, 1193.96063pt x 1223.32031pt>
 File: packageDiagram.png Graphic file (type png)
 
 <use packageDiagram.png>
-Package pdftex.def Info: packageDiagram.png used on input line 83.
+Package pdftex.def Info: packageDiagram.png used on input line 81.
 (pdftex.def)             Requested size: 430.00462pt x 440.58165pt.
- [33
+ [35
 
- <./packageDiagram.png>]
-<classDiagram.png, id=139, 2124.43687pt x 1181.91562pt>
+ <./packageDiagram.png>] [36
+
+]
+<classDiagram.png, id=148, 2124.43687pt x 1181.91562pt>
 File: classDiagram.png Graphic file (type png)
  <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 92.
-(pdftex.def)             Requested size: 430.00462pt x 239.2284pt.
-
-[34
-
- <./classDiagram.png>]
-File: classDiagram.png Graphic file (type png)
- <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 96.
+Package pdftex.def Info: classDiagram.png used on input line 90.
 (pdftex.def)             Requested size: 860.00925pt x 478.45679pt.
 File: classDiagram.png Graphic file (type png)
- <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 96.
+
+<use classDiagram.png>
+Package pdftex.def Info: classDiagram.png used on input line 90.
 (pdftex.def)             Requested size: 860.00925pt x 478.45679pt.
+ [37
 
-[35
-
-] [36] [37]
-<SequenceDiagramDispalyMassTerInsight.png, id=154, 1819.5478pt x 587.19376pt>
+] [38 <./classDiagram.png>] [39]
+<SequenceDiagramDispalyMassTerInsight.png, id=160, 1819.5478pt x 587.19376pt>
 File: SequenceDiagramDispalyMassTerInsight.png Graphic file (type png)
 
 <use SequenceDiagramDispalyMassTerInsight.png>
 Package pdftex.def Info: SequenceDiagramDispalyMassTerInsight.png used on input
- line 102.
+ line 96.
 (pdftex.def)             Requested size: 860.00925pt x 277.54012pt.
 File: SequenceDiagramDispalyMassTerInsight.png Graphic file (type png)
 
 <use SequenceDiagramDispalyMassTerInsight.png>
 Package pdftex.def Info: SequenceDiagramDispalyMassTerInsight.png used on input
- line 102.
+ line 96.
 (pdftex.def)             Requested size: 860.00925pt x 277.54012pt.
 
-<SequenceDiagramLoadProject.png, id=155, 3313.1278pt x 1757.06438pt>
+<SequenceDiagramLoadProject.png, id=161, 3313.1278pt x 1757.06438pt>
 File: SequenceDiagramLoadProject.png Graphic file (type png)
 
 <use SequenceDiagramLoadProject.png>
-Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 102.
-
+Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 96.
 (pdftex.def)             Requested size: 860.00925pt x 456.07527pt.
 File: SequenceDiagramLoadProject.png Graphic file (type png)
  <use SequenceDiagramLoadProject.png>
-Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 102.
-
+Package pdftex.def Info: SequenceDiagramLoadProject.png used on input line 96.
 (pdftex.def)             Requested size: 860.00925pt x 456.07527pt.
 
-[38
+[40
 
- <./SequenceDiagramDispalyMassTerInsight.png>] [39] [40 <./SequenceDiagramLoadP
-roject.png>] [41]
-<SequenceDiagramLoadReport.png, id=170, 3723.41063pt x 1948.27875pt>
+ <./SequenceDiagramDispalyMassTerInsight.png>] [41] [42 <./SequenceDiagramLoadP
+roject.png>] [43]
+<SequenceDiagramLoadReport.png, id=177, 3723.41063pt x 1948.27875pt>
 File: SequenceDiagramLoadReport.png Graphic file (type png)
 
 <use SequenceDiagramLoadReport.png>
-Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 108.
+Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 102.
 (pdftex.def)             Requested size: 860.00925pt x 449.9973pt.
 File: SequenceDiagramLoadReport.png Graphic file (type png)
  <use SequenceDiagramLoadReport.png>
-Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 108.
+Package pdftex.def Info: SequenceDiagramLoadReport.png used on input line 102.
 (pdftex.def)             Requested size: 860.00925pt x 449.9973pt.
-
-[42
-
- <./SequenceDiagramLoadReport.png>] [43]
-<SequenceDiagramSaveReport.png, id=179, 3927.4228pt x 1362.59062pt>
-File: SequenceDiagramSaveReport.png Graphic file (type png)
-
-<use SequenceDiagramSaveReport.png>
-Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 113.
-(pdftex.def)             Requested size: 860.00925pt x 298.35704pt.
-File: SequenceDiagramSaveReport.png Graphic file (type png)
- <use SequenceDiagramSaveReport.png>
-Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 113.
-(pdftex.def)             Requested size: 860.00925pt x 298.35704pt.
 
 [44
 
- <./SequenceDiagramSaveReport.png>] [45]
-<SequenceDiagramRemoveReport.png, id=187, 3673.725pt x 1379.90532pt>
+ <./SequenceDiagramLoadReport.png>] [45]
+<SequenceDiagramSaveReport.png, id=185, 3927.4228pt x 1362.59062pt>
+File: SequenceDiagramSaveReport.png Graphic file (type png)
+
+<use SequenceDiagramSaveReport.png>
+Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 107.
+(pdftex.def)             Requested size: 860.00925pt x 298.35704pt.
+File: SequenceDiagramSaveReport.png Graphic file (type png)
+ <use SequenceDiagramSaveReport.png>
+Package pdftex.def Info: SequenceDiagramSaveReport.png used on input line 107.
+(pdftex.def)             Requested size: 860.00925pt x 298.35704pt.
+
+[46
+
+ <./SequenceDiagramSaveReport.png>] [47]
+<SequenceDiagramRemoveReport.png, id=193, 3673.725pt x 1379.90532pt>
 File: SequenceDiagramRemoveReport.png Graphic file (type png)
 
 <use SequenceDiagramRemoveReport.png>
-Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 118
+Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 112
 .
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
 File: SequenceDiagramRemoveReport.png Graphic file (type png)
  <use SequenceDiagramRemoveReport.png>
-Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 118
+Package pdftex.def Info: SequenceDiagramRemoveReport.png used on input line 112
 .
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
 
-[46
+[48
 
- <./SequenceDiagramRemoveReport.png>] [47]
-<SequenceDiagramUpdateSettings.png, id=195, 3673.725pt x 1379.90532pt>
+ <./SequenceDiagramRemoveReport.png>] [49]
+<SequenceDiagramUpdateSettings.png, id=202, 3673.725pt x 1379.90532pt>
 File: SequenceDiagramUpdateSettings.png Graphic file (type png)
 
 <use SequenceDiagramUpdateSettings.png>
 Package pdftex.def Info: SequenceDiagramUpdateSettings.png used on input line 1
-24.
+18.
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
 File: SequenceDiagramUpdateSettings.png Graphic file (type png)
 
 <use SequenceDiagramUpdateSettings.png>
 Package pdftex.def Info: SequenceDiagramUpdateSettings.png used on input line 1
-24.
+18.
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
- [48 <./SequenceDiagramUpdateSettings.png>] [49] <SequenceDiagramRunScenario.pn
-g, id=204, 3673.725pt x 1379.90532pt>
+ [50 <./SequenceDiagramUpdateSettings.png>] [51] <SequenceDiagramRunScenario.pn
+g, id=210, 3673.725pt x 1379.90532pt>
 File: SequenceDiagramRunScenario.png Graphic file (type png)
 
 <use SequenceDiagramRunScenario.png>
-Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 129.
+Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 123.
 
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
 File: SequenceDiagramRunScenario.png Graphic file (type png)
  <use SequenceDiagramRunScenario.png>
-Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 129.
+Package pdftex.def Info: SequenceDiagramRunScenario.png used on input line 123.
 
 (pdftex.def)             Requested size: 860.00925pt x 323.01447pt.
 
-[50
+[52
 
 
  <./SequenceDiagramRunScenario.png>]
-<SequenceDiagramSaveProject.png, id=209, 3264.195pt x 1847.40187pt>
+<SequenceDiagramSaveProject.png, id=215, 3264.195pt x 1847.40187pt>
 File: SequenceDiagramSaveProject.png Graphic file (type png)
 
 <use SequenceDiagramSaveProject.png>
-Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 136.
+Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 130.
 
 (pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
 File: SequenceDiagramSaveProject.png Graphic file (type png)
  <use SequenceDiagramSaveProject.png>
-Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 136.
+Package pdftex.def Info: SequenceDiagramSaveProject.png used on input line 130.
 
 (pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
 
-[51] [52 <./SequenceDiagramSaveProject.png>] [53] [54
+[53] [54 <./SequenceDiagramSaveProject.png>] [55] [56
 
 ]
-<SequenceDiagramSaveAsProject.png, id=223, 3264.195pt x 1847.40187pt>
+<SequenceDiagramSaveAsProject.png, id=230, 3264.195pt x 1847.40187pt>
 File: SequenceDiagramSaveAsProject.png Graphic file (type png)
 
 <use SequenceDiagramSaveAsProject.png>
-Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 14
-4.
+Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 13
+8.
 (pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
 File: SequenceDiagramSaveAsProject.png Graphic file (type png)
  <use SequenceDiagramSaveAsProject.png>
-Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 14
-4.
+Package pdftex.def Info: SequenceDiagramSaveAsProject.png used on input line 13
+8.
 (pdftex.def)             Requested size: 860.00925pt x 486.71208pt.
 
-[55 <./SequenceDiagramSaveAsProject.png>] [56]) [57
+[57 <./SequenceDiagramSaveAsProject.png>] [58]) [59
 
 ] (chapter4.tex
 Chapter 4.
-[58
+[60
 
 
-] <JAVAEE_logo.png, id=238, 649.42625pt x 277.035pt>
+] <JAVAEE_logo.png, id=244, 649.42625pt x 277.035pt>
 File: JAVAEE_logo.png Graphic file (type png)
  <use JAVAEE_logo.png>
 Package pdftex.def Info: JAVAEE_logo.png used on input line 13.
@@ -884,15 +884,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-[59
+[61
 
- <./JAVAEE_logo.png>] <Java_statics.png, id=243, 685.8122pt x 351.56343pt>
+ <./JAVAEE_logo.png>] <Java_statics.png, id=250, 685.8122pt x 351.56343pt>
 File: Java_statics.png Graphic file (type png)
 
 <use Java_statics.png>
 Package pdftex.def Info: Java_statics.png used on input line 48.
 (pdftex.def)             Requested size: 430.00462pt x 220.4347pt.
- <Java_rank.png, id=244, 686.565pt x 297.36093pt>
+ <Java_rank.png, id=251, 686.565pt x 297.36093pt>
 File: Java_rank.png Graphic file (type png)
 
 <use Java_rank.png>
@@ -905,8 +905,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60] [61 <./Java_statics.png> <./Java_rank.png>]
-<AngularJS_logo.png, id=254, 376.40625pt x 376.40625pt>
+[62] [63 <./Java_statics.png> <./Java_rank.png>]
+<AngularJS_logo.png, id=260, 376.40625pt x 376.40625pt>
 File: AngularJS_logo.png Graphic file (type png)
 
 <use AngularJS_logo.png>
@@ -922,7 +922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--76
 
  []
 
-[62
+[64
 
  <./AngularJS_logo.png>]
 Overfull \hbox (13.74538pt too wide) in paragraph at lines 102--115
@@ -939,14 +939,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--116
 
  []
 
-<AngularJS_statics_google_trends.png, id=259, 870.25125pt x 460.72125pt>
+<AngularJS_statics_google_trends.png, id=265, 870.25125pt x 460.72125pt>
 File: AngularJS_statics_google_trends.png Graphic file (type png)
 
 <use AngularJS_statics_google_trends.png>
 Package pdftex.def Info: AngularJS_statics_google_trends.png used on input line
  124.
 (pdftex.def)             Requested size: 430.00462pt x 227.65349pt.
- [63] [64 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=267, 
+ [65] [66 <./AngularJS_statics_google_trends.png>] <Boostrap_logo.png, id=273, 
 220.825pt x 221.82875pt>
 File: Boostrap_logo.png Graphic file (type png)
 
@@ -958,7 +958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
-<Boostrap_statics_github.png, id=268, 773.89125pt x 414.04688pt>
+<Boostrap_statics_github.png, id=274, 773.89125pt x 414.04688pt>
 File: Boostrap_statics_github.png Graphic file (type png)
 
 <use Boostrap_statics_github.png>
@@ -970,22 +970,22 @@ Overfull \hbox (8.11197pt too wide) in paragraph at lines 151--159
 ML, CSS, and JavaScript
  []
 
-[65
+[67
 
  <./Boostrap_logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 161--167
 
  []
 
-[66 <./Boostrap_statics_github.png>]
-<Boostrap_statics_google_trends.png, id=277, 1152.55594pt x 511.15968pt>
+[68 <./Boostrap_statics_github.png>]
+<Boostrap_statics_google_trends.png, id=284, 1152.55594pt x 511.15968pt>
 File: Boostrap_statics_google_trends.png Graphic file (type png)
 
 <use Boostrap_statics_google_trends.png>
 Package pdftex.def Info: Boostrap_statics_google_trends.png used on input line 
 170.
 (pdftex.def)             Requested size: 430.00462pt x 190.70944pt.
- [67 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=283, 803.0pt 
+ [69 <./Boostrap_statics_google_trends.png>] <Spring_logo.png, id=289, 803.0pt 
 x 260.975pt>
 File: Spring_logo.png Graphic file (type png)
  <use Spring_logo.png>
@@ -1002,10 +1002,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--189
 
  []
 
-[68
+[70
 
  <./Spring_logo.png>]
-<workflow_spring_mvc.png, id=288, 812.03375pt x 512.91624pt>
+<workflow_spring_mvc.png, id=294, 812.03375pt x 512.91624pt>
 File: workflow_spring_mvc.png Graphic file (type png)
 
 <use workflow_spring_mvc.png>
@@ -1016,7 +1016,7 @@ Overfull \hbox (43.00308pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-[69 <./workflow_spring_mvc.png>]
+[71 <./workflow_spring_mvc.png>]
 Overfull \hbox (8.04813pt too wide) in paragraph at lines 204--205
 []\T1/cmr/m/n/12 View side you can in-te-grate with any UI frame-work like JSF,
  Ve-loc-ity, Freemarker
@@ -1027,7 +1027,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--224
 
  []
 
-[70] <SpringMVC_statics_google_trends.png, id=296, 870.25125pt x 522.45187pt>
+[72] <SpringMVC_statics_google_trends.png, id=302, 870.25125pt x 522.45187pt>
 File: SpringMVC_statics_google_trends.png Graphic file (type png)
 
 <use SpringMVC_statics_google_trends.png>
@@ -1039,8 +1039,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--241
 
  []
 
-[71 <./SpringMVC_statics_google_trends.png>]
-<icon_tcserver.png, id=301, 128.48pt x 128.48pt>
+[73 <./SpringMVC_statics_google_trends.png>]
+<icon_tcserver.png, id=308, 128.48pt x 128.48pt>
 File: icon_tcserver.png Graphic file (type png)
  <use icon_tcserver.png>
 Package pdftex.def Info: icon_tcserver.png used on input line 250.
@@ -1056,19 +1056,19 @@ Overfull \hbox (1.60927pt too wide) in paragraph at lines 263--264
 than con-ven-tional servers. 
  []
 
-[72
+[74
 
  <./icon_tcserver.png>]
-<spring-tool-suite-project-logo.png, id=306, 214.8025pt x 237.88875pt>
+<spring-tool-suite-project-logo.png, id=313, 214.8025pt x 237.88875pt>
 File: spring-tool-suite-project-logo.png Graphic file (type png)
 
 <use spring-tool-suite-project-logo.png>
 Package pdftex.def Info: spring-tool-suite-project-logo.png used on input line 
 275.
 (pdftex.def)             Requested size: 64.49806pt x 71.42888pt.
- [73
+ [75
 
- <./spring-tool-suite-project-logo.png>] <Maven_logo.png, id=312, 273.02pt x 69
+ <./spring-tool-suite-project-logo.png>] <Maven_logo.png, id=318, 273.02pt x 69
 .058pt>
 File: Maven_logo.png Graphic file (type png)
  <use Maven_logo.png>
@@ -1079,9 +1079,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--299
 
  []
 
-[74
+[76
 
- <./Maven_logo.png>] <HTML5_logo.png, id=317, 256.96pt x 256.96pt>
+ <./Maven_logo.png>] <HTML5_logo.png, id=323, 256.96pt x 256.96pt>
 File: HTML5_logo.png Graphic file (type png)
 
 <use HTML5_logo.png>
@@ -1093,21 +1093,43 @@ Overfull \hbox (26.35468pt too wide) in paragraph at lines 314--315
 ics tags (header,aside,...)
  []
 
-) [75
+<logocloudforge.png, id=324, 147.4308pt x 108.405pt>
+File: logocloudforge.png Graphic file (type png)
+ <use logocloudforge.png>
+Package pdftex.def Info: logocloudforge.png used on input line 327.
+(pdftex.def)             Requested size: 171.99922pt x 126.47603pt.
 
- <./HTML5_logo.png>] (chapter5.tex
+[77
+
+ <./HTML5_logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
+
+ []
+
+[78 <./logocloudforge.png>]
+Overfull \hbox (67.53235pt too wide) in paragraph at lines 368--378
+ [][] 
+ []
+
+) [79] (chapter5.tex
 Chapter 5.
-) (main.bbl [76
+<aws-logo.png, id=337, 602.25pt x 401.5pt>
+File: aws-logo.png Graphic file (type png)
+ <use aws-logo.png>
+Package pdftex.def Info: aws-logo.png used on input line 8.
+(pdftex.def)             Requested size: 171.99922pt x 114.6676pt.
+) (main.bbl
+[80
 
 
-]) [77
+ <./aws-logo.png>]) [81
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6472 strings out of 493323
- 102047 string characters out of 3128713
- 184307 words of memory out of 3000000
- 9809 multiletter control sequences out of 15000+200000
+ 6498 strings out of 493323
+ 102549 string characters out of 3128713
+ 184479 words of memory out of 3000000
+ 9830 multiletter control sequences out of 15000+200000
  13224 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,11n,92p,754b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1119,9 +1141,9 @@ a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\ra
 dhouan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
 <C:/Users/radhouan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (77 pages, 3508670 bytes).
+Output written on main.pdf (81 pages, 3561276 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
+ 647 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -191,7 +191,7 @@ The request processing workflow of the Spring Web MVC DispatcherServlet is illus
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1.1\textwidth]{workflow_spring_mvc.png}
-	\caption{The request processing workflow in Spring Web MVC}
+	\captionsource{The request processing workflow in Spring Web MVC}{https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/}
 \end{figure}
 
 \subsection{Features}
@@ -277,8 +277,8 @@ Pivotal tc Server provides :
 	\label{spring tool suite}
 \end{figure}
 \begin{itemize}
-	\item The Spring Tool suite is an eclipse-based developing environement that customiwed for developement  Spring applications.
-	\item Provides a enviroment to implement, debug, run, and deploy.
+	\item The Spring Tool suite is an eclipse-based developing environment that customized for development  Spring applications.
+	\item Provides a environment to implement, debug, run, and deploy.
 	\item It integrates Git,Maven, Pivotal tc Server but also you can use other Web Application Server. 
 \end{itemize}
 
@@ -291,14 +291,14 @@ Pivotal tc Server provides :
 	\includegraphics[width=0.3\textwidth]{Maven_logo.png}
 	\caption{Apache Maven}
 \end{figure}
-Maven is an open-source tool developed by the fondation Apache, which main role is to build projects and the management of libraries used.
+Maven is an open-source tool developed by the foundation Apache, which main role is to build projects and the management of libraries used.
 \\
 \\
 Maven provides :
 \begin{itemize}
-	\item compliation
+	\item compilation
 	\item packaging
-	\item dependancy management
+	\item dependency management
 	\item deployment
 \end{itemize} 
 
@@ -311,7 +311,70 @@ Maven provides :
 	\includegraphics[width=0.2\textwidth]{HTML5_logo.png}
 	\caption{HTML5}
 \end{figure}
-HTML5 is the last version of HTML, it comes with new semantics tags (header,aside,...) to divide your page in semantic way, those tags it helps the engine (google, yahoo...) to perform the results. It is easy to learn, compatible with all browsers, now HTML5 replace the falsh, it include tag video, audio, geolocaliton, and more.
-\section{Web Service}  
-
+HTML5 is the last version of HTML, it comes with new semantics tags (header,aside,...) to divide your page in semantic way, those tags it helps the engine (Google, yahoo...) to perform the results. It is easy to learn, compatible with all browsers, now HTML5 replace the falsh, it include tag video, audio, Geo-localization, and more.
+\section{Web Service}
+\subsection{Introduction}
+\subsection{SOAP}
+	SOAP (Simple Object Access Protocol) is a messaging protocol that allows the different parts of your application to run on disparate platform, in our case the API MassTerServer running on Windows Server AWS EC2 communicate with MassTerInsight (running on AWS EB) using SOAP Protocol.
+	MassTer Server API publish his service using SOAP web service.   
+\subsection{REST}
+	REST (REprensentation state transfer) web service it is a way of providing interoperability between different platform and programming language on the internet.
+	In our case we use REST API to communicate between the framework AngularJS (javascript) and the framework spring mvc (java). 
+\section{Cloudforge}
+\subsection{Introduction}   
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{logocloudforge.png}
+	\caption{Cloudforge}
+\end{figure}
+CloudForge is a new development Platform as a Service (dPaaS) for developing, deploying and scaling application services. CloudForge marries collaborative application development with a simplified approach for deploying to PaaS and any production server \cite{ref2}.
+ 
+ \begin{itemize}
+ 	\item manage and integrate your development tools.
+ 	\item Elastically scale your teams, projects and processes.
+ 	\item Deploy your code to public and private Cloud.
+ \end{itemize}
+Cloudforge makes the job of each member in the team more efficient, by gives for each other a set of features.
+\\
+\\
+For \textbf{Managers}, it allows them to : 
+\begin{itemize}
+	\item easily manage the team members
+	\item be the medium between different teams
+	\item planning Releases and Sprints
+	\item improve the process of development retrospective ideas
+\end{itemize} 
+For \textbf{Product owner}, it allows them to :
+\begin{itemize}
+	\item have an instant feedback of the newly-made changes;
+	\item easily plan the characteristics of the product;
+	\item directly connect to developers;
+    \item  define the timeline for the projects (releases, demos, sprints).
+\end{itemize}
+For \textbf{Developers}, it allows them to:
+\begin{itemize}
+	\item follow up with the work;
+	\item easily identify the status of a sprint;
+	\item consult the last task one must do in the backlog
+\end{itemize}
+\subsection{Team presentation}
+MASS Analytics relies heavily in almost every layer of its business and project management. It allows the company to handle changing requirements in an efficient way and to follow the footsteps of grand leading organizations in software development.
+Scrum methodology is based on four pillars explained in the table 4.1 below.
+ \begin{table}
+	\caption{\textbf{Roles of the team members}.}
+	\label{RTM}
+	\centering
+	
+	\begin{tabular}{|c|p{8cm}|p{5cm}|}
+		\hline 	
+		\textbf{Role } & \textbf{Mission } & \textbf{Team Member }  \\ 
+		\hline                     
+		\textbf{Developer} & To implement the features of MassTer Insight and deployed in the cloud & RADHOUAN HRIZI \\
+		\textbf{Scrum MasTer} & To assign tasks and to test the implemented features,report bugs if found, implement new features in massTer Server API & Amira Ben Mansour \\
+		\textbf{Product Owner} & To plan meeting, validate the new features. & Firas Jabloun \\  
+		\hline 
+		
+	\end{tabular}
+\end{table}
+\section{Conclusion}
 	

@@ -1,71 +1,80 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}General Project Presentation}{6}
-\contentsline {section}{\numberline {I}Host Company Presentation}{6}
-\contentsline {subsection}{\numberline {1}Presentation of MASS Analytics}{6}
-\contentsline {subsection}{\numberline {2}Services}{7}
-\contentsline {subsection}{\numberline {3}Customers}{8}
-\contentsline {section}{\numberline {II}Project Presentation}{8}
-\contentsline {subsection}{\numberline {1}Context}{8}
-\contentsline {subsection}{\numberline {2}Objectives}{9}
-\contentsline {subsection}{\numberline {3}Problematic}{9}
-\contentsline {section}{\numberline {III}Methodology}{9}
-\contentsline {section}{\numberline {IV}Software Development Life Cycle}{10}
-\contentsline {section}{\numberline {V}Software Development Process}{11}
-\contentsline {section}{\numberline {VI}Existing Presentation}{11}
-\contentsline {section}{\numberline {VII}Conclusion}{12}
-\contentsline {chapter}{\numberline {2}Analysis and specification of requirements}{13}
-\contentsline {section}{\numberline {I}Introduction}{13}
-\contentsline {section}{\numberline {II}Actors Identification}{13}
-\contentsline {section}{\numberline {III}Requirement Analysis}{14}
-\contentsline {subsection}{\numberline {1}Functional Requirements}{14}
-\contentsline {subsection}{\numberline {2}Non-Functional Requirements}{15}
-\contentsline {section}{\numberline {IV}Use Case Diagrams}{16}
-\contentsline {subsection}{\numberline {1}Global Use Case Diagram}{16}
-\contentsline {subsection}{\numberline {2}Detailed Use Case Diagrams}{17}
-\contentsline {subsubsection}{Connect to MassTer Server Use Case}{17}
-\contentsline {subsubsection}{Load Project Use Case}{19}
-\contentsline {subsubsection}{Manage Report Use Case}{22}
-\contentsline {section}{\numberline {V}Conclusion}{27}
-\contentsline {chapter}{\numberline {3}Conception}{28}
-\contentsline {section}{\numberline {I}Introduction}{28}
-\contentsline {section}{\numberline {II}Modeling Language}{28}
-\contentsline {section}{\numberline {III}Global Conception}{28}
-\contentsline {subsection}{\numberline {1}Physical Architecture}{29}
-\contentsline {subsection}{\numberline {2}Logical Architecture}{30}
-\contentsline {subsection}{\numberline {3}Design Pattern}{31}
-\contentsline {section}{\numberline {IV}Detailed Conception}{32}
-\contentsline {subsection}{\numberline {1}Package Diagram}{33}
-\contentsline {subsection}{\numberline {2}Class Diagram}{34}
-\contentsline {subsection}{\numberline {3}Sequence Diagram}{35}
-\contentsline {subsubsection}{Sequence Diagram use case ``Load report''}{38}
-\contentsline {subsubsection}{Sequence Diagram use case ``save report''}{42}
-\contentsline {subsubsection}{Sequence Diagram use case ``remove report''}{44}
-\contentsline {subsubsection}{Sequence Diagram use case ``update settings''}{46}
-\contentsline {subsubsection}{Sequence Diagram use case ``save project''}{50}
-\contentsline {subsubsection}{Sequence Diagram use case Save As Project Use Case}{54}
-\contentsline {section}{\numberline {V}Conclusion}{57}
-\contentsline {chapter}{\numberline {4}Implementation}{58}
-\contentsline {section}{\numberline {I}Introduction}{58}
-\contentsline {section}{\numberline {II}Java Platform, Enterprise Edition (JEE)}{59}
-\contentsline {subsection}{\numberline {1}Introduction}{59}
-\contentsline {subsection}{\numberline {2}Features}{59}
-\contentsline {subsection}{\numberline {3}Motivation}{60}
-\contentsline {section}{\numberline {III}Angular JS}{62}
-\contentsline {subsection}{\numberline {1}Introduction}{62}
-\contentsline {subsection}{\numberline {2}Features}{63}
-\contentsline {subsection}{\numberline {3}Motivation}{64}
-\contentsline {section}{\numberline {IV}Bootstrap}{65}
-\contentsline {subsection}{\numberline {1}Introduction}{65}
+\contentsline {chapter}{\numberline {1}General Project Presentation}{7}
+\contentsline {section}{\numberline {I}Host Company Presentation}{7}
+\contentsline {subsection}{\numberline {1}Presentation of MASS Analytics}{7}
+\contentsline {subsection}{\numberline {2}Services}{8}
+\contentsline {subsection}{\numberline {3}Customers}{9}
+\contentsline {section}{\numberline {II}Project Presentation}{9}
+\contentsline {subsection}{\numberline {1}Context}{9}
+\contentsline {subsection}{\numberline {2}Objectives}{10}
+\contentsline {subsection}{\numberline {3}Problematic}{10}
+\contentsline {section}{\numberline {III}Methodology}{10}
+\contentsline {section}{\numberline {IV}Software Development Life Cycle}{11}
+\contentsline {section}{\numberline {V}Software Development Process}{12}
+\contentsline {section}{\numberline {VI}Existing Presentation}{12}
+\contentsline {section}{\numberline {VII}Conclusion}{13}
+\contentsline {chapter}{\numberline {2}Analysis and specification of requirements}{14}
+\contentsline {section}{\numberline {I}Introduction}{14}
+\contentsline {section}{\numberline {II}Actors Identification}{14}
+\contentsline {section}{\numberline {III}Requirement Analysis}{15}
+\contentsline {subsection}{\numberline {1}Functional Requirements}{15}
+\contentsline {subsection}{\numberline {2}Non-Functional Requirements}{16}
+\contentsline {section}{\numberline {IV}Use Case Diagrams}{17}
+\contentsline {subsection}{\numberline {1}Global Use Case Diagram}{17}
+\contentsline {subsection}{\numberline {2}Detailed Use Case Diagrams}{18}
+\contentsline {subsubsection}{Connect to MassTer Server Use Case}{18}
+\contentsline {subsubsection}{Load Project Use Case}{20}
+\contentsline {subsubsection}{Manage Report Use Case}{23}
+\contentsline {section}{\numberline {V}Conclusion}{28}
+\contentsline {chapter}{\numberline {3}Conception}{29}
+\contentsline {section}{\numberline {I}Introduction}{29}
+\contentsline {section}{\numberline {II}Modeling Language}{29}
+\contentsline {section}{\numberline {III}Global Conception}{29}
+\contentsline {subsection}{\numberline {1}Physical Architecture}{30}
+\contentsline {subsection}{\numberline {2}Logical Architecture}{31}
+\contentsline {subsection}{\numberline {3}Design Pattern}{32}
+\contentsline {section}{\numberline {IV}Detailed Conception}{34}
+\contentsline {subsection}{\numberline {1}Package Diagram}{35}
+\contentsline {subsection}{\numberline {2}Class Diagram}{36}
+\contentsline {subsection}{\numberline {3}Sequence Diagram}{37}
+\contentsline {subsubsection}{Sequence Diagram use case ``Load report''}{40}
+\contentsline {subsubsection}{Sequence Diagram use case ``save report''}{44}
+\contentsline {subsubsection}{Sequence Diagram use case ``remove report''}{46}
+\contentsline {subsubsection}{Sequence Diagram use case ``update settings''}{48}
+\contentsline {subsubsection}{Sequence Diagram use case ``save project''}{52}
+\contentsline {subsubsection}{Sequence Diagram use case Save As Project Use Case}{56}
+\contentsline {section}{\numberline {V}Conclusion}{59}
+\contentsline {chapter}{\numberline {4}Implementation}{60}
+\contentsline {section}{\numberline {I}Introduction}{60}
+\contentsline {section}{\numberline {II}Java Platform, Enterprise Edition (JEE)}{61}
+\contentsline {subsection}{\numberline {1}Introduction}{61}
+\contentsline {subsection}{\numberline {2}Features}{61}
+\contentsline {subsection}{\numberline {3}Motivation}{62}
+\contentsline {section}{\numberline {III}Angular JS}{64}
+\contentsline {subsection}{\numberline {1}Introduction}{64}
 \contentsline {subsection}{\numberline {2}Features}{65}
 \contentsline {subsection}{\numberline {3}Motivation}{66}
-\contentsline {section}{\numberline {V}Spring mvc framework}{68}
-\contentsline {subsection}{\numberline {1}Introduction}{68}
-\contentsline {subsection}{\numberline {2}Features}{69}
-\contentsline {subsection}{\numberline {3}Motivation}{71}
-\contentsline {section}{\numberline {VI}Pivotal tc Server}{72}
-\contentsline {section}{\numberline {VII}Spring Tool Suite}{73}
-\contentsline {section}{\numberline {VIII}Apache Maven}{74}
-\contentsline {section}{\numberline {IX}HTML5}{75}
-\contentsline {section}{\numberline {X}Web Service}{75}
-\contentsline {chapter}{\numberline {5}Deployment}{76}
-\contentsline {section}{\numberline {I}Introduction}{76}
+\contentsline {section}{\numberline {IV}Bootstrap}{67}
+\contentsline {subsection}{\numberline {1}Introduction}{67}
+\contentsline {subsection}{\numberline {2}Features}{67}
+\contentsline {subsection}{\numberline {3}Motivation}{68}
+\contentsline {section}{\numberline {V}Spring mvc framework}{70}
+\contentsline {subsection}{\numberline {1}Introduction}{70}
+\contentsline {subsection}{\numberline {2}Features}{71}
+\contentsline {subsection}{\numberline {3}Motivation}{73}
+\contentsline {section}{\numberline {VI}Pivotal tc Server}{74}
+\contentsline {section}{\numberline {VII}Spring Tool Suite}{75}
+\contentsline {section}{\numberline {VIII}Apache Maven}{76}
+\contentsline {section}{\numberline {IX}HTML5}{77}
+\contentsline {section}{\numberline {X}Web Service}{77}
+\contentsline {subsection}{\numberline {1}Introduction}{77}
+\contentsline {subsection}{\numberline {2}SOAP}{77}
+\contentsline {subsection}{\numberline {3}REST}{77}
+\contentsline {section}{\numberline {XI}Cloudforge}{78}
+\contentsline {subsection}{\numberline {1}Introduction}{78}
+\contentsline {subsection}{\numberline {2}Team presentation}{79}
+\contentsline {section}{\numberline {XII}Conclusion}{79}
+\contentsline {chapter}{\numberline {5}Deployment}{80}
+\contentsline {section}{\numberline {I}Introduction}{80}
+\contentsline {section}{\numberline {II}AWS}{80}
+\contentsline {section}{\numberline {III}Conclusion}{80}
