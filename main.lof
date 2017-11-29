@@ -16,29 +16,30 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Logical Architecture\relax }}{30}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces package diagram\relax }}{33}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Class diagram\relax }}{34}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram connect To MassTerServer\relax }}{35}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{37}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{39}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case} \relax }}{41}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{43}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram update settings\relax }}{45}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram Run Scenario\relax }}{47}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram Save Project\relax }}{49}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram \textbf {Save As Project Use Case}\relax }}{52}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram \textbf {Class diagram}\relax }}{36}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Display MassTerInsight}\relax }}{38}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{40}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{42}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case} \relax }}{44}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{46}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram \textbf {update settings Use Case}\relax }}{48}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram \textbf {Run Scenario Use Case}\relax }}{50}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram \textbf {Save Project Use Case}\relax }}{52}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sequence Diagram \textbf {Save As Project Use Case}\relax }}{55}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Java Enterprise Edition\relax }}{56}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces java statics\relax }}{58}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces java rank\relax }}{58}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces AngularJS\relax }}{59}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces AngularJS on google trends\relax }}{61}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Bootstrap\relax }}{62}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Bootstrap second starred on github\relax }}{63}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Bootstrap on google trends\relax }}{64}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Spring MVC\relax }}{65}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The request processing workflow in Spring Web MVC\relax }}{66}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Spring framework on google trends\relax }}{68}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Pivotal tc Server\relax }}{69}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces spring tool suite\relax }}{70}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Apache Maven\relax }}{71}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces HTML5\relax }}{72}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Java Enterprise Edition\relax }}{59}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces java statics\relax }}{61}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces java rank\relax }}{61}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces AngularJS\relax }}{62}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces AngularJS on google trends\relax }}{64}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Bootstrap\relax }}{65}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Bootstrap second starred on github\relax }}{66}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Bootstrap on google trends\relax }}{67}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Spring MVC\relax }}{68}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The request processing workflow in Spring Web MVC\relax }}{69}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Spring framework on google trends\relax }}{71}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Pivotal tc Server\relax }}{72}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces spring tool suite\relax }}{73}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Apache Maven\relax }}{74}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces HTML5\relax }}{75}
 \addvspace {10\p@ }

@@ -37,37 +37,35 @@
 \contentsline {subsection}{\numberline {1}Package Diagram}{33}
 \contentsline {subsection}{\numberline {2}Class Diagram}{34}
 \contentsline {subsection}{\numberline {3}Sequence Diagram}{35}
-\contentsline {subsubsection}{Sequence Diagram use case ``connect to MassTer Server''}{35}
-\contentsline {subsubsection}{Sequence Diagram \textbf {Load MassTerInsight Project Use Case}}{36}
-\contentsline {subsubsection}{Sequence Diagram use case ``Load report''}{37}
-\contentsline {subsubsection}{Sequence Diagram use case ``save report''}{39}
-\contentsline {subsubsection}{Sequence Diagram use case ``remove report''}{41}
-\contentsline {subsubsection}{Sequence Diagram use case ``update settings''}{43}
-\contentsline {subsubsection}{Sequence Diagram use case ``save project''}{47}
-\contentsline {subsubsection}{Sequence Diagram use case Save As Project Use Case}{51}
-\contentsline {section}{\numberline {V}Conclusion}{54}
-\contentsline {chapter}{\numberline {4}Implementation}{55}
-\contentsline {section}{\numberline {I}Introduction}{55}
-\contentsline {section}{\numberline {II}Java Platform, Enterprise Edition (JEE)}{56}
-\contentsline {subsection}{\numberline {1}Introduction}{56}
-\contentsline {subsection}{\numberline {2}Features}{56}
-\contentsline {subsection}{\numberline {3}Motivation}{57}
-\contentsline {section}{\numberline {III}Angular JS}{59}
+\contentsline {subsubsection}{Sequence Diagram use case ``Load report''}{38}
+\contentsline {subsubsection}{Sequence Diagram use case ``save report''}{42}
+\contentsline {subsubsection}{Sequence Diagram use case ``remove report''}{44}
+\contentsline {subsubsection}{Sequence Diagram use case ``update settings''}{46}
+\contentsline {subsubsection}{Sequence Diagram use case ``save project''}{50}
+\contentsline {subsubsection}{Sequence Diagram use case Save As Project Use Case}{54}
+\contentsline {section}{\numberline {V}Conclusion}{57}
+\contentsline {chapter}{\numberline {4}Implementation}{58}
+\contentsline {section}{\numberline {I}Introduction}{58}
+\contentsline {section}{\numberline {II}Java Platform, Enterprise Edition (JEE)}{59}
 \contentsline {subsection}{\numberline {1}Introduction}{59}
-\contentsline {subsection}{\numberline {2}Features}{60}
-\contentsline {subsection}{\numberline {3}Motivation}{61}
-\contentsline {section}{\numberline {IV}Bootstrap}{62}
+\contentsline {subsection}{\numberline {2}Features}{59}
+\contentsline {subsection}{\numberline {3}Motivation}{60}
+\contentsline {section}{\numberline {III}Angular JS}{62}
 \contentsline {subsection}{\numberline {1}Introduction}{62}
-\contentsline {subsection}{\numberline {2}Features}{62}
-\contentsline {subsection}{\numberline {3}Motivation}{63}
-\contentsline {section}{\numberline {V}Spring mvc framework}{65}
+\contentsline {subsection}{\numberline {2}Features}{63}
+\contentsline {subsection}{\numberline {3}Motivation}{64}
+\contentsline {section}{\numberline {IV}Bootstrap}{65}
 \contentsline {subsection}{\numberline {1}Introduction}{65}
-\contentsline {subsection}{\numberline {2}Features}{66}
-\contentsline {subsection}{\numberline {3}Motivation}{68}
-\contentsline {section}{\numberline {VI}Pivotal tc Server}{69}
-\contentsline {section}{\numberline {VII}Spring Tool Suite}{70}
-\contentsline {section}{\numberline {VIII}Apache Maven}{71}
-\contentsline {section}{\numberline {IX}HTML5}{72}
-\contentsline {section}{\numberline {X}Web Service}{72}
-\contentsline {chapter}{\numberline {5}Deployment}{73}
-\contentsline {section}{\numberline {I}Introduction}{73}
+\contentsline {subsection}{\numberline {2}Features}{65}
+\contentsline {subsection}{\numberline {3}Motivation}{66}
+\contentsline {section}{\numberline {V}Spring mvc framework}{68}
+\contentsline {subsection}{\numberline {1}Introduction}{68}
+\contentsline {subsection}{\numberline {2}Features}{69}
+\contentsline {subsection}{\numberline {3}Motivation}{71}
+\contentsline {section}{\numberline {VI}Pivotal tc Server}{72}
+\contentsline {section}{\numberline {VII}Spring Tool Suite}{73}
+\contentsline {section}{\numberline {VIII}Apache Maven}{74}
+\contentsline {section}{\numberline {IX}HTML5}{75}
+\contentsline {section}{\numberline {X}Web Service}{75}
+\contentsline {chapter}{\numberline {5}Deployment}{76}
+\contentsline {section}{\numberline {I}Introduction}{76}
