@@ -76,5 +76,8 @@
 \contentsline {section}{\numberline {XII}Conclusion}{79}
 \contentsline {chapter}{\numberline {5}Deployment}{80}
 \contentsline {section}{\numberline {I}Introduction}{80}
-\contentsline {section}{\numberline {II}AWS}{80}
-\contentsline {section}{\numberline {III}Conclusion}{80}
+\contentsline {section}{\numberline {II}Amazon Web Services}{80}
+\contentsline {subsection}{\numberline {1}Introduction}{80}
+\contentsline {subsection}{\numberline {2}Elastic Beanstalk}{81}
+\contentsline {subsection}{\numberline {3}Elastic Compute Cloud}{85}
+\contentsline {section}{\numberline {III}Conclusion}{87}
