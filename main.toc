@@ -32,17 +32,11 @@
 \contentsline {section}{\numberline {III}Global Conception}{29}
 \contentsline {subsection}{\numberline {1}Physical Architecture}{30}
 \contentsline {subsection}{\numberline {2}Logical Architecture}{31}
-\contentsline {subsection}{\numberline {3}Design Pattern}{32}
-\contentsline {section}{\numberline {IV}Detailed Conception}{34}
-\contentsline {subsection}{\numberline {1}Package Diagram}{35}
-\contentsline {subsection}{\numberline {2}Class Diagram}{36}
-\contentsline {subsection}{\numberline {3}Sequence Diagram}{37}
-\contentsline {subsubsection}{Sequence Diagram use case ``Load report''}{40}
-\contentsline {subsubsection}{Sequence Diagram use case ``save report''}{44}
-\contentsline {subsubsection}{Sequence Diagram use case ``remove report''}{46}
-\contentsline {subsubsection}{Sequence Diagram use case ``update settings''}{48}
-\contentsline {subsubsection}{Sequence Diagram use case ``save project''}{52}
-\contentsline {subsubsection}{Sequence Diagram use case Save As Project Use Case}{56}
+\contentsline {subsection}{\numberline {3}Design Pattern}{34}
+\contentsline {section}{\numberline {IV}Detailed Conception}{35}
+\contentsline {subsection}{\numberline {1}Package Diagram}{36}
+\contentsline {subsection}{\numberline {2}Class Diagram}{37}
+\contentsline {subsection}{\numberline {3}Sequence Diagram}{40}
 \contentsline {section}{\numberline {V}Conclusion}{59}
 \contentsline {chapter}{\numberline {4}Implementation}{60}
 \contentsline {section}{\numberline {I}Introduction}{60}
@@ -79,5 +73,5 @@
 \contentsline {section}{\numberline {II}Amazon Web Services}{80}
 \contentsline {subsection}{\numberline {1}Introduction}{80}
 \contentsline {subsection}{\numberline {2}Elastic Beanstalk}{81}
-\contentsline {subsection}{\numberline {3}Elastic Compute Cloud}{85}
-\contentsline {section}{\numberline {III}Conclusion}{87}
+\contentsline {subsection}{\numberline {3}Elastic Compute Cloud}{86}
+\contentsline {section}{\numberline {III}Conclusion}{89}

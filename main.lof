@@ -14,16 +14,16 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Deployment Diagram Physical Architecture\relax }}{30}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Logical Architecture}\relax }}{32}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces package diagram\relax }}{35}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram \textbf {Class diagram}\relax }}{38}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram \textbf {Display MassTerInsight}\relax }}{40}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{42}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{44}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case} \relax }}{46}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{48}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram \textbf {update settings Use Case}\relax }}{50}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram \textbf {Run Scenario Use Case}\relax }}{52}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram \textbf {Save Project Use Case}\relax }}{54}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces package diagram\relax }}{36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf {Class diagram}\relax }}{38}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram \textbf {Display MassTerInsight}\relax }}{41}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{43}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{45}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case} \relax }}{47}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{49}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram \textbf {update settings Use Case}\relax }}{51}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram \textbf {Run Scenario Use Case}\relax }}{53}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram \textbf {Save Project Use Case}\relax }}{55}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram \textbf {Save As Project Use Case}\relax }}{57}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Java Enterprise Edition\relax }}{61}
@@ -45,6 +45,6 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Amazon Web Services\relax }}{80}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Elastic Beanstalk Application\relax }}{82}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces MassTer Insight web Application Dashboard\relax }}{83}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces MassTer Insight web Application\relax }}{84}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces EC2 Instance\relax }}{86}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces MassTer Insight web Application Dashboard\relax }}{84}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces MassTer Insight web Application\relax }}{85}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces EC2 Instance\relax }}{87}
