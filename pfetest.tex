@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is the main file
+% You can add/remove chapters/pdf files here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt, oneside, a4paper]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define code variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{images/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Include required packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{showframe}
+
+\usepackage[skins]{tcolorbox}
+\usepackage[francais,english]{babel}
+\usepackage[english]{varioref}
+\usepackage[export]{adjustbox}
+\usepackage{acro}
+\usepackage{setspace}
+\usepackage{minted}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{ctable}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{seqsplit}
+\usepackage{fontenc}
+%\usepackage{lipsum}
+%\usepackage{todonotes}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage[all]{nowidow}
+
+\usepackage[sorting=none, backend=bibtex]{biblatex}
+
+
+%% TODO: Remove this function when done %%
+\newcommand\todoin[2][]{\todo[inline, caption={2do}, #1]{
+\begin{minipage}{\textwidth-4pt}#2\end{minipage}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Include useful commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{commands}
+
+\hypersetup{
+  pdftitle={\reportTitle~-~\reportSubject},%
+  pdfauthor={\reportAuthor},%
+  pdfsubject={\reportSubject},%
+  pdfkeywords={report} {internship} {pfe} {enis}
+}
+
+\begin{document}
+  \begin{pfe-enis}
+    \pagenumbering{roman}% i ii iii iv ...
+
+    % \listoftodos{}
+
+    % Front matter
+    \include{coverPage}
+    \cleardoublepage%
+
+
+
+
+
+    \addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+
+  \end{pfe-enis}
+\end{document}

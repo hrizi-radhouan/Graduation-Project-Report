@@ -52,6 +52,8 @@
 %--------- use landscape -------%
 \usepackage{lscape}
 %-------------------------------%
+
+
 % margin left and right with \setlength{\itemindent}{-.5in} %
 \usepackage{enumitem}
 
@@ -80,10 +82,18 @@
 
 %define your own color %
 \definecolor{mygray}{gray}{0.9}
+%--------- include pdf pages in latex -----%
+\usepackage{pdfpages}
+%------------------------------------------%
 \begin{document}
+	% include cover page %
+	\includepdf[pages={1}]{coverPage.pdf}
+	
 	\tableofcontents{}
 	\listoffigures
 	\listoftables
+
+	
 		% include chapter 1 %
       \clearpage
       \newpage
