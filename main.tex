@@ -85,6 +85,9 @@
 %--------- include pdf pages in latex -----%
 \usepackage{pdfpages}
 %------------------------------------------%
+% include the arabtex and utf8 packages
+\usepackage{arabtex}
+\usepackage{utf8}
 \begin{document}
 	% include cover page %
 	\includepdf[pages={1}]{coverPage.pdf}
@@ -123,5 +126,9 @@
 	\bibliographystyle{plain}
 	\bibliography{webo} 
 	
-	
+     % include Abstract %
+     \clearpage
+     \newpage
+     \input{abstract.tex}
+
 \end{document}
