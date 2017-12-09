@@ -1,50 +1,59 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Mass-Analytics logo\relax }}{8}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces MassTer Software logo\relax }}{9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Mass-Analytics logo\relax }}{9}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces MassTer Software logo\relax }}{10}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces MASS Analytics\IeC {\textquoteright } customers}}{10}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Software Development Life Cycle iterative}}{12}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces TDD Global Lifecycle}}{13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Global Use Case Diagram\relax }}{18}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Connect to MassTer Server Use Case Diagram\relax }}{19}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Load Project Use Case Diagram\relax }}{21}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Load Project Use Case Diagram\relax }}{24}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces run scenario Use Case Diagram\relax }}{27}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Load Project Use Case Diagram\relax }}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Load Project Use Case Diagram\relax }}{22}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Run scenario Use Case Diagram\relax }}{24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Deployment Diagram Physical Architecture\relax }}{31}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Logical Architecture}\relax }}{33}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces package diagram\relax }}{37}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf {Class diagram}\relax }}{39}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram \textbf {Display MassTerInsight}\relax }}{42}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{44}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{46}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case} \relax }}{48}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{50}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram \textbf {update settings Use Case}\relax }}{52}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram \textbf {Run Scenario Use Case}\relax }}{54}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram \textbf {Save Project Use Case}\relax }}{56}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram \textbf {Save As Project Use Case}\relax }}{58}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Deployment Diagram Physical Architecture\relax }}{27}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Logical Architecture\relax }}{28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces package diagram\relax }}{29}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Class diagram\relax }}{30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram \textbf {Display MassTerInsight}\relax }}{31}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence Diagram \textbf {Load MassTerInsight Project Use Case}\relax }}{32}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram \textbf {Load Report Use Case}\relax }}{33}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram \textbf {Save Report Use Case}\relax }}{34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram \textbf {Remove Report Use Case}\relax }}{35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram \textbf {update settings Use Case}\relax }}{36}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram \textbf {Run Scenario Use Case}\relax }}{37}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram \textbf {Save Project Use Case}\relax }}{38}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram \textbf {Save As Project Use Case}\relax }}{39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Java Enterprise Edition\relax }}{62}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces java statics\relax }}{64}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces java rank\relax }}{64}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces AngularJS\relax }}{65}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces AngularJS on google trends\relax }}{67}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Bootstrap\relax }}{68}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Bootstrap second starred on github\relax }}{69}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Bootstrap on google trends\relax }}{70}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Spring MVC\relax }}{71}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The request processing workflow in Spring Web MVC}}{72}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Spring framework on google trends\relax }}{74}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Pivotal tc Server\relax }}{75}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces spring tool suite\relax }}{76}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Apache Maven\relax }}{77}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces HTML5\relax }}{78}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Cloudforge\relax }}{79}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Amazon Web Services\relax }}{81}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Elastic Beanstalk Application\relax }}{83}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces MassTer Insight web Application Dashboard\relax }}{85}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces MassTer Insight web Application\relax }}{86}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces EC2 Instance\relax }}{88}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Java Enterprise Edition\relax }}{41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Java statistics\relax }}{43}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Java rank\relax }}{43}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces AngularJS\relax }}{44}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces AngularJS on Google trends\relax }}{46}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Bootstrap\relax }}{47}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Bootstrap second starred on GitHub\relax }}{48}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Bootstrap on Google trends\relax }}{49}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Spring MVC\relax }}{49}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The request processing workflow in Spring Web MVC}}{50}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Spring framework on google trends\relax }}{52}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Pivotal tc Server\relax }}{52}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Spring tool suite\relax }}{53}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Apache Maven\relax }}{53}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces HTML5\relax }}{54}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Cloudforge\relax }}{55}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Amazon Web Services}}{57}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Elastic Beanstalk Application\relax }}{57}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces MassTer Insight web Application Dashboard\relax }}{58}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces MassTer Insight web Application\relax }}{58}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Connect to MassTer Server API\relax }}{59}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Load MassTer Insight Project\relax }}{59}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Display Optimisation Report\relax }}{60}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces List Available Reports\relax }}{60}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Update done with Success\relax }}{61}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Run Optimisation with Success \relax }}{61}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Display budget per Month for each Channel\relax }}{62}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Display Contribution per Month for each Channel\relax }}{62}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Save Project\relax }}{63}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Save Project with Success\relax }}{63}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces EC2 Instance\relax }}{64}

@@ -1,37 +1,14 @@
 
 	\chapter{Conception}
-\makeatletter
-\ifdefined\XeTeXversion
-\def\@cliptoboxdim#1{%
-	\setbox #1=\hbox{%
-		\Gin@defaultbp\WIDTH{\wd #1}%
-		\Gin@defaultbp \DEPTH {\dp #1}%
-		\@tempdima \ht #1%
-		\advance\@tempdima\dp#1%
-		\Gin@defaultbp \TOTALHEIGHT {\@tempdima }%
-		\special{pdf:literal q}% 
-		\special{pdf:literal 0 -\DEPTH \space \WIDTH \space \TOTALHEIGHT \space re W n }%
-		\rlap{\copy #1}%
-		\special {pdf:literal Q}%
-		\hskip\wd#1%
-	}%
-}
-\fi
-\makeatother
 	
 	\section{Introduction}
-
+	The aim of this chapter is  to study and design the features already determined in the previous phase of analysis and specification of requirements. For that, it is divided into two parts. The first part is dedicated to the exhibition of the choice of conception method as well as the architecture of the system to be developed. The second part presents the conception of the application with a set of diagrams.
 	\section{Modeling Language}
 		A modeling language is used to describe a system, a standard or methodology, general or domain-specific and / or context based on its components and relationships.
-	There are several modeling languages, the best known are UML and Merise. In our project we chose UML as Modeling language.
-	\\
-	UML is a Unified Modeling language that can can model a problem in a standard way.
+	There are several modeling languages, the best known are UML and Merise.
 	\\
 	\\
-	\textbf{Why UML ?}
-	\\
-	\\
-	We chose UML for these reasons : 
+	In our project we chose UML as Modeling language, for two main reasons: 
 	\begin{itemize}
 	\item To obtain a very high level modeling independent of the language and environments
 	\item Document a project. 
@@ -54,16 +31,16 @@
     \newpage  
 	
 	\subsection{Logical Architecture}
-	\begin{figure}[!htb]
-
-	\twopagepicture{t}{l}{logicalArchitecture.png}{ \textbf{Logical Architecture}}
-	\end{figure}  
-
-    \pagebreak
-    \clearpage
-	\newpage
+ Fig. \ref{logicalArchitecture}	depicts the logical architecture in which different components interact.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=17.5cm,height=9cm]{logicalArchitecture.png}
+	\caption{Logical Architecture}
+	\label{logicalArchitecture}
+\end{figure} 
+	
 	\subsection{Design Pattern}
-		We opt to use the MVC design pattern for the benefits if offers :
+		We opt to use the MVC design pattern for the following benefits:
 	\begin{itemize}
 		\item \textbf{Reliability : }The presentation and business layers are completely separate, so that the business can change without necessarily affecting the presentation, or vice versa.
 		\item \textbf{Adaptability : }Any visual representation can be easily integrated.
@@ -75,8 +52,6 @@
     \newpage
 
 	\section{Detailed Conception}
-    \clearpage
-	\newpage
 	\subsection{Package Diagram}
 		\begin{figure}[h]
 		\centering
@@ -88,68 +63,103 @@
 	\clearpage
 	\newpage
 	\subsection{Class Diagram}
- 
-   \twopagepicture{t}{l}{classDiagram.png}{\textbf{Class diagram}}
-	
+			\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=14cm]{classDiagram.png}
+		\caption{Class diagram}
+	\end{figure}
 	\pagebreak
 	\clearpage
 	\newpage
 	
 	\subsection{Sequence Diagram}
-	\twopagepicture{t}{l}{SequenceDiagramDispalyMassTerInsight.png}{Sequence Diagram \textbf{Display MassTerInsight}}
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=8cm]{SequenceDiagramDispalyMassTerInsight.png}
+		\caption{Sequence Diagram \textbf{Display MassTerInsight}}
+		\end{figure}
 	
 	\pagebreak
 	\clearpage
 	\newpage
-	
-     \twopagepicture{t}{l}{SequenceDiagramLoadProject.png}{Sequence Diagram \textbf{Load MassTerInsight Project Use Case}}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramLoadProject.png}
+		\caption{Sequence Diagram \textbf{Load MassTerInsight Project Use Case}}
+	\end{figure}
     
     \pagebreak
 	\clearpage
 	\newpage
 
-	
-    \twopagepicture{t}{l}{SequenceDiagramLoadReport.png}{Sequence Diagram \textbf{Load Report Use Case}}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramLoadReport.png}
+		\caption{Sequence Diagram \textbf{Load Report Use Case}}
+	\end{figure}
+
 
 	\pagebreak
 	\clearpage
 	\newpage
 
-
-	\twopagepicture{t}{l}{SequenceDiagramSaveReport.png}{Sequence Diagram \textbf{Save Report Use Case} }
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramSaveReport.png}
+		\caption{Sequence Diagram \textbf{Save Report Use Case}}
+	\end{figure}
 	
 	\pagebreak
 	\clearpage
 	\newpage 
 
-   \twopagepicture{t}{l}{SequenceDiagramRemoveReport.png}{Sequence Diagram \textbf{Remove Report Use Case}}
+   \begin{figure}[h]
+   	\centering
+   	\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramRemoveReport.png}
+   	\caption{Sequence Diagram \textbf{Remove Report Use Case}}
+   \end{figure}
 	
 	\pagebreak
 	\clearpage
 	\newpage
 	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramUpdateSettings.png}
+		\caption{Sequence Diagram \textbf{update settings Use Case}}
+	\end{figure}
 
-	\twopagepicture{t}{l}{SequenceDiagramUpdateSettings.png}{Sequence Diagram \textbf{update settings Use Case}}
 	
 	\pagebreak
 	\clearpage
 	\newpage
-
-
-	\twopagepicture{t}{l}{SequenceDiagramRunScenario.png}{Sequence Diagram \textbf{Run Scenario Use Case}}
+	
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramRunScenario.png}
+	\caption{Sequence Diagram \textbf{Run Scenario Use Case}}
+    \end{figure}
 	
 	\pagebreak
 	\clearpage
     \newpage 
 	
-	
-	\twopagepicture{t}{l}{SequenceDiagramSaveProject.png}{Sequence Diagram \textbf{Save Project Use Case}}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramSaveProject.png}
+		\caption{Sequence Diagram \textbf{Save Project Use Case}}
+	\end{figure}
+
 	
     \pagebreak
 	\clearpage
 	\newpage
-
-    \twopagepicture{t}{l}{SequenceDiagramSaveAsProject.png}{Sequence Diagram \textbf{Save As Project Use Case}}
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=17.5cm,height=17cm]{SequenceDiagramSaveAsProject.png}
+	\caption{Sequence Diagram \textbf{Save As Project Use Case}}
+    \end{figure}
+    
  \pagebreak
 \clearpage
 \newpage
@@ -158,4 +168,4 @@
 \newpage
 	\section{Conclusion}
 	Throughout this chapter, we have dissected the application to achieve gradually.
-	We started by presenting the general architecture of the application, the we explained the global conception, unveiled through the packages diagrams, to go then to the detailed conception using class diagram, the sequences diagrams.  
+	We started by presenting the general architecture of the application, then we explained the global conception, unveiled through the packages diagrams, to go then to the detailed conception using class diagram and the sequences diagrams.  

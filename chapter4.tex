@@ -1,12 +1,11 @@
 
 	
-\chapter{Implementation}
+\chapter{Implementation \& Deployment}
 
-	\section{Introduction}
+	\section{Definition}
 	
-	In this chapter we will focus on the technologies. 
-	\clearpage
-	\newpage
+	In this chapter we will focus on the technologies used to implement the web application. 
+
 	\section{Java Platform, Enterprise Edition (JEE)}
 		\begin{figure}[h]
 		\centering
@@ -23,10 +22,10 @@
 \subsection{Features}
 The main advantages of using Java EE are :
 \begin{itemize}
-	\item \textbf{Portability}
-	\item \textbf{Independence}
-	\item \textbf{Security}
-	\item \textbf{The multitude of libraries it offers}
+	\item Portability
+	\item Independence
+	\item Security
+	\item The multitude of libraries it offers
 \end{itemize}
 The Java EE platform is based on specifications, which means projects are portable on any compliant application server (GlassFish, JBoss...) to these specifications. This implementation is free and allows you to benefit from the entire API without any investment. The Java EE platform is the richest of Java platforms and provides a standard environment for multi-tenant business application development and execution. 
 \\
@@ -37,23 +36,27 @@ The JEE platform provides the following :
 	\item The Java API for XML-based RPC (JAX-RPC) enables Java technology developers to develop SOAP based interoperable and portable web services.
 	\item Developers use the standard JAX-RPC programming model to develop SOAP based web service clients and endpoints.
 	\item A web service endpoint is described using a Web Services Description Language (WSDL) document.
-	\item JAX-RPC enables JAX-RPC clients to invoke web services developed across heterogeneous platforms. In a similar manner, JAX-RPC web service endpoints can be invoked by heterogeneous clients
+	\item JAX-RPC enables JAX-RPC clients to invoke web services developed across heterogeneous platforms. In a similar manner, JAX-RPC web service endpoints can be invoked by heterogeneous clients \cite{ref6}.
 \end{itemize}
 
 \subsection{Motivation}
 According to a trused source "TIOBE index", Java is the most popular language ever.
-The TIOBE Programming Community index [1] is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube and Baidu are used to calculate the ratings.
-	\begin{figure}[h]
+The TIOBE Programming Community index \cite{ref7} is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, YouTube and Baidu are used to calculate the ratings.
+\\
+As shown in Fig.\ref{JavaStatics}  and Fig.\ref{JavaRank}, JAVA is the most used language in the industry. Today java it is not an option, it is a requirement for almost all the IT Job Apply. \\Other Major key that push us to use java as language of programming in our project (MassTerInsight) is that the core business of MassTer software is developed using java. As a consequence, it is easy to integrate in our project without any midelware or such web services.
+	\begin{figure}[!h]
 	\centering
-	\includegraphics[width=1.0\textwidth]{Java_statics.png}
-	\caption{java statics}
+	\includegraphics[width=0.7\textwidth]{Java_statics.png}
+	\caption{Java statistics}
+	\label{JavaStatics}
     \end{figure}
-	\begin{figure}[h]
+	\begin{figure}[!h]
 	\centering
-	\includegraphics[width=1.0\textwidth]{Java_rank.png}
-	\caption{java rank}
+	\includegraphics[width=0.7\textwidth]{Java_rank.png}
+	\caption{Java rank}
+	\label{JavaRank}
     \end{figure}
- As the above statics show, JAVA is the most used language in the industry. Today java it is not an option, it is a requirement for almost all the IT Job Apply. \\Other Major key that push us to use java as language of programming in our project (MassTerInsight) [2] is that the core business of MassTer software [3] is developed using java. As a consequence, it is easy to integrate in our project without any midelware or such web services.
+ 
  
 \clearpage
 \newpage
@@ -64,14 +67,14 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 		\includegraphics[width=0.3\textwidth]{AngularJS_logo.png}
 		\caption{AngularJS}
 	\end{figure}
-		\subsection{Introduction}
+		\subsection{Definition}
 	AngularJS is a structural framework for dynamic web applications.
 	\\
 	\\
 	It gives to the developers the way to interacte with their html components in ease way instead of using a long javascript code.
 	\\
 	\\
-	The impedance mismatch between dynamic applications and static documents is often solved with:
+	The impedance mismatch between dynamic applications and static documents is often solved with \cite{ref8} :
 	\begin{itemize}
 		
 		\item \textbf{a library} - a collection of functions which are useful when writing web apps. Your code is in charge and it calls into the library when it sees fit. E.g., \colorbox{mygray}{jQuery}.
@@ -94,10 +97,10 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 		Overall, AngularJS is a framework to build large scale and high performance web application while keeping them as easy-to-maintain.
 		\\
 		\\
-		We present in this table the directives used in our project so far.
-		\\
-		\\
-		\begin{table}
+The Table. \ref{DUOP} presented the list of AngularJS directives used.
+		\begin{table}[!b]
+				\caption{\textbf{Directives used in our project }.}
+			\label{DUOP}
 				\centering
 			\begin{tabular}{|c|p{10cm}|}	
 				\hline
@@ -105,9 +108,12 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 				\hline
 				ng-app & tells AngularJS that this is the root element of AngularJS application, we can only have one ng-app directive in the application.
 				\\
+				\hline
 				ng-model & binds an HTML form element to a variable in the scope  \\
-				ng-switch, ng-switch-when & the directive ng-switch lets you hide or show HTML elements depending on an experssion. Child elements with the directive ng-switch-when will be showed up if it gets match, otherwise the element, and its children will be removed.
+				\hline
+				ng-switch, ng-switch-when & the directive ng-switch lets you hide or show HTML elements depending on an expression. Child elements with the directive ng-switch-when will be showed up if it gets match, otherwise the element, and its children will be removed.
 				\\
+				\hline
 				ng-switch-default & define a default section if none of the oher sections get match\\ 
 					
 				\hline
@@ -118,11 +124,12 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 	Before starting to use any javascript framework, we have made a research about the most recommended javascript framework.
 	\\
 	Almost all the articles that I read shows that the most popular frameworks are \colorbox{mygray}{AngularJS}, \colorbox{mygray}{Ember.js}, \colorbox{mygray}{ReactJS} and \colorbox{mygray}{Backbone.js}, AngularJS is the most used framework amongst these frameworks and this is my first motivation.\\
-    Based on recent search on Google Trends, the requirements skills  of the industry in all over the world tend  to use more and more the framework AngularJS
+    Based on recent search on Google Trends as shown in Fig.\ref{AngularJSOnGoogleTrends}, the requirements skills  of the industry in all over the world tend  to use more and more the framework AngularJS.
 	 	\begin{figure}[h]
 	 	\centering
 	 	\includegraphics[width=1.0\textwidth]{AngularJS_statics_google_trends.png}
-	 	\caption{AngularJS on google trends}
+	 	\caption{AngularJS on Google trends}
+	 	\label{AngularJSOnGoogleTrends}
 	 \end{figure}
 	 
 
@@ -135,8 +142,8 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 		\includegraphics[width=0.20\textwidth]{Boostrap_logo.png}
 		\caption{Bootstrap}
 	\end{figure}
-	\subsection{Introduction}
-	\textbf{Bootstrap} is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript plugins. Unlike many web frameworks, it considers front-end development.
+	\subsection{Definition}
+	\textbf{Bootstrap} is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript plugins. Unlike many web frameworks, it considers front-end development \cite{ref9}.
 	\\
 	\\
 	Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.\\
@@ -148,51 +155,44 @@ The TIOBE Programming Community index [1] is an indicator of the popularity of p
 	\\
 	Starting with \textbf{version 3.0}, Bootstrap adopted a mobile-first design philosophy, emphasizing responsive design by default.The \textbf{version 4.0} alpha release added \textbf{Sass} and \textbf{flexbox} support.
 	\subsection{Motivation}
-	All the research shows that Bootstrap is The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects \\ on the web.
-	\\
-	According to github, Bootstrap is the second starred repository, with \textbf{115k stars}.
+	All the research shows that Bootstrap is The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects  on the web.\\According to github, Bootstrap is the second starred repository, with \textbf{115k stars} as shown in Fig. \ref{BootstrapSecondStarredOnGitHub}.
+	According to a research in the net, all the high-tech blogs encourage developers to use bootstrap.
 		\begin{figure}[h]
 		\centering
-		\includegraphics[width=1\textwidth]{Boostrap_statics_github.png}
-		\caption{Bootstrap second starred on github}
+		\includegraphics[width=15.5cm,height=9cm]{Boostrap_statics_github.png}
+		\caption{Bootstrap second starred on GitHub}
+		\label{BootstrapSecondStarredOnGitHub}
 	\end{figure}
-
-\vspace{66mm}
-According to a research in the net, all the high-tech blogs encourage developers to use bootstrap.
 \\
-\\
- I used a tool offred by google named \textbf{google trends} to make a compraison between subjects in term of most researched.
+ I used a tool offred by Google named \textbf{Google trends} to make a compraison between subjects in term of most researched.
  \\
- After this compraison in google trends, Bootstrap also is the most googled css framework on the web , compared to the others css frameworks Eg. \textbf{Material UI} which was considered as the most popular css framework after Bootstrap.
+ After this compraison in Google trends, Bootstrap also is the most googled css framework on the web as shown in Fig. \ref{BootstrapOnGoogleTrends} , compared to the others css frameworks Eg. \textbf{Material UI} which was considered as the most popular css framework after Bootstrap.
 
-\begin{figure}[h]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{Boostrap_statics_google_trends.png}
-	\caption{Bootstrap on google trends}
+	\includegraphics[width=15.5cm,height=9cm]{Boostrap_statics_google_trends.png}
+	\caption{Bootstrap on Google trends}
+	\label{BootstrapOnGoogleTrends}
 \end{figure}
 
-\clearpage
-\newpage
+\section{Spring MVC framework}
 
+\subsection{Definition}
 
-\section{Spring mvc framework}
-\begin{figure}[h]
+The Spring Web model-view-controller (MVC) framework is designed around a \colorbox{mygray}{DispatcherServlet} that dispatches requests to handlers, with configurable handler mappings, view resolution, locale, time zone and theme resolution as well as support for uploading files. The default handler is based on the \colorbox{mygray}{@Controller} and \colorbox{mygray}{@RequestMapping} annotations, offering a wide range of flexible handling methods. With the introduction of Spring 3.0, the \colorbox{mygray}{@Controller} mechanism also allows you to create RESTful Web sites and applications, through the \colorbox{mygray}{@PathVariable} annotation and other features.
+\begin{figure}[!b]
 	\centering
-	\includegraphics[width=0.4\textwidth]{Spring_logo.png}
+	\includegraphics[width=0.2\textwidth]{Spring_logo.png}
 	\caption{Spring MVC}
 \end{figure}
-\subsection{Introduction}
-The Spring Web model-view-controller (MVC) framework is designed around a \colorbox{mygray}{DispatcherServlet} that dispatches requests to handlers, with configurable handler mappings, view resolution, locale, time zone and theme resolution as well as support for uploading files. The default handler is based on the \colorbox{mygray}{@Controller} and \colorbox{mygray}{@RequestMapping} annotations, offering a wide range of flexible handling methods. With the introduction of Spring 3.0, the \colorbox{mygray}{@Controller} mechanism also allows you to create RESTful Web sites and applications, through the \colorbox{mygray}{@PathVariable} annotation and other features.
- \\
-\\
-Spring’s web MVC framework is, like many other web MVC frameworks, request-driven, designed around a central Servlet that dispatches requests to controllers and offers other functionality that facilitates the development of web applications. Spring’s DispatcherServlet however, does more than just that. It is completely integrated with the Spring IoC container and allows you to use every other feature that Spring has.
-\newpage
-The request processing workflow of the Spring Web MVC DispatcherServlet is illustrated in the following diagram. The pattern-savvy reader will recognize that the DispatcherServlet is an expression of the ``Front Controlle'' design pattern (this is a pattern that Spring Web MVC shares with many other leading web frameworks).
-\begin{figure}[h]
+Spring’s web MVC framework is, like many other web MVC frameworks, request-driven, designed around a central Servlet that dispatches requests to controllers and offers other functionality that facilitates the development of web applications. Spring’s DispatcherServlet however, does more than just that. It is completely integrated with the Spring IoC container and allows you to use every other feature that Spring has. The request processing workflow of the Spring Web MVC DispatcherServlet is illustrated in the Fig. \ref{WorkflowSpringMVC} . The pattern-savvy reader will recognize that the DispatcherServlet is an expression of the ``Front Controller'' design pattern (this is a pattern that Spring Web MVC shares with many other leading web frameworks).
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=1.1\textwidth]{workflow_spring_mvc.png}
-	\captionsource{The request processing workflow in Spring Web MVC}{https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/}
+	\includegraphics[width=15.5cm,height=10cm]{workflow_spring_mvc.png}
+	\caption[The request processing workflow in Spring Web MVC]{The request processing workflow in Spring Web MVC \cite{ref10}}
+	\label{WorkflowSpringMVC}
 \end{figure}
+
 
 \subsection{Features}
 \begin{itemize}
@@ -203,48 +203,48 @@ The request processing workflow of the Spring Web MVC DispatcherServlet is illus
 	\item Spring provides you with a tag library that is simple and yet very powerful.
 	\item View side you can integrate with any UI framework like JSF, Velocity, Freemarker etc.
 	\item Supports Annotation based programming along with XML, which makes development faster and cleaner.
-	
-	We present in this table the annotations used in our project :
-	\\
-	\\
-		\begin{table}
-		\centering
-		\begin{tabular}{|c|p{10cm}|}
+\end{itemize}
+The Table. \ref{TabAU} presented the list of spring mvc annotation used to develop our project.
+\begin{table}[h]
+	\caption{ \textbf{Annotations used in our project}}
+	\label{TabAU}
+	\centering
+	\begin{tabular}{|c|p{10cm}|}
 		\hline
 		\textbf{Annotation} & \textbf{Description }\\
 		\hline
 		@Controller & it is responsible for preparing a model Map with data and selecting a view name but it can also write directly to the response stream and complete the request.  \\
+		\hline
 		@RequestMapping & it used with method to provide the URI pattern for which handler method will be used.\\
-		@RequestBody & the @RequestBody method parameter annotation indcates that a method parameter should be bound to the value of the http request body.  \\
-		@ResponseBody & it used to send String response for the web request.  \\	
-	    @RequestParam & it used to retrieve the URL parameter and map it to the method argument. \\
+		\hline
+		@RequestBody & the @RequestBody method parameter annotation indicates that a method parameter should be bound to the value of the http request body.  \\
+		\hline
+		@ResponseBody & it used to send String response for the web request.  \\
+		\hline	
+		@RequestParam & it used to retrieve the URL parameter and map it to the method argument. \\
 		\hline
 	\end{tabular}
-	\end{table}
+\end{table}
 
-\end{itemize}
-\newpage
+
 \subsection{Motivation}
 According to trusted sources like google engine, yahoo, Linkedin and satckoverflow: spring mvc, struts And JSF are the most JEE frameworks searched and posted by the developers.\\
-\begin{figure}[h]
+\begin{figure}[!h]
 
 	\centering
-	\includegraphics[width=1.0\textwidth]{SpringMVC_statics_google_trends.png}
+	\includegraphics[width=0.8\textwidth]{SpringMVC_statics_google_trends.png}
 	\caption{Spring framework on google trends}
 	\label{SpringMVC_statics_google_trends}
 \end{figure}
 \\
-The curve of spring mvc in the figure \ref{SpringMVC_statics_google_trends} is very high, wich means that spring is the most used among others frameworks, another key is That spring is the most framework recommend on job application.
+The curve of spring mvc as shown in the Fig. \ref{SpringMVC_statics_google_trends} is very high, wich means that spring is the most used among others frameworks, another key is That spring is the most framework recommend on job application.
 \\
 \\
 The community behind spring is very active.
 
-\clearpage
-\newpage
-
 \section{Pivotal tc Server}
 
-\begin{figure}[h]
+\begin{figure}[!h]
 	
 	\centering
 	\includegraphics[width=0.1\textwidth]{icon_tcserver.png}
@@ -252,7 +252,7 @@ The community behind spring is very active.
 	\label{Pivotal tc Server}
 \end{figure}
 
-Pivotal tc Server is a open-source Web application server based on Apache Tomcat.
+Pivotal tc Server is a open-source Web application server based on Apache Tomcat \cite{ref11} .
 \\
 \\
 Pivotal tc Server provides :
@@ -264,16 +264,15 @@ Pivotal tc Server provides :
 	\item It is completely compatible with Apache Tomcat.
 \end{itemize}
 
-\clearpage
-\newpage
+
 
 \section{Spring Tool Suite}
 
-\begin{figure}[h]
+\begin{figure}[!h]
 	
 	\centering
-	\includegraphics[width=0.15\textwidth]{spring-tool-suite-project-logo.png}
-	\caption{spring tool suite}
+	\includegraphics[width=0.1\textwidth]{spring-tool-suite-project-logo.png}
+	\caption{Spring tool suite}
 	\label{spring tool suite}
 \end{figure}
 \begin{itemize}
@@ -282,16 +281,14 @@ Pivotal tc Server provides :
 	\item It integrates Git,Maven, Pivotal tc Server but also you can use other Web Application Server. 
 \end{itemize}
 
-\clearpage
-\newpage
 
 \section{Apache Maven}
-\begin{figure}[h]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.3\textwidth]{Maven_logo.png}
+	\includegraphics[width=0.1\textwidth]{Maven_logo.png}
 	\caption{Apache Maven}
 \end{figure}
-Maven is an open-source tool developed by the foundation Apache, which main role is to build projects and the management of libraries used.
+Maven is an open-source tool developed by the foundation Apache, which main role is to build projects and the management of libraries used \cite{ref12}
 \\
 \\
 Maven provides :
@@ -302,18 +299,15 @@ Maven provides :
 	\item deployment
 \end{itemize} 
 
-\clearpage
-\newpage
-
 \section{HTML5}
-\begin{figure}[h]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.2\textwidth]{HTML5_logo.png}
+	\includegraphics[width=0.1\textwidth]{HTML5_logo.png}
 	\caption{HTML5}
 \end{figure}
-HTML5 is the last version of HTML, it comes with new semantics tags (header,aside,...) to divide your page in semantic way, those tags it helps the engine (Google, yahoo...) to perform the results. It is easy to learn, compatible with all browsers, now HTML5 replace the falsh, it include tag video, audio, Geo-localization, and more.
+HTML5 is the last version of HTML, it comes with new semantics tags (header,aside,...) to divide your page in semantic way, those tags it helps the engine (Google, yahoo...) to perform the results. It is easy to learn, compatible with all browsers, now HTML5 replace the falsh, it include tag video, audio, Geo-localization, and more \cite{ref13}.
 \section{Web Service}
-\subsection{Introduction}
+\subsection{Definition}
 \subsection{SOAP}
 	SOAP (Simple Object Access Protocol) is a messaging protocol that allows the different parts of your application to run on disparate platform, in our case the API MassTerServer running on Windows Server AWS EC2 communicate with MassTerInsight (running on AWS EB) using SOAP Protocol.
 	MassTer Server API publish his service using SOAP web service.   
@@ -321,18 +315,18 @@ HTML5 is the last version of HTML, it comes with new semantics tags (header,asid
 	REST (REprensentation state transfer) web service it is a way of providing interoperability between different platform and programming language on the internet.
 	In our case we use REST API to communicate between the framework AngularJS (javascript) and the framework spring mvc (java). 
 \section{Cloudforge}
-\subsection{Introduction}   
+\subsection{Definition}   
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{logocloudforge.png}
+	\includegraphics[width=0.2\textwidth]{logocloudforge.png}
 	\caption{Cloudforge}
 \end{figure}
-CloudForge is a new development Platform as a Service (dPaaS) for developing, deploying and scaling application services. CloudForge marries collaborative application development with a simplified approach for deploying to PaaS and any production server \cite{ref2}.
+CloudForge is a new development Platform as a Service (dPaaS) for developing, deploying and scaling application services. CloudForge marries collaborative application development with a simplified approach for deploying to PaaS and any production server \cite{ref13} it allows the user to :
  
  \begin{itemize}
  	\item manage and integrate your development tools.
- 	\item Elastically scale your teams, projects and processes.
- 	\item Deploy your code to public and private Cloud.
+ 	\item elastically scale your teams, projects and processes.
+ 	\item deploy your code to public and private Cloud.
  \end{itemize}
 Cloudforge makes the job of each member in the team more efficient, by gives for each other a set of features.
 \\
@@ -357,10 +351,12 @@ For \textbf{Developers}, it allows them to:
 	\item easily identify the status of a sprint;
 	\item consult the last task one must do in the backlog
 \end{itemize}
+
 \subsection{Team presentation}
 MASS Analytics relies heavily in almost every layer of its business and project management. It allows the company to handle changing requirements in an efficient way and to follow the footsteps of grand leading organizations in software development.
-Scrum methodology is based on four pillars explained in the table 4.1 below.
- \begin{table}
+Scrum methodology is based on four pillars as presented in the Table \ref{RTM}.
+
+ \begin{table}[!h]
 	\caption{\textbf{Roles of the team members}.}
 	\label{RTM}
 	\centering
@@ -369,12 +365,161 @@ Scrum methodology is based on four pillars explained in the table 4.1 below.
 		\hline 	
 		\textbf{Role } & \textbf{Mission } & \textbf{Team Member }  \\ 
 		\hline                     
-		\textbf{Developer} & To implement the features of MassTer Insight and deployed in the cloud & RADHOUAN HRIZI \\
-		\textbf{Scrum MasTer} & To assign tasks and to test the implemented features,report bugs if found, implement new features in massTer Server API & Amira Ben Mansour \\
+		\textbf{Developer} & To implement the features of MassTer Insight and deployed in the cloud & Radhouan Hrizi \\
+		\hline 
+		\textbf{Scrum Master} & To assign tasks and to test the implemented features, report bugs if found, implement new features in massTer Server API & Amira Ben Mansour \\
+		\hline 
 		\textbf{Product Owner} & To plan meeting, validate the new features. & Firas Jabloun \\  
 		\hline 
 		
 	\end{tabular}
 \end{table}
-\section{Conclusion}
+
+
+\section{Deployment}
+
+\subsection{Definition}
+In this final section we will discuss the phase of deployment, we used the amazon web service to deploy our web application and MassTer Server API.
+\subsection{Amazon Web Services}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.2\textwidth]{aws-logo.png}
+	\caption[Amazon Web Services]{Amazon Web Services \cite{ref14}}
+\end{figure}
+\subsubsection{Introduction}
+Amazon Web Service is Cloud computing Platform provided by Amazon.com. The first AWS were launched in 2006 to provide online services fo websites and client-side applications.
+
+\subsubsection{Elastic Beanstalk}
+Amazon Elastic Beanstalk is cloud deployment and provisioning service that automates the process of getting application set up on the Amazon Web Services (AWS) infrastructure. To use the service, developers just have to upload their applications. Elastic Beanstalk support application written in Java, Node.JS, PHP, Python, Ruby, and .Net.
+\\
+\\
+After packaging our Web Application to .WAR using Apache MAVEN, then we deployed this package in Elastic beanstalk, the platform were the application is running is Tomcat as shown in Fig. \ref{ElasticBeanstalkApplication} and Fig. \ref{massTerInsightDashboard}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{ElasticBeanstalkApplication.png}
+	\caption{Elastic Beanstalk Application}
+	\label{ElasticBeanstalkApplication}
+\end{figure}
+
+\clearpage
+\newpage 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{massTerInsightDashboard.png}
+	\caption{MassTer Insight web Application Dashboard}
+	\label{massTerInsightDashboard}	
+\end{figure}
+
+After the deployment is done successfully, elastic beanstalk provides a URL for our application to be accessible in the INTERNET as presented in the Fig. \ref{MassTerInsightwebApplication}.
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{1.png}
+	\caption{MassTer Insight web Application}
+	\label{MassTerInsightwebApplication}	
+\end{figure} 
+\clearpage
+\newpage 
+Fig. \ref{CMSAscreentshots} shows the interface for the connection to the MassTer Server API. In which we should type the IP address and the port number  to access to the server.
+\begin{figure}[!h]
+	\centering
 	
+	\includegraphics[width=17cm,height=7cm]{2.png}
+	\caption{Connect to MassTer Server API}
+	\label{CMSAscreentshots}
+\end{figure}
+
+Fig. \ref{LMIPscreentshots} shows the interface for load MassTer insight project by typing the name of the project in the text-field. 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{3.png}
+	\caption{Load MassTer Insight Project}	
+	\label{LMIPscreentshots}
+\end{figure} 
+\clearpage
+\newpage 
+Fig. \ref{DORscreentshots} shows the information related to the selected report ``Monthly 150''.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{4.png}
+	\caption{Display Optimisation Report}
+	\label{DORscreentshots}	
+\end{figure}
+
+Fig. \ref{LARscreentshots} shows the list of the existing reports (Monthly 150, Monthly 250, Monthly 300, Monthly 400, Monthly 200, monthly amira) in the project ``insightProject.imss''.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{5.png}
+	\caption{List Available Reports}
+	\label{LARscreentshots}	
+\end{figure} 
+\clearpage
+\newpage 
+Fig. \ref{UDWSscreentshots} shows that the update is done with success after choosing  TV and Radio as channels.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{6.png}
+	\caption{Update done with Success}
+	\label{UDWSscreentshots}	
+\end{figure}
+
+Fig. \ref{ROWSscreentshots} shows that Run of a new Optimisation is done with success after choosing Budget Range 250000 \$ and Min-Target 100 \$.    
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{7.png}
+	\caption{Run Optimisation with Success }
+	\label{ROWSscreentshots}	
+\end{figure} 
+\clearpage
+\newpage 
+Fig. \ref{DBMCscreentshots} depicts the allocated budgets for each channel (TV and Radio) in each month.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{8.png}
+	\caption{Display budget per Month for each Channel}
+	\label{DBMCscreentshots}
+\end{figure}
+
+Fig. \ref{DCMCscreentshots} depicts the incremental revenue for each channel (TV and Radio) in each month.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{9.png}
+	\caption{Display Contribution per Month for each Channel}
+	\label{DCMCscreentshots}	
+\end{figure} 
+\clearpage
+\newpage 
+Fig. \ref{SPscreentshots} displays the drop down save project (save/save as).
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{10.png}
+	\caption{Save Project}
+	\label{SPscreentshots}	
+\end{figure}
+
+Fig. \ref{SPWSscreentshots} shows  a blue pop up information to inform the user that the project is saved with success after click on the item ``save'' in drop down save project.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=7cm]{11.png}
+	\caption{Save Project with Success}
+	\label{SPWSscreentshots}		
+\end{figure} 
+\clearpage
+\newpage 
+
+\subsubsection{Elastic Compute Cloud}
+Amazon EC2 is an \textbf{IaaS} offering from AWS. Amazon takes the responsibility of networking, storage, server and virtualization and the user is responsible for managing the operating System, middleware, runtime, data and application.
+
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=17cm,height=9cm]{ec2Instance.png}
+	\caption{EC2 Instance}
+	\label{EC2Instance}	
+\end{figure} 
+
+MassTer Server API is running on EC2 Instance as shown in Fig. \ref{EC2Instance}, we have chosen Windows Server 2016 as operating System, RAM 1Go, 30 Go Storage. 
+
+\subsection{Conclusion}
+Throughout this chapter we described in details the list of technologies that we used to develop this project, we used the highest technologies in web development. Also we present the way we deployed MassTer Server API and MassTer Insight, as a big achievement in this Internship is we  deployed The API MassTer Server and MassTer Insight Web Application successfully Using Amazon Web Services and now our Application Ready to be used through the Internet.
+

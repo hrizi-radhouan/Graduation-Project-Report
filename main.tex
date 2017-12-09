@@ -88,9 +88,14 @@
 % include the arabtex and utf8 packages
 \usepackage{arabtex}
 \usepackage{utf8}
+\usepackage{anyfontsize}
 \begin{document}
 	% include cover page %
 	\includepdf[pages={1}]{coverPage.pdf}
+	     % include thanks %
+	\clearpage
+	\newpage
+	\input{thanks.tex}
 	
 	\tableofcontents{}
 	\listoffigures
@@ -117,18 +122,15 @@
 	\newpage
 	\input{chapter4.tex}
 	
-       % include chapter 5 %
+	% bibliography  %
 	\clearpage
 	\newpage
-	\input{chapter5.tex}
-	
-	% bibliography  %
-	\bibliographystyle{plain}
-	\bibliography{webo} 
-	
+	\input{lib.tex}
      % include Abstract %
      \clearpage
      \newpage
-     \input{abstract.tex}
+     	% include cover page %
+     \includepdf[pages={1}]{abstract.pdf}
+     % include thanks %
 
 \end{document}

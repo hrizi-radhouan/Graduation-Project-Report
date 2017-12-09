@@ -22,51 +22,51 @@
 	\\
 	In this part, we present the different functionalities and services that the application must ensure.
 	
-	CONNECT TO SERVER
+	Connect To Server
 	\begin{itemize}
 		\setlength{\itemindent}{+.5in}
-		\item \textbf{Connect To MassTer Server : } 
+		\item Connect To MassTer Server : 
 	\end{itemize}
 	
-	LOAD PROJECT
+	Load Project
 	\begin{itemize}
 		\setlength{\itemindent}{+.5in}
-     	\item \textbf{Load MassTer Insight Project : } 
+     	\item Load MassTer Insight Project : 
     \end{itemize}
 
-	SAVE PROJECT
+	Save Project
 	\begin{itemize}
 		\setlength{\itemindent}{+.5in}
-		\item \textbf{Save MassTer Insight Project : } 
+		\item Save MassTer Insight Project :
 	\end{itemize}
 
-	SAVE AS PROJECT
+	Save as Project
 	\begin{itemize}
 		\setlength{\itemindent}{+.5in}
-		\item \textbf{Save as MassTer Insight Project : } 
+		\item Save as MassTer Insight Project : 
 	\end{itemize}
 
 
 	
  
- 	MANAGE REPORT
+ 	Manage Report
  		\begin{itemize}
  			\setlength{\itemindent}{+.5in}
- 			\item \textbf{Load a Report : } 
- 			\item \textbf{Save a Report : }
- 			\item \textbf{Remove a Report : }
+ 			\item Load a Report : 
+ 			\item Save a Report : 
+ 			\item Remove a Report :
  	\end{itemize}
  
-  	UPDATE SETTINGS
+  	Update Settings
     \begin{itemize}
     	\setlength{\itemindent}{+.5in}
-    	\item \textbf{Update Settings Report : }
+    	\item Update Settings Report :
    \end{itemize}
 
-  	RUN
+  	Run
    \begin{itemize}
    	   \setlength{\itemindent}{+.5in}
- 	   \item \textbf{Run new scenario : }
+ 	   \item Run new scenario :
    \end{itemize}
 
     \clearpage
@@ -75,8 +75,8 @@
 	\subsection{Non-Functional Requirements}
 	\begin{itemize}
 		\item \textbf{Ergonomics : }The application offers a user-friendly and easy-to-use interface without refer to particular knowledge.
-		\item \textbf{Security : ????}
-		\item \textbf{Scalability : ????}
+		\item \textbf{Security : } Since that all the data files of the customers is located in EC2 where the MassTer Server API, Amazon EC2 Security Groups for Windows Instance acts as a virtual firewall that controls the traffic for one or more instances.
+		\item \textbf{Scalability : }Elastic Beanstalk Amazon Web Services includes an Auto Scaling group that manages the Amazon EC2 instances.
 		\item \textbf{Modularity : }a code that is easy to maintain and simple to understand in order to ensure the scalability of application. 
 	\end{itemize}
 	\clearpage
@@ -98,14 +98,12 @@
 	 \subsubsection{Connect to MassTer Server Use Case}
 	 \begin{figure}[h]
 	 	\centering
-	 	\includegraphics[width=16.5cm,height=10cm]{connectToMassTerServer.png}
+	 	\includegraphics[width=14cm,height=7cm]{connectToMassTerServer.png}
 	 	\caption{Connect to MassTer Server Use Case Diagram}
 	 	
 	 \end{figure}
-
-  \newpage
  
- \begin{table}
+ \begin{table}[!h]
  	\caption{Description of the scenario \textbf{Connect to MassTer Server Use Case}.}
  	\label{DSTabCTMS}
  	\centering
@@ -131,12 +129,12 @@
 	 \subsubsection{Load Project Use Case}
 	 	\begin{figure}[h]
 	\centering
-	\includegraphics[width=16.5cm,height=9cm]{loadProject.png}
+	\includegraphics[width=14cm,height=7cm]{loadProject.png}
 	\caption{Load Project Use Case Diagram}
 	
 	\end{figure}
  
-  \begin{table}
+  \begin{table}[!h]
   	\caption{Description of the scenario \textbf{Load Project Use Case}.}
   	\label{DSTabLP}
  	\centering
@@ -202,12 +200,12 @@
  \subsubsection{Manage Report Use Case}
 	 	\begin{figure}[h]
 	\centering
-	\includegraphics[width=16.5cm,height=9cm]{manageReport.png}
+	\includegraphics[width=16cm,height=9cm]{manageReport.png}
 	\caption{Load Project Use Case Diagram}
 	
 \end{figure}
 
- \begin{table}
+ \begin{table}[!h]
  	\caption{Description of the scenario \textbf{load report Use Case}.}
  	\label{DSTabLR}
  	\centering
@@ -288,15 +286,19 @@
   	\end{tabular}
   \end{table}
 
-	 	\begin{figure}[h]
+	 	\begin{figure}[!t]
 	 	\centering
-	 	\includegraphics[width=16.5cm,height=11cm]{runScenario.png}
-	 	\caption{run scenario Use Case Diagram}
+	 	\includegraphics[width=14cm,height=9cm]{runScenario.png}
+	 	\caption{Run scenario Use Case Diagram}
 	 	
 	 \end{figure}
 	
-	\begin{table}
-			\caption{Description of the scenario \textbf{Run Scenario Use Case}.}
+
+	\clearpage
+	\newpage
+	
+		\begin{table}
+		\caption{Description of the scenario \textbf{Run Scenario Use Case}.}
 		\label{DSTabRS}
 		\centering
 		\begin{tabular}{|c|p{10cm}|}
@@ -316,11 +318,9 @@
 			\hline 
 		\end{tabular}
 	\end{table}
-	\clearpage
-	\newpage
 	
 	\section{Conclusion}
-	This chapter has allowed us to identify the actors that may interact with the developed system, to define the functional and non-functional requirements of the project and modeling the use case diagrams.
+	This chapter has allowed us to identify the actors that may interact with the developed system, to define the functional and non-functional requirements of the project and to model the use case diagrams.
 	\\
-	In what follows, we present the general and detailed conception phase of the System.  
+	In what follows, we present the general and detailed conception phase of the system.  
 	
